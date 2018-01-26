@@ -1,14 +1,56 @@
 {
   "pages": {
-    "io": {
-      "path": "/_v/landing-pages/io",
-      "cname": "vtex.io",
+    "brand": {
+      "path": "/_v/landing-pages/brand",
+      "cname": "brand.vtex.com",
+      "theme": "theme"
+    },
+    "intro": {
+      "path": "/_v/landing-pages/brand/intro",
+      "theme": "theme"
+    },
+    "architecture": {
+      "path": "/_v/landing-pages/brand/architecture",
+      "theme": "theme"
+    },
+    "decisionMatrix": {
+      "path": "/_v/landing-pages/brand/architecture/decision-matrix",
+      "theme": "theme"
+    },
+    "identity": {
+      "path": "/_v/landing-pages/brand/identity",
+      "theme": "theme"
+    },
+    "color": {
+      "path": "/_v/landing-pages/brand/identity/color",
+      "theme": "theme"
+    },
+    "graphicSystem": {
+      "path": "/_v/landing-pages/brand/identity/graphic-system",
       "theme": "theme"
     }
   },
   "extensions": {
-    "io": {
-      "component": "io"
+    "brand": {
+      "component": "home"
+    },
+    "intro": {
+      "component": "intro"
+    },
+    "architecture": {
+      "component": "architecture"
+    },
+    "decisionMatrix": {
+      "component": "decisionMatrix"
+    },
+    "identity": {
+      "component": "identity"
+    },
+    "color": {
+      "component": "color"
+    },
+    "graphicSystem": {
+      "component": "graphicSystem"
     }
   }
 }

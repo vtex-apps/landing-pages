@@ -1,7 +1,19 @@
 @import url(//io.vtex.com.br/fonts/fabriga/stylesheet.css);
 
-body,button,input,optgroup,select,textarea,span,h1,h2,h3,h4,p1 {
-  font-family: Fabriga,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica neue,helvetica,ubuntu,roboto,noto,segoe ui,arial,sans-serif
+body,
+button,
+input,
+optgroup,
+select,
+textarea,
+span,
+h1,
+h2,
+h3,
+h4,
+p1 {
+  font-family: Fabriga, -apple-system, BlinkMacSystemFont, avenir next, avenir,
+    helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif;
 }
 
 .h-40px {
@@ -9,64 +21,187 @@ body,button,input,optgroup,select,textarea,span,h1,h2,h3,h4,p1 {
 }
 
 .bg-serious-black {
-  background-color: #142032
+  background-color: #142032;
 }
 
 .serious-black {
-  color: #142032
+  color: #142032;
 }
 
 /* Marine scale color pallete */
 
-
 .light-marine {
-	color: #567CB3;
+  color: #567cb3;
 }
 
 .marine {
-	color: #25364D;
+  color: #25364d;
 }
 
 .bg-marine {
-	background-color: #25364D;
+  background-color: #25364d;
 }
 
 .b--marine {
-	border-color: #25364D;
+  border-color: #25364d;
 }
 
-.dark-marine{
-	color: #1C293A;
+.dark-marine {
+  color: #1c293a;
 }
 
-.b--dark-marine{
-	border-color: #1C293A;
+.b--dark-marine {
+  border-color: #1c293a;
 }
 
-.bg-dark-marine{
-	background-color: #1C293A;
+.bg-dark-marine {
+  background-color: #1c293a;
 }
 
-.vtex-pink{
-	color: #F71963;
+.vtex-pink {
+  color: #f71963;
 }
 
-.bg-vtex-pink{
-	background-color: #F71963;
+.bg-vtex-pink {
+  background-color: #f71963;
 }
 
-.tracked-tight-sm{
-	letter-spacing: -0.2px;
+.tracked-tight-sm {
+  letter-spacing: -0.2px;
 }
 
-.tag-vps{
-	background-color: #F71963;
-	color: white;
-    padding: 2px 4px;
-    border-radius: 4px;
-    margin-left: 8px;
+.tag-vps {
+  background-color: #f71963;
+  color: white;
+  padding: 2px 4px;
+  border-radius: 4px;
+  margin-left: 8px;
 }
 
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #f0f0f0;
+}
+.hljs,
+.hljs-subst {
+  color: #444;
+}
+.hljs-comment {
+  color: #888888;
+}
+.hljs-keyword,
+.hljs-attribute,
+.hljs-selector-tag,
+.hljs-meta-keyword,
+.hljs-doctag,
+.hljs-name {
+  font-weight: bold;
+}
+.hljs-type,
+.hljs-string,
+.hljs-number,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-quote,
+.hljs-template-tag,
+.hljs-deletion {
+  color: #880000;
+}
+.hljs-title,
+.hljs-section {
+  color: #880000;
+  font-weight: bold;
+}
+.hljs-regexp,
+.hljs-symbol,
+.hljs-variable,
+.hljs-template-variable,
+.hljs-link,
+.hljs-selector-attr,
+.hljs-selector-pseudo {
+  color: #bc6060;
+}
+.hljs-literal {
+  color: #78a960;
+}
+.hljs-built_in,
+.hljs-bullet,
+.hljs-code,
+.hljs-addition {
+  color: #397300;
+}
+.hljs-meta {
+  color: #1f7199;
+}
+.hljs-meta-string {
+  color: #4d99bf;
+}
+.hljs-emphasis {
+  font-style: italic;
+}
+.hljs-strong {
+  font-weight: bold;
+}
 
+h1 {
+  font-size: 3.125em;
+  font-weight: 200;
+}
 
-.hljs{display:block;overflow-x:auto;padding:0.5em;background:#F0F0F0}.hljs,.hljs-subst{color:#444}.hljs-comment{color:#888888}.hljs-keyword,.hljs-attribute,.hljs-selector-tag,.hljs-meta-keyword,.hljs-doctag,.hljs-name{font-weight:bold}.hljs-type,.hljs-string,.hljs-number,.hljs-selector-id,.hljs-selector-class,.hljs-quote,.hljs-template-tag,.hljs-deletion{color:#880000}.hljs-title,.hljs-section{color:#880000;font-weight:bold}.hljs-regexp,.hljs-symbol,.hljs-variable,.hljs-template-variable,.hljs-link,.hljs-selector-attr,.hljs-selector-pseudo{color:#BC6060}.hljs-literal{color:#78A960}.hljs-built_in,.hljs-bullet,.hljs-code,.hljs-addition{color:#397300}.hljs-meta{color:#1f7199}.hljs-meta-string{color:#4d99bf}.hljs-emphasis{font-style:italic}.hljs-strong{font-weight:bold}
+h2 {
+  font-size: 2.5em;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 1.563em;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #f71963;
+}
+
+h4 {
+  font-size: 1.563em;
+}
+
+h5 {
+  font-size: 1.063em;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+p {
+  font-size: 1.063em;
+  line-height: 1.6em;
+  font-weight: 200;
+  /*letter-spacing: 0.03em;*/
+}
+
+a.button-link,
+button {
+  color: #f71963;
+  font-size: 1.063em;
+  font-weight: 400;
+  text-decoration: none;
+  border: 2px solid #f71963;
+  border-radius: 6px;
+  background: none;
+  padding: 14px 10px;
+  display: block;
+  text-align: center;
+}
+
+a.button-link:hover,
+button:hover {
+  color: #ffffff;
+  background-color: #f71963;
+}
+
+/*.rebel-pink { color: #F71963; }
+.serious-black { color: #142032; }
+.cold-gray { color: #D6D8E0; }
+.young-blue { color: #00BBD4; }
+.elite-purple { color: #8914CC; }*/

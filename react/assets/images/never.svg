@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>Page 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 21.9992 0 0.0312 21.9688 0.0312 21.9688 21.9992 4.1646916e-16 21.9992"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD-Copy-8" transform="translate(-349.000000, -1451.000000)">
+            <g id="Page-1" transform="translate(349.000000, 1450.000000)">
+                <g id="Group-3" transform="translate(0.000000, 0.969000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Clip-2"></g>
+                    <path d="M21.9688,11.0152 C21.9688,17.0812 17.0508,21.9992 10.9848,21.9992 C4.9178,21.9992 -0.0002,17.0812 -0.0002,11.0152 C-0.0002,4.9492 4.9178,0.0312 10.9848,0.0312 C17.0508,0.0312 21.9688,4.9492 21.9688,11.0152" id="Fill-1" fill="#E73D53" mask="url(#mask-2)"></path>
+                </g>
+                <path d="M6.9249,7.9246 L15.0439,16.0436" id="Stroke-4" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"></path>
+                <path d="M6.9249,16.0438 L15.0439,7.9248" id="Stroke-6" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"></path>
+            </g>
+        </g>
+    </g>
+</svg>

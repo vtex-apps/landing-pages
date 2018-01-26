@@ -1,3 +1,11 @@
 {
-  "admin-developer.console.welcome": "Welcome"
+  "home.wilcome": "Welcome!",
+  "home.vtexBrandLand": "This is VTEX brand land.",
+  "home.explore":
+    "You can explore, learn everything and download assets to use our brand.",
+  "home.whatIsThis": "What is this",
+  "home.whatIsThis.paragraph1":
+    "This guideline is for internal use and aims to support VTEX brand management and usage in all of it's contexts, surfaces, devices and manifestations.",
+  "home.whatIsThis.paragraph2":
+    "The following content is the main reference to communication, design and marketing professionals, as well as everyone with the intention to use our brand. Use this as a toolset to develop strategies and create materials for the brand, the company and it's products while keeping it's authenticity and visual coherence."
 }

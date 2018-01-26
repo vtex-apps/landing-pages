@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="361px" height="284px" viewBox="0 0 361 284" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 5</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 0 57 0 57 49 0 49"></polygon>
+        <polygon id="path-3" points="0 0 22 0 22 19 0 19"></polygon>
+    </defs>
+    <g id="Desktop-HD-Copy-20" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-881.000000, -3387.000000)">
+        <g id="Group-5" transform="translate(882.000000, 3388.000000)">
+            <g id="Page-1">
+                <polygon id="Fill-1" fill="#D6D8E0" points="183 266 336 266 336 187 183 187"></polygon>
+                <polygon id="Fill-2" fill="#D6D8E0" points="0 121 358 121 358 0 0 0"></polygon>
+                <polygon id="Fill-4" fill="#D6D8E0" points="206 159 336 159 336 149 206 149"></polygon>
+                <polygon id="Fill-5" fill="#D6D8E0" points="183 177 319 177 319 167 183 167"></polygon>
+                <text id="VTEX" font-family="Fabriga" font-size="8" font-weight="normal" fill="#142032">
+                    <tspan x="183" y="157">VTEX</tspan>
+                </text>
+                <text id="VTEX-Copy-3" font-family="Fabriga-Bold, Fabriga" font-size="12" font-weight="bold" fill="#142032">
+                    <tspan x="43" y="157">VTEX</tspan>
+                </text>
+                <circle id="Oval" stroke="#D6D8E0" cx="84" cy="153" r="4"></circle>
+                <polygon id="Fill-6" stroke="#D6D8E0" fill="#FFFFFF" points="145 178 173 178 173 149 145 149"></polygon>
+                <polygon id="Fill-7" fill="#D6D8E0" points="40 222 63 222 63 198 40 198"></polygon>
+                <polygon id="Fill-8" fill="#D6D8E0" points="92 222 115 222 115 198 92 198"></polygon>
+                <polygon id="Fill-9" fill="#D6D8E0" points="66 222 89 222 89 198 66 198"></polygon>
+                <polygon id="Fill-10" fill="#D6D8E0" points="40 249 63 249 63 225 40 225"></polygon>
+                <polygon id="Fill-11" fill="#D6D8E0" points="92 249 115 249 115 225 92 225"></polygon>
+                <polygon id="Fill-12" fill="#D6D8E0" points="66 249 89 249 89 225 66 225"></polygon>
+                <polygon id="Fill-13" fill="#D6D8E0" points="40 276 63 276 63 252 40 252"></polygon>
+                <polygon id="Fill-14" fill="#D6D8E0" points="92 276 115 276 115 252 92 252"></polygon>
+                <polygon id="Fill-15" fill="#D6D8E0" points="66 276 89 276 89 252 66 252"></polygon>
+                <polygon id="Fill-16" stroke="#D6D8E0" fill="#FFFFFF" points="40 139 114 139 114 66 40 66"></polygon>
+                <polygon id="Fill-18" fill="#D6D8E0" points="42 177 103 177 103 167 42 167"></polygon>
+                <polygon id="Stroke-19" stroke="#D6D8E0" points="0 282 359 282 359 0 0 0"></polygon>
+            </g>
+            <g id="Page-1" transform="translate(48.000000, 80.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Clip-2"></g>
+                <path d="M33.6141294,17.2446325 L24.4159908,34.6531063 C23.7050016,35.9988468 21.7864231,35.996673 21.0783925,34.649445 L11.9686723,17.3155694 C11.3039975,16.0509485 12.2159482,14.5296964 13.6383818,14.5296964 L31.990962,14.5296964 C33.3772089,14.5296964 34.2645799,16.0137638 33.6141294,17.2446325 M52.7320927,0 L10.1759508,0 C6.87749787,0 4.76307872,3.52784946 6.30420021,6.46005826 L10.5637631,14.5650504 L2.84245192,14.5650504 C0.704363479,14.5650504 -0.666179777,16.8518483 0.332710019,18.7524981 L14.0249424,44.8059993 C15.0892641,46.830903 17.9728216,46.8341066 19.0414675,44.8114912 L22.7605056,37.7729544 L27.4279087,46.6540186 C29.0697385,49.7781001 33.5184281,49.7830199 35.1670856,46.6625996 L56.4959659,6.29575937 C58.0040869,3.44146669 55.9464513,0 52.7320927,0" id="Fill-1" fill="#F71963" mask="url(#mask-2)"></path>
+            </g>
+            <g id="Page-1-Copy-10" transform="translate(148.000000, 155.000000)">
+                <mask id="mask-4" fill="white">
+                    <use xlink:href="#path-3"></use>
+                </mask>
+                <g id="Clip-2"></g>
+                <path d="M12.9738745,6.68669424 L9.42371574,13.4369188 C9.14929885,13.9587365 8.40879487,13.9578936 8.13551992,13.4354991 L4.61948757,6.71420036 C4.36294642,6.22383717 4.71492737,5.63396391 5.26393685,5.63396391 L12.3473888,5.63396391 C12.8824315,5.63396391 13.2249256,6.20941863 12.9738745,6.68669424 M20.3527375,0 L3.92755995,0 C2.65447286,0 1.83838126,1.36794163 2.43320008,2.50492055 L4.07724189,5.64767261 L1.09708671,5.64767261 C0.271859588,5.64767261 -0.257122019,6.53439017 0.128414393,7.27137682 L5.41313566,17.3737548 C5.82392651,18.1589216 6.93687851,18.1601638 7.34933835,17.3758844 L8.78475656,14.6466558 L10.5862104,18.0903337 C11.2198991,19.3017123 12.9369372,19.30362 13.5732611,18.0936611 L21.8054605,2.44121282 C22.3875423,1.33444627 21.5933672,0 20.3527375,0" id="Fill-1" fill="#F71963" mask="url(#mask-4)"></path>
+            </g>
+        </g>
+    </g>
+</svg>
