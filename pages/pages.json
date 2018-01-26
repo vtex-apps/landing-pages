@@ -1,0 +1,14 @@
+{
+  "pages": {
+    "io": {
+      "path": "/_v/landing-pages/io",
+      "cname": "vtex.io",
+      "theme": "theme"
+    }
+  },
+  "extensions": {
+    "io": {
+      "component": "io"
+    }
+  }
+}
