@@ -5,7 +5,7 @@
   "title": "VTEX Landing Pages",
   "description": "All landing pages served by VTEX Render",
   "builders": {
-    "react": "1.x",
+    "react": "2.x",
     "pages": "0.x"
   },
   "mustUpdateAt": "2018-09-05",
