@@ -2,5 +2,6 @@
   "name": "vtex.landing-pages",
   "version": null,
   "dependencies": {
+    "@vtex/styleguide": "^4.3.2"
   }
 }
