@@ -59,6 +59,10 @@ html, body, #render-container, #render-provider {
 	background-color: #F71963;
 }
 
+.b--vtex-pink{
+	color: #F71963;
+}
+
 .tracked-tight-sm{
 	letter-spacing: -0.2px;
 }

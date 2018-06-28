@@ -12,7 +12,7 @@ class Landing extends Component {
   render () {
     return (
       <div>
-        <article className="w-100 h-100 bw1 bb b--clean-blue bg-serious-black near-white flex-column items-center justify-center">
+        <article className="w-100 h-100 bg-serious-black near-white flex-column items-center justify-center">
           <div className="justify-center items-center flex flex-column">
             <Header/>
           </div>

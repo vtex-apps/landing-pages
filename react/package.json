@@ -2,6 +2,7 @@
   "name": "vtex.landing-pages",
   "version": null,
   "dependencies": {
-    "@vtex/styleguide": "^4.3.2"
+    "@vtex/styleguide": "^4.3.2",
+    "react-typing-animation": "^1.3.3"
   }
 }

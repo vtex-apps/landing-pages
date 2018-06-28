@@ -13,7 +13,7 @@ class Header extends Component {
 
     return (
       <header
-        className="w-100 bw1 bb b--clean-blue bg-serious-black"
+        className="w-100 bb bg-serious-black"
         id="iframe-header"
       >
         <nav className="flex items-center flex-column flex-row-ns justify-between-ns center mw9-ns pv0 ph7-ns">
