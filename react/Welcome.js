@@ -11,7 +11,7 @@ class Header extends Component {
 
     return (
       <div class="mw8 center ph3-ns mt9 bg-serious-black ">
-        <div class="cf ph2-ns outline pa9 ">
+        <div class="cf ph2-ns pa9 ">
           <div class="fl w-60-ns pa5">
             <div class="outline bg-white pa8 mb6">
               <h1 >

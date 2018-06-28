@@ -3,6 +3,7 @@ import Header from './Header'
 import Welcome from './Welcome'
 import QuickStart from './QuickStart'
 import Footer from './Footer'
+import Technology from './Technology'
 class Landing extends Component {
   constructor() {
     super()
@@ -17,6 +18,7 @@ class Landing extends Component {
           </div>
         </article>
         <Welcome/>
+        <Technology/>
         <QuickStart/>
         <Footer/>
       </div>
