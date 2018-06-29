@@ -8,7 +8,6 @@ class HeaderLink extends Component {
       url,
       children,
       changeLocale,
-      onHandleClick,
       customClasses,
       id,
     } = this.props

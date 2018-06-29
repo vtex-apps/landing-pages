@@ -7,7 +7,7 @@ class Header extends Component {
   render() {
     return (
       <header
-        className="w-100 bb bg-serious-black"
+        className="w-100 bg-serious-black white"
         id="iframe-header"
       >
         <nav className="flex items-center flex-column flex-row-ns justify-between-ns center mw9-ns pv0 ph7-ns">
@@ -15,7 +15,7 @@ class Header extends Component {
             <h1 className="ma5 f3 f4-ns fw6 nowrap white">
               <Link className="pt3 db">
                 <svg
-                  className="h-40px w-auto fw4"
+                  className="h2 w-auto fw4"
                   viewBox="0 0 1010 279"
                   xmlns="http://www.w3.org/2000/svg"
                 >

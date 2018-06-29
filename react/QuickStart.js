@@ -1,8 +1,5 @@
 import React, { Component } from 'react'
 import Button from '@vtex/styleguide/lib/Button'
-import { Link } from 'render'
-
-import NavBar from './NavBar'
 
 class QuickStart extends Component {
   render() {

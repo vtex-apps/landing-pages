@@ -1,10 +1,11 @@
 import React, { Component } from 'react'
 import Header from './Header'
 import Welcome from './Welcome'
-import QuickStart from './QuickStart'
 import Footer from './Footer'
-import Technology from './Technology'
+// import QuickStart from './QuickStart'
+// import Technology from './Technology'
 import 'vtex-tachyons'
+// import Features from './Features'
 class Landing extends Component {
   render() {
     return (
@@ -15,6 +16,7 @@ class Landing extends Component {
           </div>
         </article>
         <Welcome />
+        {/* <Features /> */}
         {/* <Technology/>
         <QuickStart/> */}
         <Footer />
