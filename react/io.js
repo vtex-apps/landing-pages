@@ -5,7 +5,7 @@ import Footer from './Footer'
 // import QuickStart from './QuickStart'
 // import Technology from './Technology'
 import 'vtex-tachyons'
-// import Features from './Features'
+import Features from './Features'
 class Landing extends Component {
   render() {
     return (
@@ -16,7 +16,7 @@ class Landing extends Component {
           </div>
         </article>
         <Welcome />
-        {/* <Features /> */}
+        <Features />
         {/* <Technology/>
         <QuickStart/> */}
         <Footer />
