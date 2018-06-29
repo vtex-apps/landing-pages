@@ -3,68 +3,52 @@ import React, { Component } from 'react'
 import HeaderLink from './HeaderLink'
 
 class NavBar extends Component {
-  constructor(props) {
-    super(props)
-  }
-
   render() {
     return (
       <ul
-        className={`w-100 mv0 pl0 list flex flex-wrap flex-column items-stretch justify-end flex-row-ns max-h-999px-ns o-100-ns pv0 pv3-m pv0-xl`}
+        className={'w-100 mv0 pl0 list flex flex-wrap flex-column items-stretch justify-end flex-row-ns max-h-999px-ns o-100-ns pv0 pv3-m pv0-xl'}
       >
         <HeaderLink
-          id={1}
+          id={'1'}
           url={'http://help.vtex.com/en/tracks/vtex-io-getting-started'}
-          onHandleClick={false}
           changeLocale
-          customClasses={false}
         >
-        Getting Started
+          <span>Getting Started</span>
         </HeaderLink>
         <HeaderLink
-          id={2}
-          url={'/'}
-          onHandleClick={false}
+          id={'2'}
+          url={'http://help.vtex.com/en/tracks'}
           changeLocale
-          customClasses={false}
         >
-          Guides
+          <span>Guides</span>
         </HeaderLink>
         <HeaderLink
-          id={3}
-          url={'/'}
-          onHandleClick={false}
+          id={'3'}
+          url={'http://help.vtex.com/en/topic/vtex-io'}
           changeLocale
-          customClasses={false}
         >
-          Docs
+          <span>Docs</span>
         </HeaderLink>
         <HeaderLink
-          id={4}
-          url={'/'}
-          onHandleClick={false}
+          id={'4'}
+          url={'https://community.vtex.com/s/topic/0TO0L000003ZvZJWA0/developers?language=en_US&t=1526571970937'}
           changeLocale
-          customClasses={false}
         >
-          Community
+          <span>Community</span>
         </HeaderLink>
         <HeaderLink
-          id={5}
-          url={'/'}
-          onHandleClick={false}
+          id={'5'}
+          url={'https://apps.vtex.com/'}
           changeLocale
-          customClasses={false}
         >
-          App Store
+          <span>App Store</span>
         </HeaderLink>
         <HeaderLink
-          id={6}
-          url={'/'}
-          onHandleClick={false}
+          id={'6'}
+          url={'http://www.vtex.com/partner/'}
           changeLocale
-          customClasses={false}
         >
-          VTEX Partner
+          <span>VTEX Partner</span>
         </HeaderLink>
       </ul>
     )

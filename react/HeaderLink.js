@@ -13,7 +13,7 @@ class HeaderLink extends Component {
       id,
     } = this.props
     const classes =
-      'flex items-center tl dib br2 pa5 nowrap hover-bg-near-white hover-marine f5 fw5 font-display no-underline near-white'
+      'flex items-center tl dib br2 pa5 nowrap hover-bg-marine f5 fw5 font-display no-underline near-white'
 
     if (changeLocale) {
       return (
@@ -21,7 +21,6 @@ class HeaderLink extends Component {
           id={id}
           className={customClasses ? `${classes} ${customClasses}` : classes}
           to={url || '/'}
-          onClick={onHandleClick}
         >
           <li>{children}</li>
         </Link>
@@ -35,7 +34,6 @@ class HeaderLink extends Component {
         href={url || '/'}
         target={this.props.externalURL ? 'blank' : null}
         rel={this.props.externalURL ? 'noopener' : null}
-        onClick={onHandleClick}
       >
         {children}
       </a>
