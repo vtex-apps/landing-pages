@@ -8,7 +8,7 @@ class Features extends Component {
         <div className="cf ph2-ns pa9">
           <div className="mt5 center mw5 mw6-ns mb6 black flex justify-center">
             <div className="pa3 w-40 tc">
-              <div className="fw5 f7 ttu pa5">Develop with the best</div>
+              <div className="fw5 f7 ttu ph5 pt5 pb5">Develop with the best</div>
               <Images image="developer-ic" />
             </div>
             <div className="pa5 f6 fw2 w-60 lh-copy tj">
@@ -17,18 +17,18 @@ class Features extends Component {
                webpack, SSR+CSR, Source maps, schemas, resolvers and much more.
             </div>
           </div>
-          <div className="mt5 center mw5 mw6-ns mb6 black flex justify-center">
+          <div className="mt5 center mw5 mw6-ns black flex justify-center">
             <div className="pa3 w-40 tc">
-              <div className="fw5 f7 ttu pa5">Live coding</div>
+              <div className="fw5 f7 ttu ph5 pt5">Live coding</div>
               <Images image="live-coding" />
             </div>
             <div className="pa5 f6 fw2 w-60 lh-copy tj">
             Sync your solution with our serverless, Kubernetes-backend infrastructure using a simple CLI and watch changes happen live.
             </div>
           </div>
-          <div className="mt5 center mw5 mw6-ns mb6 black flex justify-center">
+          <div className="center mw5 mw6-ns mb6 black flex justify-center">
             <div className="pa3 w-40 tc">
-              <div className="fw5 f7 ttu pa5">Workspaces</div>
+              <div className="fw5 f7 ttu ph5 pt5">Workspaces</div>
               <Images image="workspaces-ic" />
             </div>
             <div className="pa5 f6 fw2 w-60 lh-copy tj">
@@ -37,19 +37,19 @@ class Features extends Component {
              Nothing runs locally and you can share your development workspace with a simple URL.
             </div>
           </div>
-          <div className="mt5 center mw5 mw6-ns mb6 black flex justify-center">
+          <div className="mt5 center mw5 mw6-ns mb3 black flex justify-center">
             <div className="pa3 w-40 tc">
-              <div className="fw5 f7 ttu pa5">Infra, scale & security</div>
+              <div className="fw5 f7 ttu ph5 pt5">Infra, scale & security</div>
               <Images image="infra-ic" />
             </div>
             <div className="pa5 f6 fw2 w-60 lh-copy tj">
             Don’t worry, we handle the boring stuff,
-             you just need to focus on what’s really important, develop.
+             you just need to focus on what’s really important:<span className="rebel-pink"> developing</span>.
             </div>
           </div>
-          <div className="mt5 center mw5 mw6-ns mb6 black flex justify-center">
+          <div className="center mw5 mw6-ns black flex justify-center">
             <div className="pa3 w-40 tc">
-              <div className="fw5 f7 ttu pa5">Be golbal</div>
+              <div className="fw5 f7 ttu ph5 pt5">Be golbal</div>
               <Images image="earn-global-ic" />
             </div>
             <div className="pa5 f6 fw2 w-60 lh-copy tj">
