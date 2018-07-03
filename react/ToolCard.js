@@ -7,7 +7,7 @@ class ToolCard extends Component {
     const { image, title, subtitle, linkText, linkUrl } = this.props
 
     return (
-      <div className="ba bw1 b--white w-30 center pa6 mr4 mb7">
+      <div className="ba bw1 b--white w-70-s w-30-l center pa6 mr4 mb7">
         <div className="tc"><Images image={image} /></div>
         <div className="f5 fw7 tc mb3 mt2">{title}</div>
         <div className="f6 tc mb2 mid-gray">{subtitle}</div>

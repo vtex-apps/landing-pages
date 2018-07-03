@@ -1,38 +1,23 @@
 import PropTypes from 'prop-types'
 import React, { Component } from 'react'
-import { Link } from 'render'
 
 class HeaderLink extends Component {
   render() {
     const {
       url,
       children,
-      changeLocale,
-      customClasses,
       id,
     } = this.props
     const classes =
       'flex items-center tl dib br2 pa5 nowrap hover-bg-marine f5 fw5 font-display no-underline near-white'
 
-    if (changeLocale) {
-      return (
-        <Link
-          id={id}
-          className={customClasses ? `${classes} ${customClasses}` : classes}
-          to={url || '/'}
-        >
-          <li>{children}</li>
-        </Link>
-      )
-    }
-
     return (
       <a
         id={id}
-        className={customClasses ? `${classes} ${customClasses}` : classes}
+        className={classes}
         href={url || '/'}
-        target={this.props.externalURL ? 'blank' : null}
-        rel={this.props.externalURL ? 'noopener' : null}
+        rel="noopener"
+        target="_blank"
       >
         {children}
       </a>
@@ -43,10 +28,6 @@ class HeaderLink extends Component {
 HeaderLink.propTypes = {
   children: PropTypes.object,
   url: PropTypes.string,
-  changeLocale: PropTypes.bool,
-  customClasses: PropTypes.string,
-  externalURL: PropTypes.bool,
-  onHandleClick: PropTypes.func,
   id: PropTypes.string.isRequired,
 }
 

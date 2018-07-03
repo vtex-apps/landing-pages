@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
-
+import img from './img-learn.png'
 class Images extends Component {
   render() {
     const { image } = this.props
@@ -103,7 +103,9 @@ class Images extends Component {
                     </g>
                   </g>
                 </svg>
-                : null
+                : image === 'img-learn'
+                  ? <img src={img} width="500" height="500" className="mw-100" />
+                  : null
     )
   }
 }

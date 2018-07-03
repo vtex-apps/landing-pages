@@ -5,15 +5,15 @@ class Tools extends Component {
   render() {
     return (
       <div className="h-100 bg-near-white">
-        <div className="cf ph2-ns pa9">
-          <div className="mt5 center mw5 mw8-ns pa8 mb5 serious-black">
-            <h1 className="fw1 f2">
+        <div className="cf pa9-ns">
+          <div className="mt5 center mw8-ns pa8-ns mb5 serious-black">
+            <h1 className="fw1 f2 ph8-s ph0-ns">
               Tools and APIs
             </h1>
-            <div className="pv3 mb4 fw3 f3 mb9">
+            <div className="pv3 mb4 fw3 f3 mb9 ph8-s ph0-ns">
             Take advantage of our powerful suite of tools and APIs
             </div>
-            <div className="flex flex-wrap">
+            <div className="flex flex-column-s flex-row-l flex-wrap">
               <ToolCard
                 image="developer-ic"
                 title="Toolbelt"

@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import { Link } from 'render'
 
 import NavBar from './NavBar'
 
@@ -15,7 +14,7 @@ class Header extends Component {
             <nav className="flex items-center flex-column flex-row-ns justify-between-ns center mw9-ns pv0 ph7-ns">
               <div className="flex justify-between ph5 ph0-ns w-unset-ns">
                 <h1 className="ma5 f3 f4-ns fw6 nowrap white">
-                  <Link className="pt3 db">
+                  <div className="pt3 db">
                     <svg
                       className="h2 w-auto fw4"
                       viewBox="0 0 1010 279"
@@ -38,7 +37,7 @@ class Header extends Component {
                         </text>
                       </g>
                     </svg>
-                  </Link>
+                  </div>
                 </h1>
               </div>
               <NavBar />
