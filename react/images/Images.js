@@ -105,7 +105,85 @@ class Images extends Component {
                 </svg>
                 : image === 'img-learn'
                   ? <img src={img} width="500" height="500" className="mw-100" />
-                  : null
+                  : image === 'toolbelt'
+                    ? <svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                      <g id="Artboard-3" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
+                        <g id="Toolbelt-ic">
+                          <g id="widget" transform="translate(4.000000, 4.000000)" stroke="#111111" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.8">
+                            <path d="M21.75,23.25 L2.25,23.25 C1.422,23.25 0.75,22.578 0.75,21.75 L0.75,2.25 C0.75,1.422 1.422,0.75 2.25,0.75 L21.75,0.75 C22.578,0.75 23.25,1.422 23.25,2.25 L23.25,21.75 C23.25,22.578 22.578,23.25 21.75,23.25 Z" id="Shape"></path>
+                            <path d="M0.75,6.75 L23.25,6.75" id="Shape"></path>
+                            <path d="M3.75,3.75 L6.75,3.75" id="Shape"></path>
+                          </g>
+                          <rect id="Rectangle-4" x="0" y="0" width="32" height="32"></rect>
+                        </g>
+                      </g>
+                    </svg>
+                    : image === 'render'
+                      ? <svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                        <g id="Artboard-3-Copy" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
+                          <g id="Group-7">
+                            <rect id="Rectangle-6" x="0" y="0" width="32" height="32"></rect>
+                            <g id="cloud-25" transform="translate(4.000000, 8.000000)" stroke="#111111" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.8">
+                              <path d="M19.5,8.5 C19.2405,8.5 18.987,8.52781818 18.7425,8.57881818 C18.7425,8.551 18.75,8.52627273 18.75,8.5 C18.75,4.233 15.3915,0.772727273 11.25,0.772727273 C7.1085,0.772727273 3.75,4.233 3.75,8.5 C3.75,8.52627273 3.7575,8.551 3.7575,8.57727273 C2.043,8.93272727 0.75,10.4920909 0.75,12.3636364 C0.75,14.4979091 2.4285,16.2272727 4.5,16.2272727 L19.5,16.2272727 C21.5715,16.2272727 23.25,14.4979091 23.25,12.3636364 C23.25,10.2293636 21.5715,8.5 19.5,8.5 Z" id="Shape"></path>
+                            </g>
+                          </g>
+                        </g>
+                      </svg>
+                      : image === 'apis'
+                        ? <svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                          <g id="Artboard-3-Copy-2" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
+                            <g id="Group-8">
+                              <g id="design-system" transform="translate(4.000000, 4.000000)" fill="#111111" fillRule="nonzero">
+                                <path d="M4,17 L4,8 L2,8 L2,17 C2.00330612,19.7600532 4.23994685,21.9966939 7,22 L16,22 L16,20 L7,20 C5.34314575,20 4,18.6568542 4,17 Z" id="Shape"></path>
+                                <path d="M20,7 L20,16 L22,16 L22,7 C21.9966939,4.23994685 19.7600532,2.00330612 17,2 L8,2 L8,4 L17,4 C18.6568542,4 20,5.34314575 20,7 Z" id="Shape"></path>
+                                <rect id="Rectangle-path" x="0" y="0" width="6" height="6" rx="1"></rect>
+                                <rect id="Rectangle-path" x="18" y="18" width="6" height="6" rx="1"></rect>
+                              </g>
+                              <rect id="Rectangle-9" x="0" y="0" width="32" height="32"></rect>
+                            </g>
+                          </g>
+                        </svg>
+                        : image === 'dreamstore'
+                          ? <svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                            <g id="Artboard-3-Copy-3" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
+                              <g id="Group-14">
+                                <g id="webpage" transform="translate(4.000000, 4.000000)" stroke="#111111" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.8">
+                                  <path d="M0.75,5.25 L23.25,5.25" id="Shape"></path>
+                                  <path d="M8.25,5.25 L8.25,23.25" id="Shape"></path>
+                                  <rect id="Rectangle-path" x="0.75" y="0.75" width="22.5" height="22.5" rx="1"></rect>
+                                </g>
+                                <rect id="Rectangle-10" x="0" y="0" width="32" height="32"></rect>
+                              </g>
+                            </g>
+                          </svg>
+                          : image === 'onda'
+                            ? <svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                              <g id="Artboard-3-Copy-4" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
+                                <g id="Group-15">
+                                  <g id="fog" transform="translate(4.000000, 8.000000)" stroke="#111111" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2">
+                                    <path d="M0,2.55800156 L3.0295082,0.719437939 C4.44590164,-0.159875098 6.2557377,-0.119906323 7.63278689,0.839344262 L9.44262295,2.03840749 C10.8983607,2.99765808 12.747541,2.99765808 14.2032787,2.03840749 L16.0131148,0.839344262 C17.3901639,-0.0799375488 19.1606557,-0.119906323 20.6163934,0.719437939 L23.6459016,2.55800156" id="Shape"></path>
+                                    <path d="M0,15.7077283 L3.0295082,13.8691647 C4.44590164,12.9898517 6.2557377,13.0298205 7.63278689,13.989071 L9.44262295,15.1881343 C10.8983607,16.1473849 12.747541,16.1473849 14.2032787,15.1881343 L16.0131148,13.989071 C17.3901639,13.0697892 19.1606557,13.0298205 20.6163934,13.8691647 L23.6459016,15.7077283" id="Shape"></path>
+                                    <path d="M0,9.11288056 L3.0295082,7.27431694 C4.44590164,6.3950039 6.2557377,6.43497268 7.63278689,7.39422326 L9.44262295,8.59328649 C10.8983607,9.55253708 12.747541,9.55253708 14.2032787,8.59328649 L16.0131148,7.39422326 C17.3901639,6.47494145 19.1606557,6.43497268 20.6163934,7.27431694 L23.6459016,9.11288056" id="Shape"></path>
+                                  </g>
+                                  <rect id="Rectangle-14" x="0" y="0" width="32" height="32"></rect>
+                                </g>
+                              </g>
+                            </svg>
+                            : image === 'appstore'
+                              ? <svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                                <g id="Artboard-3-Copy-5" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
+                                  <g id="appstore-ic">
+                                    <rect id="Rectangle-13" x="0" y="0" width="32" height="32"></rect>
+                                    <g id="grid-45" transform="translate(4.000000, 4.000000)" stroke="#111111" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.8">
+                                      <rect id="Rectangle-path" x="0.75" y="0.75" width="9" height="9"></rect>
+                                      <rect id="Rectangle-path" x="14.25" y="0.75" width="9" height="9"></rect>
+                                      <rect id="Rectangle-path" x="0.75" y="14.25" width="9" height="9"></rect>
+                                      <rect id="Rectangle-path" x="14.25" y="14.25" width="9" height="9"></rect>
+                                    </g>
+                                  </g>
+                                </g>
+                              </svg>
+                              : null
     )
   }
 }
