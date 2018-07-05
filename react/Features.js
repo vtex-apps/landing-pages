@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
 import Images from './images/Images'
 
-const descriptionClassName = 'pa5 f6 fw2 w-60 lh-copy mid-gray'
+const descriptionClassName = 'pa5 f6 f5-ns fw2 w-60 lh-copy mid-gray'
 const cardClassName = 'center mw6-ns flex justify-center'
 const imageAndTitleClassName = 'pa3 w-40 tc'
-const titleClassName = 'fw5 f7 ttu ph5 pt5'
+const titleClassName = 'fw5 f7 f5-ns ttu ph5 pt5'
 class Features extends Component {
   render() {
     return (

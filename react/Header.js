@@ -11,7 +11,7 @@ class Header extends Component {
             className="w-100 bg-serious-black white"
             id="iframe-header"
           >
-            <nav className="flex items-center flex-column flex-row-ns justify-between-ns center mw9-ns pv0 ph7-ns">
+            <nav className="flex-ns items-center flex-column flex-row-ns justify-between-ns center mw9-ns pv0 ph7-ns">
               <div className="flex justify-between ph5 ph0-ns w-unset-ns">
                 <h1 className="ma5 f3 f4-ns fw6 nowrap white">
                   <div className="pt3 db">

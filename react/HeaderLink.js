@@ -9,7 +9,7 @@ class HeaderLink extends Component {
       id,
     } = this.props
     const classes =
-      'flex items-center tl dib br2 pa5 nowrap hover-bg-marine f5 fw5 font-display no-underline near-white'
+      'flex items-center tl dib br2 pa5-l pa3-m pa2 nowrap hover-bg-marine f5 fw5 font-display no-underline near-white'
 
     return (
       <a

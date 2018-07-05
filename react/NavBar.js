@@ -5,7 +5,7 @@ class NavBar extends Component {
   render() {
     return (
       <ul
-        className="w-100 mv0 pl0 list dn-s flex-ns flex-wrap flex-column items-stretch justify-end flex-row-ns max-h-999px-ns o-100-ns pv0 pv3-m pv0-xl"
+        className="w-100 mv0 pl0 list dn flex-ns flex-wrap flex-column items-stretch justify-end flex-row-ns max-h-999px-ns o-100-ns pv0 pv3-m pv0-xl"
       >
         <HeaderLink
           id={'1'}
@@ -13,12 +13,12 @@ class NavBar extends Component {
         >
           <span>Getting Started</span>
         </HeaderLink>
-        <HeaderLink
+        {/* <HeaderLink
           id={'2'}
           url={'http://help.vtex.com/en/tracks'}
         >
           <span>Guides</span>
-        </HeaderLink>
+        </HeaderLink> */}
         <HeaderLink
           id={'3'}
           url={'http://help.vtex.com/en/topic/vtex-io'}
