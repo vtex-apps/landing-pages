@@ -1,7 +1,7 @@
 {
   "vendor": "vtex",
   "name": "landing-pages",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "title": "VTEX Landing Pages",
   "description": "All landing pages served by VTEX Render",
   "builders": {
@@ -13,8 +13,5 @@
   "registries": [
     "smartcheckout"
   ],
-  "settingsSchema": {},
-  "scripts": {
-    "postreleasy": "vtex publish --public"
-  }
+  "settingsSchema": {}
 }
