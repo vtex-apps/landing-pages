@@ -1,4 +1,6 @@
-import React, { Component } from 'react'
+import React, { Component, Fragment } from 'react'
+import { Helmet } from 'react-helmet'
+
 import Header from './Header'
 import Welcome from './Welcome'
 import Footer from './Footer'
@@ -9,14 +11,19 @@ import Learn from './Learn'
 class Landing extends Component {
   render() {
     return (
-      <div>
+      <Fragment>
+        <Helmet>
+          <title>
+            VTEX IO - The Serverless Development Environment for Enterprises
+          </title>
+        </Helmet>
         <Header />
         <Welcome />
         <Features />
         <Learn />
         <Tools />
         <Footer />
-      </div>
+      </Fragment>
     )
   }
 }
