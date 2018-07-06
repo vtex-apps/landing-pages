@@ -16,6 +16,11 @@ class Landing extends Component {
           <title>
             VTEX IO - The Serverless Development Environment for Enterprises
           </title>
+          <meta name="description" content="VTEX IO is a serverless development platform for ecommerce with a high level of componetization,
+           allowing versioning and hot module replacement. VTEX IO is a service that envelops all the deployment architecture complexity
+           so you can focus only on writing code." />
+          <meta name="theme-color" content="#F71963" />
+
         </Helmet>
         <Header />
         <Welcome />
