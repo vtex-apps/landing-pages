@@ -26,7 +26,7 @@ class Tools extends Component {
                 title="Render"
                 subtitle="Frontend development tools"
                 linkText="Learn about Render"
-                linkUrl="http://help.vtex.com/en/topic/vtex-io"
+                linkUrl="http://help.vtex.com/en/faq/what-is-vtex-render"
               />
               <ToolCard
                 image="apis"
