@@ -53,7 +53,7 @@ class Features extends Component {
           </div>
           <div className={cardClassName}>
             <div className={imageAndTitleClassName}>
-              <div className={`${titleClassName}`}>Be golbal</div>
+              <div className={`${titleClassName}`}>Be global</div>
               <Images image="earn-global-ic" />
             </div>
             <div className={descriptionClassName}>
