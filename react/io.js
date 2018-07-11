@@ -7,6 +7,7 @@ import Footer from './Footer'
 import Features from './Features'
 import Tools from './Tools'
 import Learn from './Learn'
+import favicon from './images/favicon.png'
 
 class Landing extends Component {
   render() {
@@ -18,6 +19,7 @@ class Landing extends Component {
            allowing versioning and hot module replacement. VTEX IO is a service that envelops all the deployment architecture complexity
            so you can focus only on writing code." />
           <meta name="theme-color" content="#F71963" />
+          <link rel="icon" href={favicon} />
         </Helmet>
         <Header />
         <Welcome />
