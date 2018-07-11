@@ -1,7 +1,7 @@
 {
   "vendor": "vtex",
   "name": "landing-pages",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "title": "VTEX Landing Pages",
   "description": "All landing pages served by VTEX Render",
   "builders": {
