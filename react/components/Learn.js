@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Images from './images/Images'
+import Images from '../images/Images'
 const buttonClassName = 'pv4 ph6 bw1 ba ttu br2 fw4 v-mid relative pointer near-white'
 
 class Learn extends Component {

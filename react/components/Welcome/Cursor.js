@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 import styled, { keyframes } from 'styled-components'
 
@@ -19,11 +19,19 @@ const CursorSpan = styled.span`
   animation: ${blink} 1s step-end infinite;
 `
 
-const Cursor = ({ className }) => (
-  <CursorSpan className={className}>|</CursorSpan>
-)
+class Cursor extends Component {
+  static propTypes = {
+    className: PropTypes.string,
+  }
 
-Cursor.propTypes = { className: PropTypes.string }
-Cursor.defaultProps = { className: '' }
+  static defaultProps = {
+    className: ''
+  }
+
+  render() {
+    const { className } = this.props
+    return <CursorSpan className={className}>|</CursorSpan>
+  }
+}
 
 export default Cursor

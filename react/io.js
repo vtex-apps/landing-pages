@@ -1,12 +1,12 @@
 import React, { Component, Fragment } from 'react'
 import { Helmet } from 'render'
 
-import Header from './Header'
-import Welcome from './Welcome'
-import Footer from './Footer'
-import Features from './Features'
-import Tools from './Tools'
-import Learn from './Learn'
+import Header from './components/Header'
+import Welcome from './components/Welcome'
+import Footer from './components/Footer'
+import Features from './components/Features'
+import Tools from './components/Tools'
+import Learn from './components/Learn'
 import favicon from './images/favicon.png'
 
 class Landing extends Component {
