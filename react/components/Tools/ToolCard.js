@@ -1,8 +1,15 @@
 import React, { Component } from 'react'
-import Images from './images/Images'
+import Images from '../../images/Images'
 import PropTypes from 'prop-types'
 
 class ToolCard extends Component {
+  static propTypes = {
+    image: PropTypes.string.isRequired,
+    title: PropTypes.string.isRequired,
+    subtitle: PropTypes.string.isRequired,
+    linkText: PropTypes.string.isRequired,
+    linkUrl: PropTypes.string.isRequired,
+  }
   render() {
     const { image, title, subtitle, linkText, linkUrl } = this.props
 
@@ -24,14 +31,6 @@ class ToolCard extends Component {
       </div>
     )
   }
-}
-
-ToolCard.propTypes = {
-  image: PropTypes.string.isRequired,
-  title: PropTypes.string.isRequired,
-  subtitle: PropTypes.string.isRequired,
-  linkText: PropTypes.string.isRequired,
-  linkUrl: PropTypes.string.isRequired,
 }
 
 export default ToolCard

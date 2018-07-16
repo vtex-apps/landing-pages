@@ -2,11 +2,17 @@ import PropTypes from 'prop-types'
 import React, { Component } from 'react'
 
 class HeaderLink extends Component {
+  static propTypes = {
+    url: PropTypes.string,
+    id: PropTypes.string.isRequired,
+    title: PropTypes.string.isRequired,
+  }
+
   render() {
     const {
       url,
-      children,
       id,
+      title,
     } = this.props
     const classes =
       'flex items-center tl dib br2 pa5-l pa3-m pa2 nowrap hover-bg-marine f5 fw5 font-display no-underline near-white'
@@ -19,16 +25,10 @@ class HeaderLink extends Component {
         rel="noopener"
         target="_blank"
       >
-        {children}
+        <span>{title}</span>
       </a>
     )
   }
-}
-
-HeaderLink.propTypes = {
-  children: PropTypes.object,
-  url: PropTypes.string,
-  id: PropTypes.string.isRequired,
 }
 
 export default HeaderLink
