@@ -16,14 +16,13 @@ class Header extends Component {
     const { finished1, finished2 } = this.state
     return (
       <div className="h-100 bg-serious-black ">
-        <div className="cf ph2-ns pa9-ns pa5">
-          <div className="mt5 center mw8-ns pa8-ns mb5 white bb b--white-30">
-            <h1 className="fw1 f1-ns f2">
+        <div className="cf ph2-ns pa9-ns pa6">
+          <div className="mv7 center mw8-ns pa8-ns mb5 white bb b--marine">
+            <h1 className="fw1 f2 mv7-ns mv5">
               VTEX IO
             </h1>
-            <div className="fw3 f3-ns h5-ns h4">
-
-              <Typing className="flex flex-start mb3" cursor={<Cursor />} speed={20} onFinishedTyping={this.handleFinished1}>
+            <div className="fw3 f3-ns f4 mb7-ns mb9-s">
+              <Typing className="flex flex-start mb3-ns" cursor={<Cursor />} speed={20} onFinishedTyping={this.handleFinished1}>
                 A new way to build software directly in the cloud
               </Typing>
               <div className="flex flex-wrap flex-row-ns">
@@ -33,7 +32,7 @@ class Header extends Component {
                 }
                 {
                   finished2 &&
-                    <Typing speed={50} loop className="flex flex-start" cursor={<Cursor />}>
+                    <Typing speed={50} loop className="flex flex-start pl2 bg-marine" cursor={<Cursor />}>
                       coding
                       <Delay ms={1500} />
                       <Backspace count={6} />
@@ -49,22 +48,22 @@ class Header extends Component {
             </div>
           </div>
           <div className="mt5 center mw8-ns pa8-ns mb6 white">
-            <p className="mt8 mb4 pv3 fw1 f2-ns f3">
+            <p className="mt7-ns mt9 mb5 fw4 f3-ns f3 ttu">
             What about starting today?
             </p>
-            <p className="mt8-ns mt6 mb4-ns mb2 pv3-ns fw3 f3-ns">
+            <p className="fw3 f3-ns f4 mb7-ns mb7 o-75 lh-copy">
             Become part of this huge
             ecosystem and start building!
             </p>
-            <div className="mt9-ns mt8 mb8 content-center flex flex-column flex-row-ns justify-between mw6">
-              <div className="ma3">
+            <div className="mt9-ns mt8 mb8 flex flex-column flex-row-ns">
+              <div className="mb5 mr5 mt0-ns">
                 <a href="http://www.vtex.com/partner/" target="_blank">
                   <button className={`${buttonClassName} fw5 bg-heavy-rebel-pink b--heavy-rebel-pink hover-b--rebel-pink hover-bg-rebel-pink`}>
                   Become a VTEX Partner
                   </button>
                 </a>
               </div>
-              <div className="ma3">
+              <div>
                 <a href="http://help.vtex.com/en/tracks/vtex-io-getting-started" target="_blank">
                   <button className={`${buttonClassName} fw4 bg-serious-black b--white hover-b--rebel-pink`}>
                   Getting Started
