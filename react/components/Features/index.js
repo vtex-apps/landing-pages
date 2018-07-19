@@ -8,7 +8,7 @@ class Features extends Component {
   render() {
     return (
       <div className="h-100">
-        <div className="cf pa9-ns serious-black flex flex-wrap">
+        <div className="cf pa7 pv9-ns serious-black ">
           {map(f => <FeatureCard {...f}/>, FEATURES)}
         </div>
       </div>

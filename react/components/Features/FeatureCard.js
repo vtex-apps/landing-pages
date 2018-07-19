@@ -12,12 +12,12 @@ class FeatureCard extends Component {
   render() {
     const { title, imageId, description } = this.props
     return (
-      <div className="mt5 mb6 center mw6-ns flex justify-center w-50-l w-100-m w-100-s">
-        <div className="pa3 w-40 tc">
-          <div className="fw5 f7 f5-ns ttu ph5 pt5 pb5">{title}</div>
+      <div className="center mb5 mb9-ns w-100 flex-ns justify-center">
+        <div className="tc w5-ns pa3-ns pa5">
+          <div className="lh-title fw5 f6 f5-ns ttu ph5-ns pv5">{title}</div>
           <Images image={imageId} />
         </div>
-        <div className="pa5 f6 f5-ns fw2 w-60 lh-copy mid-gray">
+        <div className="pa5 f5 fw2 lh-copy mid-gray w-30-ns w-90 ma0-ns center">
           {description}
         </div>
       </div>

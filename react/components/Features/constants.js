@@ -23,8 +23,7 @@ const FEATURES = [
     title: 'Workspaces',
     imageId: 'workspaces-ic',
     description: <Fragment>
-      A lightweight staging environment that behaves like a branch of your application. <br />
-      Make quick rollbacks and create unlimited staging environments. <br />
+      A lightweight staging environment that behaves like a branch of your application.
       Nothing runs locally and you can share your development workspace with a simple URL.
     </Fragment>,
     key: 3,
@@ -34,7 +33,7 @@ const FEATURES = [
     imageId: 'infra-ic',
     description: <Fragment>
       Don’t worry, we handle the boring stuff,
-      you just need to focus on what’s really important:<span className="rebel-pink"> developing</span>.
+      you just need to focus on what’s really important,<span className="marine fw4"> developing</span>.
     </Fragment>,
     key: 4,
   },
