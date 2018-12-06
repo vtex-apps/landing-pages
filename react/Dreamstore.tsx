@@ -19,7 +19,7 @@ export default class Dreamstore extends Component {
             <div className="t-heading-3 fw3 pb6 pt4 lh-title">Want to create a store using VTEX IO? Start reading those contents below:</div>
           </div>
           <div className="pv7 bt bb b--muted-3 t-heading-2-ns fw3-ns t-heading-3 fw3 pointer dim">
-            <a className="c-on-base" href=""><span className="c-emphasis">1.</span> Dreamstore Announcement</a>
+            <a className="c-on-base" href="https://github.com/vtex-apps"><span className="c-emphasis">1.</span> Repositório VTEX Apps</a>
           </div>
           <div className="pv7 bb b--muted-3 t-heading-2-ns fw3-ns t-heading-3 fw3 pointer dim">
             <a className="c-on-base" href="https://github.com/vtex-apps/dreamstore-getting-started"><span className="c-emphasis">2.</span> Dreamstore Getting Started</a>
