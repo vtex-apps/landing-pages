@@ -3,10 +3,13 @@
   "name": "landing-pages",
   "version": "0.1.7",
   "title": "VTEX Landing Pages",
-  "description": "All landing pages served by VTEX Render",
+  "description": "VTEX IO Landing Pages",
   "builders": {
     "react": "2.x",
     "pages": "0.x"
+  },
+  "dependencies": {
+    "vtex.styleguide": "8.x"
   },
   "mustUpdateAt": "2018-09-05",
   "categories": [],

@@ -3,11 +3,17 @@
     "io": {
       "path": "/_v/landing-pages/io",
       "cname": "vtex.io"
+    },
+    "dreamstore": {
+      "path": "/dreamstore"
     }
   },
   "extensions": {
     "io": {
-      "component": "io"
+      "component": "IO"
+    },
+    "dreamstore": {
+      "component": "Dreamstore"
     }
   }
 }
