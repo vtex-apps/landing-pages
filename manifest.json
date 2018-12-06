@@ -16,5 +16,8 @@
   "registries": [
     "smartcheckout"
   ],
-  "settingsSchema": {}
+  "settingsSchema": {},
+  "scripts": {
+    "postreleasy": "vtex publish --verbose"
+  }
 }
