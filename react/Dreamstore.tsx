@@ -18,17 +18,17 @@ export default class Dreamstore extends Component {
             <div className="t-heading-1 pb4 lh-solid pt7">Dreamstore Docs</div>
             <div className="t-heading-3 fw3 pb6 pt4 lh-title">Want to create a store using VTEX IO? Start reading those contents below:</div>
           </div>
-          <div className="pv7 bt bb b--muted-3 t-heading-2-ns fw3-ns t-heading-3 fw3 pointer dim">
-            <a className="c-on-base" href="https://github.com/vtex-apps"><span className="c-emphasis">1.</span> Repositório VTEX Apps</a>
+          <div className="pv7 bt bb b--muted-3 t-heading-2-ns fw3-ns t-heading-3 fw3">
+            <a className="c-on-base"><span className="c-emphasis">1.</span> Dreamstore Announcement<span className="c-muted-3"> [SOON]</span></a>
+          </div>
+          <div className="pv7 bb b--muted-3 t-heading-2-ns fw3-ns t-heading-3 fw3">
+            <a className="c-on-base"><span className="c-emphasis">2.</span> Dreamstore Getting Started<span className="c-muted-3"> [SOON]</span></a>
+          </div>
+          <div className="pv7 bb b--muted-3 t-heading-2-ns fw3-ns t-heading-3 fw3">
+            <a className="c-on-base"><span className="c-emphasis">3.</span> Store Builder<span className="c-muted-3"> [SOON]</span></a>
           </div>
           <div className="pv7 bb b--muted-3 t-heading-2-ns fw3-ns t-heading-3 fw3 pointer dim">
-            <a className="c-on-base" href="https://github.com/vtex-apps/dreamstore-getting-started"><span className="c-emphasis">2.</span> Dreamstore Getting Started</a>
-          </div>
-          <div className="pv7 bb b--muted-3 t-heading-2-ns fw3-ns t-heading-3 fw3 pointer dim">
-            <a className="c-on-base" href="https://styleguide.vtex.com"><span className="c-emphasis">3.</span> VTEX Tachyons and Styleguide</a>
-          </div>
-          <div className="pv7 bb b--muted-3 t-heading-2-ns fw3-ns t-heading-3 fw3 pointer dim">
-            <a className="c-on-base"><span className="c-emphasis">4.</span> Store Builder<span className="c-muted-3"> [SOON]</span></a>
+            <a className="c-on-base" href="https://styleguide.vtex.com"><span className="c-emphasis">4.</span> VTEX Tachyons and Styleguide</a>
           </div>
           <div className="pv7 bb b--muted-3 t-heading-2-ns fw3-ns t-heading-3 fw3 pointer dim">
             <a className="c-on-base" href="https://github.com/vtex-apps/awesome-io"><span className="c-emphasis">5.</span> Contributing.md</a>
