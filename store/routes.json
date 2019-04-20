@@ -1,0 +1,8 @@
+{
+  "io.landing": {
+    "path": "/dev/io"
+  },
+  "dreamstore.landing": {
+    "path": "/dreamstore"
+  }
+}
