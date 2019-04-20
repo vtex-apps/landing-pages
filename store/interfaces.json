@@ -1,0 +1,14 @@
+{
+  "io": {
+    "blocks": ["io.landing"]
+  },
+  "io.landing": {
+    "component": "IO"
+  },
+  "dreamstore": {
+    "blocks": ["dreamstore.landing"]
+  },
+  "dreamstore.landing": {
+    "component": "Dreamstore"
+  }
+}

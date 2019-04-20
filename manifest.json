@@ -5,17 +5,17 @@
   "title": "VTEX Landing Pages",
   "description": "VTEX IO Landing Pages",
   "builders": {
-    "react": "2.x",
-    "pages": "0.x"
+    "react": "3.x",
+    "messages": "1.x",
+    "store": "0.x",
+    "styles": "1.x"
   },
   "dependencies": {
-    "vtex.styleguide": "8.x"
+    "vtex.styleguide": "9.x"
   },
   "mustUpdateAt": "2018-09-05",
   "categories": [],
-  "registries": [
-    "smartcheckout"
-  ],
+  "registries": ["smartcheckout"],
   "settingsSchema": {},
   "scripts": {
     "postreleasy": "vtex publish --verbose"
