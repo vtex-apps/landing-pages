@@ -13,7 +13,7 @@ declare module 'vtex.render-runtime' {
   export const RenderContextConsumer: ReactElement
   export const canUseDOM: boolean
   export const withRuntimeContext: ReactElement
-  export const Helmet: ReactElement
+  export const Helmet: any
   export const useRuntime: () => {
     culture: {
       locale: string
