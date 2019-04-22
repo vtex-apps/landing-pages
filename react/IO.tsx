@@ -1,33 +1,31 @@
-import React, { Component, Fragment } from 'react'
-import { Helmet } from 'render'
+import React, { Fragment, FunctionComponent } from "react";
 
-import Features from './components/Features'
-import Footer from './components/Footer'
-import Header from './components/Header'
-import Learn from './components/Learn'
-import Tools from './components/Tools'
-import Welcome from './components/Welcome'
-import favicon from './images/favicon.png'
+import Navbar from "./components/IOLanding/Navbar";
+import Hero from "./components/IOLanding/Hero";
+import CardGrid from "./components/IOLanding/CardGrid";
+import ProductDisplay from "./components/IOLanding/Product";
+import HowItWorks from "./components/IOLanding/HowItWorks";
+import EvolutionSection from "./components/IOLanding/Evolution";
+import KeyFeatures from "./components/IOLanding/KeyFeatures";
+import StartBuilding from "./components/IOLanding/StartBuilding";
+import Footer from "./components/IOLanding/Footer";
 
-class Landing extends Component {
-  public render() {
-    return (
-      <Fragment>
-        <Helmet>
-          <title>VTEX IO - The Serverless Development Environment for Enterprises</title>
-          <meta name="description" content="VTEX IO is a serverless development environment that enables you to build high-quality web apps fast, without dealing with infrastructure and scalability concerns." />
-          <meta name="theme-color" content="#F71963" />
-          <link rel="icon" href={favicon} />
-        </Helmet>
-        <Header />
-        <Welcome />
-        <Features />
-        <Learn />
-        <Tools />
-        <Footer />
-      </Fragment>
-    )
-  }
-}
+const Landing: FunctionComponent = () => {
+  return (
+    <Fragment>
+      <Navbar />
+      <main className="w-100">
+        <Hero />
+        <CardGrid />
+        <ProductDisplay />
+        <HowItWorks />
+        <EvolutionSection />
+        <KeyFeatures />
+        <StartBuilding />
+      </main>
+      <Footer />
+    </Fragment>
+  );
+};
 
-export default Landing
+export default Landing;
