@@ -1,35 +1,35 @@
-import React from "react";
-import { FormattedMessage } from "react-intl";
+import React from 'react'
+import { FormattedMessage } from 'react-intl'
 
-import Logo from "../../images/VTEX_footer.svg";
-import VTEXOffices from "../../VTEXOffices.json";
+import Logo from '../../images/VTEX_footer.svg'
+import VTEXOffices from '../../VTEXOffices.json'
 
 const footerLinks = [
   {
-    id: "pricing",
-    options: []
+    id: 'pricing',
+    options: [],
   },
   {
-    id: "company",
-    options: ["carrers", "partnersAWS", "dmca", "blog"]
+    id: 'company',
+    options: ['carrers', 'partnersAWS', 'dmca', 'blog'],
   },
   {
-    id: "resources",
+    id: 'resources',
     options: [
-      "devdocs",
-      "support",
-      "announcements",
-      "releases",
-      "status",
-      "health",
-      "vtexio"
-    ]
+      'devdocs',
+      'support',
+      'announcements',
+      'releases',
+      'status',
+      'health',
+      'vtexio',
+    ],
   },
   {
-    id: "partners",
-    options: ["vtex", "find", "program", "appstore"]
-  }
-];
+    id: 'partners',
+    options: ['vtex', 'find', 'program', 'appstore'],
+  },
+]
 
 const Footer = () => (
   <footer className="bg-base pa10 c-muted-1">
@@ -42,7 +42,7 @@ const Footer = () => (
       </div>
 
       {footerLinks.map(category => {
-        const baseMessageId = `footer.${category.id}`;
+        const baseMessageId = `footer.${category.id}`
         return (
           <ul key={category.id}>
             <p className="fw7">
@@ -56,7 +56,7 @@ const Footer = () => (
               </li>
             ))}
           </ul>
-        );
+        )
       })}
     </div>
     <p className="fw7">© VTEX, 2018</p>
@@ -72,6 +72,6 @@ const Footer = () => (
       ))}
     </div>
   </footer>
-);
+)
 
-export default Footer;
+export default Footer

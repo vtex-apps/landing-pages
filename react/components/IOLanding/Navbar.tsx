@@ -1,41 +1,41 @@
-import React, { FunctionComponent, useState } from "react";
-import { InjectedIntlProps, injectIntl } from "react-intl";
-import { IconCaretDown, IconCaretUp } from "vtex.styleguide";
-import { useRuntime } from "vtex.render-runtime";
+import React, { FunctionComponent, useState } from 'react'
+import { InjectedIntlProps, injectIntl } from 'react-intl'
+import { IconCaretDown, IconCaretUp } from 'vtex.styleguide'
+import { useRuntime } from 'vtex.render-runtime'
 
-import logoPath from "../../images/VTEX_Cold_Gray_RGB.svg";
+import logoPath from '../../images/VTEX_Cold_Gray_RGB.svg'
 
 const supportedLangs = [
   {
-    id: "en-US"
+    id: 'en-US',
   },
   {
-    id: "pt-BR"
+    id: 'pt-BR',
   },
   {
-    id: "es-AR"
-  }
-];
+    id: 'es-AR',
+  },
+]
 
 const Navbar: FunctionComponent<InjectedIntlProps> = ({ intl }) => {
-  const { culture, emitter } = useRuntime();
-  const [open, setOpen] = useState(false);
+  const { culture, emitter } = useRuntime()
+  const [open, setOpen] = useState(false)
   const [selectedLocale, setSelectedLocale] = useState(
     findLocale(culture.locale)
-  );
+  )
 
   const handleLocaleClick = ({ target: { id } }: { target: any }) => {
-    emitter.emit("localesChanged", id);
-    setOpen(false);
-    setSelectedLocale(findLocale(id));
-  };
+    emitter.emit('localesChanged', id)
+    setOpen(false)
+    setSelectedLocale(findLocale(id))
+  }
 
   return (
     <nav>
       <ul
         className="flex flex-column flex-row-m justify-between list mt0 c-muted-1 items-center bg-base mb0 relative"
         style={{
-          boxShadow: `0px 3px 20px rgba(0, 0, 0, 0.3)`
+          boxShadow: `0px 3px 20px rgba(0, 0, 0, 0.3)`,
         }}
       >
         <div className="flex items-center">
@@ -44,9 +44,9 @@ const Navbar: FunctionComponent<InjectedIntlProps> = ({ intl }) => {
           <p className="ml3">Developer</p>
         </div>
         <div className="flex items-center">
-          <li className="mh5">{intl.formatMessage({ id: "navbar.learn" })}</li>
-          <li className="mh5">{intl.formatMessage({ id: "navbar.make" })}</li>
-          <li className="mh5">{intl.formatMessage({ id: "navbar.keepup" })}</li>
+          <li className="mh5">{intl.formatMessage({ id: 'navbar.learn' })}</li>
+          <li className="mh5">{intl.formatMessage({ id: 'navbar.make' })}</li>
+          <li className="mh5">{intl.formatMessage({ id: 'navbar.keepup' })}</li>
           <li className="flex items-center">
             <div className="h-100 relative w3">
               <button
@@ -70,24 +70,24 @@ const Navbar: FunctionComponent<InjectedIntlProps> = ({ intl }) => {
               </div>
             </div>
             <div className="bg-rebel-pink pa6">
-              {intl.formatMessage({ id: "navbar.build" })}
+              {intl.formatMessage({ id: 'navbar.build' })}
             </div>
           </li>
         </div>
       </ul>
     </nav>
-  );
-};
+  )
+}
 
 function splitLocale(locale: string) {
-  return locale.split("-")[0];
+  return locale.split('-')[0]
 }
 
 function findLocale(locale: any) {
   const localeObj = supportedLangs.find(
     ({ id }) => splitLocale(id) === splitLocale(locale)
-  );
-  return localeObj || supportedLangs[0];
+  )
+  return localeObj || supportedLangs[0]
 }
 
-export default injectIntl(Navbar);
+export default injectIntl(Navbar)

@@ -1,8 +1,8 @@
-import React from "react";
-import { FormattedMessage } from "react-intl";
+import React from 'react'
+import { FormattedMessage } from 'react-intl'
 
-import CodeSampleImage from "../../images/CodeSample.svg";
-import BackgroundEffects from "../../images/BackgroundEffects.svg";
+import CodeSampleImage from '../../images/CodeSample.svg'
+import BackgroundEffects from '../../images/BackgroundEffects.svg'
 
 const EvolutionSection = () => (
   <section className="flex vh-100 ph9">
@@ -30,6 +30,6 @@ const EvolutionSection = () => (
       </p>
     </div>
   </section>
-);
+)
 
-export default EvolutionSection;
+export default EvolutionSection
