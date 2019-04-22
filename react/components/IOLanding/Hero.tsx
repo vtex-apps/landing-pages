@@ -1,6 +1,5 @@
 import React, { FunctionComponent } from 'react'
 import { FormattedMessage } from 'react-intl'
-
 import { Button } from 'vtex.styleguide'
 
 import Brands from '../../images/Brands.svg'
