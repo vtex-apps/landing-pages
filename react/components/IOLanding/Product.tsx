@@ -1,7 +1,7 @@
-import React, { FunctionComponent } from "react";
-import { FormattedMessage } from "react-intl";
+import React, { FunctionComponent } from 'react'
+import { FormattedMessage } from 'react-intl'
 
-import productImagePath from "../../images/Product.svg";
+import productImagePath from '../../images/Product.svg'
 
 const ProductDisplay: FunctionComponent = () => {
   return (
@@ -19,7 +19,7 @@ const ProductDisplay: FunctionComponent = () => {
       </div>
       <img src={productImagePath} alt="Store Framework sample" />
     </section>
-  );
-};
+  )
+}
 
-export default ProductDisplay;
+export default ProductDisplay

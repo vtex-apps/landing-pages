@@ -1,14 +1,14 @@
-import React, { Fragment, FunctionComponent } from "react";
+import React, { Fragment, FunctionComponent } from 'react'
 
-import Navbar from "./components/IOLanding/Navbar";
-import Hero from "./components/IOLanding/Hero";
-import CardGrid from "./components/IOLanding/CardGrid";
-import ProductDisplay from "./components/IOLanding/Product";
-import HowItWorks from "./components/IOLanding/HowItWorks";
-import EvolutionSection from "./components/IOLanding/Evolution";
-import KeyFeatures from "./components/IOLanding/KeyFeatures";
-import StartBuilding from "./components/IOLanding/StartBuilding";
-import Footer from "./components/IOLanding/Footer";
+import Navbar from './components/IOLanding/Navbar'
+import Hero from './components/IOLanding/Hero'
+import CardGrid from './components/IOLanding/CardGrid'
+import ProductDisplay from './components/IOLanding/Product'
+import HowItWorks from './components/IOLanding/HowItWorks'
+import EvolutionSection from './components/IOLanding/Evolution'
+import KeyFeatures from './components/IOLanding/KeyFeatures'
+import StartBuilding from './components/IOLanding/StartBuilding'
+import Footer from './components/IOLanding/Footer'
 
 const Landing: FunctionComponent = () => {
   return (
@@ -25,7 +25,7 @@ const Landing: FunctionComponent = () => {
       </main>
       <Footer />
     </Fragment>
-  );
-};
+  )
+}
 
-export default Landing;
+export default Landing

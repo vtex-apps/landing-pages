@@ -1,9 +1,9 @@
-import React, { FunctionComponent } from "react";
-import { FormattedMessage } from "react-intl";
+import React, { FunctionComponent } from 'react'
+import { FormattedMessage } from 'react-intl'
 
-import { Button } from "vtex.styleguide";
+import { Button } from 'vtex.styleguide'
 
-import Brands from "../../images/Brands.svg";
+import Brands from '../../images/Brands.svg'
 
 const Hero: FunctionComponent = () => {
   return (
@@ -31,7 +31,7 @@ const Hero: FunctionComponent = () => {
         <FormattedMessage id="hero.partners" />
       </a>
     </section>
-  );
-};
+  )
+}
 
-export default Hero;
+export default Hero
