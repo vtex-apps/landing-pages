@@ -1,6 +1,10 @@
 {
   "name": "vtex.landing-pages",
   "version": "0.2.2",
+  "scripts": {
+    "lint": "tsc --noEmit && eslint --ext ts,tsx .",
+    "lint:locales": "intl-equalizer"
+  },
   "dependencies": {
     "@vtex/styleguide": "^5.0.1",
     "ramda": "^0.26.1",
@@ -16,6 +20,7 @@
     "@types/react-dom": "^16.0.5",
     "@types/react-helmet": "^5.0.5",
     "@types/react-intl": "^2.3.5",
+    "@vtex/intl-equalizer": "^2.3.0",
     "eslint": "^5.15.3",
     "eslint-config-vtex-react": "^4.0.0",
     "graphql": "^0.13.0",
