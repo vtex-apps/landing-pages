@@ -37,7 +37,7 @@ const Footer = () => (
       <div className="w-33">
         <img src={Logo} alt="VTEX" />
         <p>
-          <FormattedMessage id="footer.vtex" />
+          <FormattedMessage id="io.footer.vtex" />
         </p>
       </div>
 
