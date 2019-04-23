@@ -2,7 +2,7 @@
   "io.landing": {
     "path": "/dev/io"
   },
-  "dreamstore.landing": {
-    "path": "/dreamstore"
+  "store-framework.landing": {
+    "path": "/store-framework"
   }
 }
