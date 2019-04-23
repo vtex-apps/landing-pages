@@ -11,15 +11,15 @@ const Hero: FunctionComponent = () => {
       style={{ backgroundImage: `url(${Brands})` }}
     >
       <p className="tc w-40 mb0 t-heading-1 normal">
-        <FormattedMessage id="hero.globalbrands" />
+        <FormattedMessage id="io.hero.globalbrands" />
       </p>
       <p className="w-40 t-body tc mv6">
-        <FormattedMessage id="hero.resources" />
+        <FormattedMessage id="io.hero.resources" />
       </p>
       <div className="mt5">
         <Button variation="primary">
           <p className="ttu">
-            <FormattedMessage id="hero.cta" />
+            <FormattedMessage id="io.hero.cta" />
           </p>
         </Button>
       </div>
@@ -27,7 +27,7 @@ const Hero: FunctionComponent = () => {
         className="tc c-muted-1 mt5 t-small"
         href="https://www.vtex.com/partner/program/"
       >
-        <FormattedMessage id="hero.partners" />
+        <FormattedMessage id="io.hero.partners" />
       </a>
     </section>
   )

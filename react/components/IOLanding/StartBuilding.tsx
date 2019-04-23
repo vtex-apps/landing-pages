@@ -11,16 +11,16 @@ const StartBuilding = () => (
     </div>
     <div className="w-50 h-100 flex flex-column justify-between items-center">
       <p className="t-heading-1 w-50 normal h-50">
-        <FormattedMessage id="startbuilding.title" />
+        <FormattedMessage id="io.startbuilding.title" />
       </p>
       <div className="w-50 h-50 flex flex-column justify-center pb4">
         <p className="t-body mb7">
-          <FormattedMessage id="startbuilding.text" />
+          <FormattedMessage id="io.startbuilding.text" />
         </p>
         <div className="w-75 mb5">
           <Button variation="secondary">
             <p className="action-secondary">
-              <FormattedMessage id="startbuilding.cta" />
+              <FormattedMessage id="io.startbuilding.cta" />
             </p>
           </Button>
         </div>

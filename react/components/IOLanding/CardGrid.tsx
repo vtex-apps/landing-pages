@@ -10,23 +10,23 @@ const CardGrid: FunctionComponent = () => {
   const cardsConfig = [
     {
       icon: <FlowerGround />,
-      titleId: 'cards.first.title',
-      textId: 'cards.first.text',
+      titleId: 'io.cards.first.title',
+      textId: 'io.cards.first.text',
     },
     {
       icon: <Video />,
-      titleId: 'cards.second.title',
-      textId: 'cards.second.text',
+      titleId: 'io.cards.second.title',
+      textId: 'io.cards.second.text',
     },
     {
       icon: <DesignDev />,
-      titleId: 'cards.third.title',
-      textId: 'cards.third.text',
+      titleId: 'io.cards.third.title',
+      textId: 'io.cards.third.text',
     },
     {
       icon: <RunningShoes />,
-      titleId: 'cards.fourth.title',
-      textId: 'cards.fourth.text',
+      titleId: 'io.cards.fourth.title',
+      textId: 'io.cards.fourth.text',
     },
   ]
 

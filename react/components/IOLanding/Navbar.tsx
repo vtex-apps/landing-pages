@@ -44,9 +44,15 @@ const Navbar: FunctionComponent<InjectedIntlProps> = ({ intl }) => {
           <p className="ml3">Developer</p>
         </div>
         <div className="flex items-center">
-          <li className="mh5">{intl.formatMessage({ id: 'navbar.learn' })}</li>
-          <li className="mh5">{intl.formatMessage({ id: 'navbar.make' })}</li>
-          <li className="mh5">{intl.formatMessage({ id: 'navbar.keepup' })}</li>
+          <li className="mh5">
+            {intl.formatMessage({ id: 'io.navbar.learn' })}
+          </li>
+          <li className="mh5">
+            {intl.formatMessage({ id: 'io.navbar.make' })}
+          </li>
+          <li className="mh5">
+            {intl.formatMessage({ id: 'io.navbar.keepup' })}
+          </li>
           <li className="flex items-center">
             <div className="h-100 relative w3">
               <button
@@ -70,7 +76,7 @@ const Navbar: FunctionComponent<InjectedIntlProps> = ({ intl }) => {
               </div>
             </div>
             <div className="bg-rebel-pink pa6">
-              {intl.formatMessage({ id: 'navbar.build' })}
+              {intl.formatMessage({ id: 'io.navbar.build' })}
             </div>
           </li>
         </div>
