@@ -11,37 +11,37 @@ const HowItWorks: FunctionComponent<InjectedIntlProps> = ({ intl }) => {
       <article className="mh7">
         <Stack />
         <p className="t-body mb3">
-          {intl.formatMessage({ id: 'howitworks.appstore.scale' })}
+          {intl.formatMessage({ id: 'io.howitworks.appstore.scale' })}
         </p>
         <p className="f2 mt0">
-          {intl.formatMessage({ id: 'howitworks.appstore' })}
+          {intl.formatMessage({ id: 'io.howitworks.appstore' })}
         </p>
         <p className="t-body lh-copy">
-          {intl.formatMessage({ id: 'howitworks.appstore.solutions' })}
+          {intl.formatMessage({ id: 'io.howitworks.appstore.solutions' })}
         </p>
       </article>
       <article className="mh7">
         <Branches />
         <p className="t-body mb3">
-          {intl.formatMessage({ id: 'howitworks.abtesting.decisions' })}
+          {intl.formatMessage({ id: 'io.howitworks.abtesting.decisions' })}
         </p>
         <p className="f2 mt0">
-          {intl.formatMessage({ id: 'howitworks.abtesting' })}
+          {intl.formatMessage({ id: 'io.howitworks.abtesting' })}
         </p>
         <p className="t-body lh-copy">
-          {intl.formatMessage({ id: 'howitworks.abtesting.tests' })}
+          {intl.formatMessage({ id: 'io.howitworks.abtesting.tests' })}
         </p>
       </article>
       <article className="mh7">
         <AppStore />
         <p className="t-body mb3">
-          {intl.formatMessage({ id: 'howitworks.storeframework.build' })}
+          {intl.formatMessage({ id: 'io.howitworks.storeframework.build' })}
         </p>
         <p className="f2 mt0">
-          {intl.formatMessage({ id: 'howitworks.storeframework' })}
+          {intl.formatMessage({ id: 'io.howitworks.storeframework' })}
         </p>
         <p className="t-body lh-copy">
-          {intl.formatMessage({ id: 'howitworks.storeframework.develop' })}
+          {intl.formatMessage({ id: 'io.howitworks.storeframework.develop' })}
         </p>
       </article>
     </section>

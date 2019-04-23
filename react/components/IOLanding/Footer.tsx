@@ -42,7 +42,7 @@ const Footer = () => (
       </div>
 
       {footerLinks.map(category => {
-        const baseMessageId = `footer.${category.id}`
+        const baseMessageId = `io.footer.${category.id}`
         return (
           <ul key={category.id}>
             <p className="fw7">

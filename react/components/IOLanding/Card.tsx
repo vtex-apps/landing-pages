@@ -17,7 +17,7 @@ const Card: FunctionComponent<Props> = ({ icon, title, text, index }) => {
     >
       <div className="mr7">{icon}</div>
       <div>
-        <p className="t-heading-4 c-on-base">
+        <p className="t-heading-4 c-muted-5">
           <FormattedMessage id={title} />
         </p>
         <p className="t-body c-muted-2">
