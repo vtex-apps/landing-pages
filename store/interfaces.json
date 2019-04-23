@@ -5,10 +5,10 @@
   "io.landing": {
     "component": "IO"
   },
-  "dreamstore": {
-    "blocks": ["dreamstore.landing"]
+  "store-framework": {
+    "blocks": ["store-framework.landing"]
   },
-  "dreamstore.landing": {
-    "component": "Dreamstore"
+  "store-framework.landing": {
+    "component": "StoreFramework"
   }
 }
