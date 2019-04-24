@@ -22,7 +22,7 @@ const FAQ: FunctionComponent<InjectedIntlProps> = ({ intl }) => {
       <Navbar />
       <main className="w-100 pv10 bg-base--inverted">
         <h1 className="c-muted-5 t-heading-1 w-90 center">
-          VTEX IO Frequently Asked Questions
+          Frequently Asked Questions
         </h1>
         <QuestionList />
       </main>
