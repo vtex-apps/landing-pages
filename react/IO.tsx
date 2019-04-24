@@ -1,4 +1,6 @@
 import React, { Fragment, FunctionComponent } from 'react'
+import { injectIntl, InjectedIntlProps } from 'react-intl'
+import { Helmet } from 'vtex.render-runtime'
 
 import Navbar from './components/IOLanding/Navbar'
 import Hero from './components/IOLanding/Hero'
@@ -9,10 +11,20 @@ import EvolutionSection from './components/IOLanding/Evolution'
 import KeyFeatures from './components/IOLanding/KeyFeatures'
 import StartBuilding from './components/IOLanding/StartBuilding'
 import Footer from './components/IOLanding/Footer'
+import favicon from './images/favicon.png'
 
-const Landing: FunctionComponent = () => {
+const Landing: FunctionComponent<InjectedIntlProps> = ({ intl }) => {
   return (
     <Fragment>
+      <Helmet>
+        <title>{intl.formatMessage({ id: 'io.page-title' })}</title>
+        <meta
+          name="description"
+          content="A serverless development platform from VTEX."
+        />
+        <meta name="theme-color" content="#F71963" />
+        <link rel="icon" href={favicon} />
+      </Helmet>
       <Navbar />
       <main className="w-100">
         <Hero />
@@ -28,4 +40,4 @@ const Landing: FunctionComponent = () => {
   )
 }
 
-export default Landing
+export default injectIntl(Landing)
