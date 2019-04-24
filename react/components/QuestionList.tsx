@@ -7,12 +7,8 @@ import Questions from '../FAQData'
 const QuestionList: FunctionComponent<InjectedIntlProps> = () => {
   return (
     <section className="flex flex-column w-90 center pa5">
-      {Questions.map(question => (
-        <Question
-          summaryId={question.summaryId}
-          ansId={question.ansId}
-          key="question.summaryId"
-        />
+      {Questions.map(questionId => (
+        <Question questionId={questionId} key="questionId" />
       ))}
     </section>
   )

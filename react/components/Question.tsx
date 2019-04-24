@@ -2,20 +2,19 @@ import React, { FunctionComponent } from 'react'
 import { FormattedMessage } from 'react-intl'
 
 interface Question {
-  summaryId: string
-  ansId: string
+  questionId: string
 }
 
-const Question: FunctionComponent<Question> = ({ summaryId, ansId }) => {
+const Question: FunctionComponent<Question> = ({ questionId }) => {
   return (
     <article className="pa5 mv5">
       <details>
         <summary className="t-heading-3 c-emphasis normal list">
-          <FormattedMessage id={`io.faq.${summaryId}`} />
+          <FormattedMessage id={`io.faq.${questionId}.summary`} />
         </summary>
         <div className="pa4">
           <p className="t-body">
-            <FormattedMessage id={`io.faq.${ansId}`} />
+            <FormattedMessage id={`io.faq.${questionId}.ans`} />
           </p>
         </div>
       </details>
