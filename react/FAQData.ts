@@ -3,46 +3,22 @@
 // Note: those IDs below are for messages defined in context.json
 
 const Questions = [
-  {
-    summaryId: 'test1.summary',
-    ansId: 'test1.ans',
-  },
-  {
-    summaryId: 'test2.summary',
-    ansId: 'test2.ans',
-  },
-  {
-    summaryId: 'test1.summary',
-    ansId: 'test1.ans',
-  },
-  {
-    summaryId: 'test2.summary',
-    ansId: 'test2.ans',
-  },
-  {
-    summaryId: 'test1.summary',
-    ansId: 'test1.ans',
-  },
-  {
-    summaryId: 'test2.summary',
-    ansId: 'test2.ans',
-  },
-  {
-    summaryId: 'test1.summary',
-    ansId: 'test1.ans',
-  },
-  {
-    summaryId: 'test2.summary',
-    ansId: 'test2.ans',
-  },
-  {
-    summaryId: 'test1.summary',
-    ansId: 'test1.ans',
-  },
-  {
-    summaryId: 'test2.summary',
-    ansId: 'test2.ans',
-  },
+  'basic-concepts.vtex-vtexio',
+  'migrate.why-v1-no-more',
+  'migrate.why-migrate',
+  'migrate.advantages-v2',
+  'migrate.unavailable-features',
+  'migrate.how-to',
+  'create-store.components',
+  'create-store.components-functionality',
+  'create-store.unsupported',
+  'create-store.supported',
+  'create-store.to-PR-or-not-to-PR',
+  'create-store.props',
+  'create-store.blocks-inside-of-blocks',
+  'create-front-end-app.already-exists',
+  'create-front-end-app.getting-started',
+  'create-front-end-app.how-to-whitelist',
 ]
 
 export default Questions
