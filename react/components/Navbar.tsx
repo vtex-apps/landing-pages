@@ -3,7 +3,7 @@ import { InjectedIntlProps, injectIntl } from 'react-intl'
 import { IconCaretDown, IconCaretUp, IconBars } from 'vtex.styleguide'
 import { useRuntime, Link } from 'vtex.render-runtime'
 
-import logoPath from '../../images/VTEX_Cold_Gray_RGB.svg'
+import logoPath from '../images/VTEX_Cold_Gray_RGB.svg'
 
 const supportedLangs = [
   {

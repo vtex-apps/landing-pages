@@ -1,6 +1,5 @@
 import React, { FunctionComponent, ReactNode } from 'react'
 import { FormattedMessage } from 'react-intl'
-import { Link } from 'vtex.render-runtime'
 
 interface Props {
   icon: ReactNode

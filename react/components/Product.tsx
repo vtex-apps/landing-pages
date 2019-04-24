@@ -1,7 +1,7 @@
 import React, { FunctionComponent } from 'react'
 import { FormattedMessage } from 'react-intl'
 
-import productImagePath from '../../images/Product.svg'
+import productImagePath from '../images/Product.svg'
 
 const ProductDisplay: FunctionComponent = () => {
   return (

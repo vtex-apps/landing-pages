@@ -1,12 +1,11 @@
 import React, { Fragment, FunctionComponent } from 'react'
-import { injectIntl, InjectedIntlProps } from 'react-intl'
 import { Helmet } from 'vtex.render-runtime'
 
-import Navbar from './components/IOLanding/Navbar'
-import Footer from './components/IOLanding/Footer'
+import Navbar from './components/Navbar'
+import Footer from './components/Footer'
 import favicon from './images/favicon.png'
 
-const FeaturesDisplay: FunctionComponent<InjectedIntlProps> = ({ intl }) => {
+const FeaturesDisplay: FunctionComponent = () => {
   return (
     <Fragment>
       <Helmet>
@@ -25,4 +24,4 @@ const FeaturesDisplay: FunctionComponent<InjectedIntlProps> = ({ intl }) => {
   )
 }
 
-export default injectIntl(FeaturesDisplay)
+export default FeaturesDisplay
