@@ -18,11 +18,13 @@ const StartBuilding = () => (
           <FormattedMessage id="io.startbuilding.text" />
         </p>
         <div className="w-75 mb5">
-          <Button variation="secondary">
-            <p className="action-secondary">
-              <FormattedMessage id="io.startbuilding.cta" />
-            </p>
-          </Button>
+          <a href="https://www.vtex.com/partner/">
+            <Button variation="secondary">
+              <p className="action-secondary">
+                <FormattedMessage id="io.startbuilding.cta" />
+              </p>
+            </Button>
+          </a>
         </div>
       </div>
     </div>
