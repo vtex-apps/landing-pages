@@ -2,6 +2,9 @@
   "io.landing": {
     "path": "/dev/io"
   },
+  "io.faq": {
+    "path": "/dev/io/faq"
+  },
   "store-framework.landing": {
     "path": "/store-framework"
   }
