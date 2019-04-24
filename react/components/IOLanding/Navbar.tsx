@@ -1,7 +1,7 @@
 import React, { FunctionComponent, useState } from 'react'
 import { InjectedIntlProps, injectIntl } from 'react-intl'
 import { IconCaretDown, IconCaretUp, IconBars } from 'vtex.styleguide'
-import { useRuntime } from 'vtex.render-runtime'
+import { useRuntime, Link } from 'vtex.render-runtime'
 
 import logoPath from '../../images/VTEX_Cold_Gray_RGB.svg'
 
@@ -48,35 +48,59 @@ const Navbar: FunctionComponent<
           >
             <IconBars />
           </button>
-          <div className="flex items-center w-40 w-50-l">
-            <img src={logoPath} className="h3" alt="VTEX" />
-            <p className="dn-s flex-l">|</p>
-            <p className="dn-s flex-l ml3">Developer</p>
+          <div className="w-40 w-50-l">
+            <Link
+              page="io.landing"
+              className="c-muted-1 flex items-center link"
+            >
+              <img src={logoPath} className="h3" alt="VTEX" />
+              <p className="dn-s flex-l">|</p>
+              <p className="dn-s flex-l ml3">Developer</p>
+            </Link>
           </div>
-          <button className="c-muted-1 bg-rebel-pink bn t-body w-25 dn-l">
-            {intl.formatMessage({ id: 'io.navbar.build' })}
+          <button className="c-muted-1 bg-rebel-pink bn t-body dn-l">
+            <a
+              className="link c-muted-1"
+              href="https://help.vtex.com/tracks/build-a-store-using-vtex-io"
+            >
+              {intl.formatMessage({ id: 'io.navbar.build' })}
+            </a>
           </button>
         </div>
         <div className="flex-l" hidden={!openNav}>
           <ul className="flex flex-column flex-row-l justify-center list mt0 items-center mb0 relative">
             <li className="mh5 mv5 mv0-l">
-              {intl.formatMessage({ id: 'io.navbar.learn' })}
+              <a
+                className="link c-muted-1"
+                href="https://help.vtex.com/tracks/vtex-io-getting-started"
+              >
+                {intl.formatMessage({ id: 'io.navbar.learn' })}
+              </a>
             </li>
             <li className="mh5 mv5 mv0-l">
-              {intl.formatMessage({ id: 'io.navbar.make' })}
+              <Link className="link c-muted-1" page="io.store-features">
+                {intl.formatMessage({ id: 'io.navbar.feature-list' })}
+              </Link>
             </li>
             <li className="mh5 mv5 mv0-l">
-              {intl.formatMessage({ id: 'io.navbar.keepup' })}
+              <a
+                className="link c-muted-1"
+                href="https://www.vtex.com/releases-and-announcements/"
+              >
+                {intl.formatMessage({ id: 'io.navbar.keepup' })}
+              </a>
             </li>
             <li className="mh5 mv5 mv0-l">
-              {intl.formatMessage({ id: 'io.navbar.faq' })}
+              <Link page="io.faq" className="link c-muted-1">
+                {intl.formatMessage({ id: 'io.navbar.faq' })}
+              </Link>
             </li>
             {enableLocaleSelector && (
               <li className="flex items-center">
                 <div className="h-100 relative w3">
                   <button
                     onClick={() => setOpenLocaleSelector(!openLocaleSelector)}
-                    className="c-muted-1 bg-base bn flex items-center"
+                    className="c-muted-1 bg-base bn flex items-center pointer"
                   >
                     <p className="ttu mr4">{splitLocale(selectedLocale.id)}</p>
                     {openLocaleSelector ? <IconCaretUp /> : <IconCaretDown />}
@@ -100,9 +124,14 @@ const Navbar: FunctionComponent<
               </li>
             )}
             <li>
-              <button className="c-muted-1 bg-rebel-pink bn t-body pa6 dn flex-l">
-                {intl.formatMessage({ id: 'io.navbar.build' })}
-              </button>
+              <a
+                className="link"
+                href="https://help.vtex.com/tracks/build-a-store-using-vtex-io"
+              >
+                <button className="pointer link c-muted-1 bg-rebel-pink bn t-body pa6 dn flex-l">
+                  {intl.formatMessage({ id: 'io.navbar.build' })}
+                </button>
+              </a>
             </li>
           </ul>
         </div>

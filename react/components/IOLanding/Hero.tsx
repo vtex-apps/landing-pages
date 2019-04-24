@@ -20,11 +20,13 @@ const Hero: FunctionComponent = () => {
         <FormattedMessage id="io.hero.resources" />
       </p>
       <div className="mt5">
-        <Button variation="primary">
-          <p className="ttu">
-            <FormattedMessage id="io.hero.cta" />
-          </p>
-        </Button>
+        <a href="https://help.vtex.com/tracks/build-a-store-using-vtex-io">
+          <Button variation="primary">
+            <p className="ttu">
+              <FormattedMessage id="io.hero.cta" />
+            </p>
+          </Button>
+        </a>
       </div>
       <a
         className="tc c-muted-1 mt5 t-small"
