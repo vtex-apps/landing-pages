@@ -6,9 +6,10 @@ interface Props {
   title: string
   text: string
   index: number
+  soon?: boolean
 }
 
-const Card: FunctionComponent<Props> = ({ icon, title, text, index }) => {
+const Card: FunctionComponent<Props> = ({ icon, title, text, index, soon }) => {
   return (
     <article
       className={`flex justify-between bg-muted-1 mv3 ${
@@ -19,6 +20,7 @@ const Card: FunctionComponent<Props> = ({ icon, title, text, index }) => {
       <div>
         <p className="t-heading-4 c-muted-5">
           <FormattedMessage id={title} />
+          {soon && <span className="c-muted-2"> [SOON]</span>}
         </p>
         <p className="t-body c-muted-2">
           <FormattedMessage id={text} />
