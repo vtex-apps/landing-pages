@@ -10,7 +10,10 @@ const Hero: FunctionComponent = () => {
       className="mb5 pt6 pb8 bg-base c-muted-1 flex flex-column items-center justify-center"
       style={{ backgroundImage: `url(${Brands})` }}
     >
-      <p className="tc w-40 mb0 t-heading-1 normal">
+      <p
+        className="tc w-40-ns mb0 t-heading-1 normal"
+        style={{ fontSize: '5rem' }}
+      >
         <FormattedMessage id="io.hero.globalbrands" />
       </p>
       <p className="w-40 t-body tc mv6">
