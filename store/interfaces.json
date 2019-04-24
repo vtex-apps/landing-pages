@@ -8,6 +8,9 @@
   "io.faq": {
     "component": "FAQ"
   },
+  "io.store-features": {
+    "component": "Features"
+  },
   "store-framework": {
     "blocks": ["store-framework.landing"]
   },

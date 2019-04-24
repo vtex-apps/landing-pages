@@ -5,6 +5,9 @@
   "io.faq": {
     "path": "/dev/io/faq"
   },
+  "io.store-features": {
+    "path": "dev/io/store-features"
+  },
   "store-framework.landing": {
     "path": "/store-framework"
   }
