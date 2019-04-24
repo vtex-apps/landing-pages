@@ -12,9 +12,6 @@ const supportedLangs = [
   {
     id: 'pt-BR',
   },
-  {
-    id: 'es-AR',
-  },
 ]
 
 const Navbar: FunctionComponent<
