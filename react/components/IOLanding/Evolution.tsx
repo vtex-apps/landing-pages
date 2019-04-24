@@ -5,12 +5,12 @@ import CodeSampleImage from '../../images/CodeSample.svg'
 import BackgroundEffects from '../../images/BackgroundEffects.svg'
 
 const EvolutionSection = () => (
-  <section className="flex flex-column flex-row-l items-center vh-100-l ph9-ns">
+  <section className="flex flex-column flex-row-l items-center vh-100-l">
     <div
       className="c-muted-1 w-50-l w-100 h-75 bg-muted-3 flex justify-center items-center order-1 order-0-l"
       style={{ backgroundImage: `url(${BackgroundEffects})` }}
     >
-      <img src={CodeSampleImage} className="z-5 c-muted-1" alt="code-sample" />
+      <img src={CodeSampleImage} className="c-muted-1 z-4" alt="code-sample" />
     </div>
     <div className="w-90-s center w-50-l w-100-s pl10-l flex flex-column justify-center">
       <div className="order-0 order-1-l w-90 center mh7">
