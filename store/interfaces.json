@@ -5,6 +5,9 @@
   "io.landing": {
     "component": "IO"
   },
+  "io.faq": {
+    "component": "FAQ"
+  },
   "store-framework": {
     "blocks": ["store-framework.landing"]
   },

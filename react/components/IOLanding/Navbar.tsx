@@ -17,7 +17,9 @@ const supportedLangs = [
   },
 ]
 
-const Navbar: FunctionComponent<InjectedIntlProps> = ({ intl }) => {
+const Navbar: FunctionComponent<
+  InjectedIntlProps & { enableLocaleSelector?: boolean }
+> = ({ intl, enableLocaleSelector }) => {
   const { culture, emitter } = useRuntime()
   const [openLocaleSelector, setOpenLocaleSelector] = useState(false)
   const [openNav, setOpenNav] = useState(false)
@@ -66,32 +68,37 @@ const Navbar: FunctionComponent<InjectedIntlProps> = ({ intl }) => {
             <li className="mh5 mv5 mv0-l">
               {intl.formatMessage({ id: 'io.navbar.keepup' })}
             </li>
-            <li className="flex items-center">
-              <div className="h-100 relative w3">
-                <button
-                  onClick={() => setOpenLocaleSelector(!openLocaleSelector)}
-                  className="c-muted-1 bg-base bn flex items-center"
-                >
-                  <p className="ttu mr4">{splitLocale(selectedLocale.id)}</p>
-                  {openLocaleSelector ? <IconCaretUp /> : <IconCaretDown />}
-                </button>
-                <div
-                  hidden={!openLocaleSelector}
-                  className="z-4 bg-base pa3 absolute"
-                >
-                  {supportedLangs.map(({ id }) => (
-                    <button
-                      className="tc ttu c-muted-1 pointer bn bg-base"
-                      onClick={handleLocaleClick}
-                      id={id}
-                      key={id}
-                    >
-                      {splitLocale(id)}
-                    </button>
-                  ))}
-                </div>
-              </div>
+            <li className="mh5 mv5 mv0-l">
+              {intl.formatMessage({ id: 'io.navbar.faq' })}
             </li>
+            {enableLocaleSelector && (
+              <li className="flex items-center">
+                <div className="h-100 relative w3">
+                  <button
+                    onClick={() => setOpenLocaleSelector(!openLocaleSelector)}
+                    className="c-muted-1 bg-base bn flex items-center"
+                  >
+                    <p className="ttu mr4">{splitLocale(selectedLocale.id)}</p>
+                    {openLocaleSelector ? <IconCaretUp /> : <IconCaretDown />}
+                  </button>
+                  <div
+                    hidden={!openLocaleSelector}
+                    className="z-4 bg-base pa3 absolute"
+                  >
+                    {supportedLangs.map(({ id }) => (
+                      <button
+                        className="tc ttu c-muted-1 pointer bn bg-base"
+                        onClick={handleLocaleClick}
+                        id={id}
+                        key={id}
+                      >
+                        {splitLocale(id)}
+                      </button>
+                    ))}
+                  </div>
+                </div>
+              </li>
+            )}
             <li>
               <button className="c-muted-1 bg-rebel-pink bn t-body pa6 dn flex-l">
                 {intl.formatMessage({ id: 'io.navbar.build' })}
