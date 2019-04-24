@@ -11,7 +11,7 @@ const Hero: FunctionComponent = () => {
       style={{ backgroundImage: `url(${Brands})` }}
     >
       <p
-        className="tc w-40-ns mb0 t-heading-1 normal"
+        className="tc w-40-ns mb0 mt10 t-heading-1 normal"
         style={{ fontSize: '5rem' }}
       >
         <FormattedMessage id="io.hero.globalbrands" />
