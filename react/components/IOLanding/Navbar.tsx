@@ -33,7 +33,7 @@ const Navbar: FunctionComponent<InjectedIntlProps> = ({ intl }) => {
   return (
     <nav>
       <ul
-        className="flex flex-column flex-row-m justify-between list mt0 c-muted-1 items-center bg-base mb0 relative"
+        className="w-100 flex flex-column flex-row-m justify-between list mt0 c-muted-1 items-center bg-base mb0 relative"
         style={{
           boxShadow: `0px 3px 20px rgba(0, 0, 0, 0.3)`,
         }}
@@ -43,7 +43,7 @@ const Navbar: FunctionComponent<InjectedIntlProps> = ({ intl }) => {
           <p>|</p>
           <p className="ml3">Developer</p>
         </div>
-        <div className="flex items-center">
+        <div className="flex flex-wrap items-center">
           <li className="mh5">
             {intl.formatMessage({ id: 'io.navbar.learn' })}
           </li>
