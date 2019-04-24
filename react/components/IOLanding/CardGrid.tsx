@@ -17,6 +17,7 @@ const CardGrid: FunctionComponent = () => {
       icon: <Video />,
       titleId: 'io.cards.second.title',
       textId: 'io.cards.second.text',
+      soon: true,
     },
     {
       icon: <DesignDev />,
@@ -39,6 +40,7 @@ const CardGrid: FunctionComponent = () => {
           text={card.textId}
           index={index}
           key={card.titleId}
+          soon={card.soon}
         />
       ))}
     </section>
