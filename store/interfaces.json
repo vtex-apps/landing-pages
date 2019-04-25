@@ -10,11 +10,5 @@
   },
   "io.store-features": {
     "component": "Features"
-  },
-  "store-framework": {
-    "blocks": ["store-framework.landing"]
-  },
-  "store-framework.landing": {
-    "component": "StoreFramework"
   }
 }

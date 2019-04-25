@@ -99,14 +99,5 @@
   "io.faq.create-front-end-app.getting-started.summary": "",
   "io.faq.create-front-end-app.getting-started.ans": "",
   "io.faq.create-front-end-app.how-to-whitelist.summary": "",
-  "io.faq.create-front-end-app.how-to-whitelist.ans": "",
-  "store-framework.page-title": "VTEX Store Framework - The next generation store framework",
-  "store-framework.title": "Store Framework Docs",
-  "store-framework.subtitle": "Want to create a store using VTEX IO? Start reading those contents below:",
-  "store-framework.announcement": "Store Framework Announcement",
-  "store-framework.getting-started": "Store Framework Getting Started",
-  "store-framework.store-builder": "Store Builder",
-  "store-framework.styles": "VTEX Tachyons and Styleguide",
-  "store-framework.contribute": "Contributing.md",
-  "store-framework.soon": "SOON"
+  "io.faq.create-front-end-app.how-to-whitelist.ans": ""
 }

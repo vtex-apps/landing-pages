@@ -1,14 +1,11 @@
 {
   "io.landing": {
-    "path": "/dev/io"
+    "path": "/_v/landing-pages/io"
   },
   "io.faq": {
-    "path": "/dev/io/faq"
+    "path": "/_v/landing-pages/io/faq"
   },
   "io.store-features": {
-    "path": "/dev/io/store-features"
-  },
-  "store-framework.landing": {
-    "path": "/store-framework"
+    "path": "/_v/landing-pages/io/store-features"
   }
 }
