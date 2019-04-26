@@ -279,4 +279,114 @@ export const features = [
     old: true,
     new: false,
   },
+  {
+    id: 'product-specification',
+    old: true,
+    new: false,
+  },
+  {
+    id: 'stock-keeping-unit-attributes',
+    old: true,
+    new: false,
+  },
+  {
+    id: 'stock-keeping-unit-measures',
+    old: true,
+    new: false,
+  },
+  {
+    id: 'product-tag',
+    old: true,
+    new: false,
+  },
+  {
+    id: 'page-search',
+    old: true,
+    new: false,
+  },
+  {
+    id: 'buy-button',
+    old: true,
+    new: false,
+  },
+  {
+    id: 'buy-in-page',
+    old: true,
+    new: false,
+  },
+  {
+    id: 'stock-keeping-unit-amount-and-unit-selection',
+    old: true,
+    new: false,
+  },
+  {
+    id: 'evaluation-rate',
+    old: true,
+    new: false,
+  },
+  {
+    id: 'user-review',
+    old: true,
+    new: false,
+  },
+  {
+    id: 'gift-list-insert-sku',
+    old: true,
+    new: false,
+  },
+  {
+    id: 'gift-list-form-v2',
+    old: true,
+    new: false,
+  },
+  {
+    id: 'hightlight',
+    old: true,
+    new: false,
+  },
+  {
+    id: 'discount-hightlight',
+    old: true,
+    new: false,
+  },
+  {
+    id: 'seller-options',
+    old: true,
+    new: false,
+  },
+  {
+    id: 'seller-description',
+    old: true,
+    new: false,
+  },
+  {
+    id: 'seller-info',
+    old: true,
+    new: false,
+  },
+  {
+    id: 'sales-channel-drop-list',
+    old: true,
+    new: false,
+  },
+  {
+    id: 'content-place-holder-QVVT',
+    old: true,
+    new: false,
+  },
+  {
+    id: 'content-place-holder-QVCT',
+    old: true,
+    new: false,
+  },
+  {
+    id: 'content-place-holder-QCCT',
+    old: true,
+    new: false,
+  },
+  {
+    id: 'content-place-holder-similares',
+    old: true,
+    new: false,
+  },
 ]
