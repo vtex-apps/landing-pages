@@ -6,4 +6,6 @@ declare module 'vtex.styleguide' {
   export const IconCaretDown
   export const IconCaretUp
   export const IconBars
+  export const IconCheck
+  export const IconDeny
 }
