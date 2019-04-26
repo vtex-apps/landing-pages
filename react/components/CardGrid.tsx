@@ -25,13 +25,13 @@ const CardGrid: FunctionComponent = () => {
       icon: <DesignDev />,
       titleId: 'io.cards.third.title',
       textId: 'io.cards.third.text',
-      link: 'https://help.vtex.com/developer-docs',
+      link: '/_v/landing-pages/io/store-features',
     },
     {
       icon: <RunningShoes />,
       titleId: 'io.cards.fourth.title',
       textId: 'io.cards.fourth.text',
-      link: 'https://www.vtex.com/releases-and-announcements/',
+      link: '/_v/landing-pages/io/faq',
     },
   ]
 
