@@ -61,7 +61,7 @@ const Navbar: FunctionComponent<
             <li className="mh5 mv5 mv0-l">
               <a
                 className="link c-muted-1"
-                href="https://help.vtex.com/tracks/vtex-io-getting-started"
+                href="https://docs.google.com/document/d/1ZM0sF22yPxaKZ9jvKWR-h8Ba00shHZS5uWgQmA8Tg7U/edit?usp=sharing"
               >
                 {intl.formatMessage({ id: 'io.navbar.learn' })}
               </a>
@@ -70,14 +70,6 @@ const Navbar: FunctionComponent<
               <Link className="link c-muted-1" page="io.store-features">
                 {intl.formatMessage({ id: 'io.navbar.feature-list' })}
               </Link>
-            </li>
-            <li className="mh5 mv5 mv0-l">
-              <a
-                className="link c-muted-1"
-                href="https://www.vtex.com/releases-and-announcements/"
-              >
-                {intl.formatMessage({ id: 'io.navbar.keepup' })}
-              </a>
             </li>
             <li className="mh5 mv5 mv0-l">
               <Link page="io.faq" className="link c-muted-1">
