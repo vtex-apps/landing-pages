@@ -19,7 +19,7 @@ const FAQ: FunctionComponent<InjectedIntlProps> = ({ intl }) => {
         <meta name="theme-color" content="#F71963" />
         <link rel="icon" href={favicon} />
       </Helmet>
-      <Navbar enableLocaleSelector />
+      <Navbar />
       <main className="w-100 pv10 bg-base--inverted">
         <h1 className="c-muted-5 t-heading-1 w-90 center">
           Frequently Asked Questions
