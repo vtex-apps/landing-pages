@@ -24,7 +24,7 @@ const Card: FunctionComponent<Props> = ({
         index % 2 === 0 ? 'mr3-l' : 'ml3-l'
       } ph6 pv5 w-40-l w-90 br3`}
     >
-      <a href={link} className="flex justify-between items-center link">
+      <a href={link} className="flex items-center link">
         <div className="mr7">{icon}</div>
         <div>
           <p className="t-heading-4 c-muted-5">
