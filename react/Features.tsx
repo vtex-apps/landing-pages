@@ -19,11 +19,14 @@ const FeaturesDisplay: FunctionComponent = () => {
       </Helmet>
       <Navbar />
       <main className="w-100 pv10 bg-base--inverted">
-        <h1 className="c-emphasis t-heading-1 w-90 center">
-          Store Framework Features
-        </h1>
+        <h1 className="c-emphasis t-heading-1 w-90 center">Store Features</h1>
+        <p className="w-90 center">
+          CMS Comparison |{' '}
+          <a href="#store-component-apps">Store Component Apps</a> |{' '}
+          <a href="#store-pixel-apps">Store Pixel Apps</a>
+        </p>
         <section className="flex flex-column w-90 center">
-          <h2 className="c-emphasis t-heading-2">VTEX CMS Features</h2>
+          <h2 className="c-emphasis t-heading-2">VTEX CMS Comparison</h2>
           <ul className="t-body list">
             <li className="pv5 bb b--muted-2 flex justify-between items-center">
               <div>
@@ -71,7 +74,10 @@ const FeaturesDisplay: FunctionComponent = () => {
             ))}
           </ul>
         </section>
-        <section className="flex flex-column w-90 center">
+        <section
+          id="store-component-apps"
+          className="flex flex-column w-90 center pt8"
+        >
           <h2 className="c-emphasis t-heading-2">Store Component Apps</h2>
           <ul className="t-body list">
             {storeComponents.map(component => (
@@ -81,7 +87,7 @@ const FeaturesDisplay: FunctionComponent = () => {
                   {component.construction && '[Under Construction] 🚧'}
                 </p>
                 <p>
-                  <a className="c-muted-2 link" href={component.docs}>
+                  <a className="link" href={component.docs}>
                     {component.docs}
                   </a>
                 </p>
@@ -89,13 +95,20 @@ const FeaturesDisplay: FunctionComponent = () => {
             ))}
           </ul>
         </section>
-        <section className="flex flex-column w-90 center">
+        <section
+          id="store-pixel-apps"
+          className="flex flex-column w-90 center pt8"
+        >
           <h2 className="c-emphasis t-heading-2">Store Pixel Apps</h2>
           <ul className="t-body list">
             {storePixel.map(app => (
               <li className="mv7 bb b--muted-2">
                 <p>{app.name}</p>
-                <p className="c-muted-2">{app.docs}</p>
+                <p>
+                  <a className="link" href={app.docs}>
+                    {app.docs}
+                  </a>
+                </p>
               </li>
             ))}
           </ul>
