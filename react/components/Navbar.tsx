@@ -38,7 +38,7 @@ const Navbar: FunctionComponent<
           boxShadow: `0px 3px 20px rgba(0, 0, 0, 0.3)`,
         }}
       >
-        <div className="flex justify-between">
+        <div className="flex">
           <button
             className="dn-l bg-base c-on-base w-33 w-50-l bn"
             onClick={() => setOpenNav(!openNav)}
@@ -48,21 +48,13 @@ const Navbar: FunctionComponent<
           <div className="w-40 w-50-l">
             <Link
               page="io.landing"
-              className="c-muted-1 flex items-center link"
+              className="c-muted-1 self-center flex items-center link"
             >
               <img src={logoPath} className="h3" alt="VTEX" />
               <p className="dn-s flex-l">|</p>
               <p className="dn-s flex-l ml3">Developer</p>
             </Link>
           </div>
-          <button className="c-muted-1 bg-rebel-pink bn t-body dn-l">
-            <a
-              className="link c-muted-1"
-              href="https://help.vtex.com/tracks/build-a-store-using-vtex-io"
-            >
-              {intl.formatMessage({ id: 'io.navbar.build' })}
-            </a>
-          </button>
         </div>
         <div className="flex-l" hidden={!openNav}>
           <ul className="flex flex-column flex-row-l justify-center list mt0 items-center mb0 relative">
@@ -120,16 +112,6 @@ const Navbar: FunctionComponent<
                 </div>
               </li>
             )}
-            <li>
-              <a
-                className="link"
-                href="https://help.vtex.com/tracks/build-a-store-using-vtex-io"
-              >
-                <button className="pointer link c-muted-1 bg-rebel-pink bn t-body pa6 dn flex-l">
-                  {intl.formatMessage({ id: 'io.navbar.build' })}
-                </button>
-              </a>
-            </li>
           </ul>
         </div>
       </div>
