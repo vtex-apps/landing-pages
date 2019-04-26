@@ -37,7 +37,7 @@ const FeaturesDisplay: FunctionComponent = () => {
             </li>
             {features.map(feature => (
               <li className="pv5 bb b--muted-2 flex justify-between items-center">
-                <div>
+                <div className="w-60">
                   <p>
                     <FormattedMessage id={`cms-features.${feature.id}`} />
                   </p>
