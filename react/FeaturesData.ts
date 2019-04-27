@@ -1,83 +1,3 @@
-export const storeComponents = [
-  {
-    name: 'Store Components',
-    docs: 'https://github.com/vtex-apps/store-components',
-  },
-  {
-    name: 'Store Header',
-    docs: 'https://github.com/vtex-apps/store-header',
-  },
-  {
-    name: 'Store Footer',
-    docs: 'https://github.com/vtex-apps/store-footer',
-  },
-  {
-    name: 'Shelf',
-    docs: 'https://github.com/vtex-apps/shelf',
-  },
-  {
-    name: 'Carousel',
-    docs: 'https://github.com/vtex-apps/carousel',
-  },
-  {
-    name: 'Menu',
-    docs: 'https://github.com/vtex-apps/menu',
-  },
-  {
-    name: 'Minicart',
-    docs: 'https://github.com/vtex-apps/minicart',
-  },
-  {
-    name: 'Telemarketing',
-    docs: 'https://github.com/vtex-apps/telemarketing',
-  },
-  {
-    name: 'Login',
-    docs: 'https://github.com/vtex-apps/login',
-  },
-  {
-    name: 'Category Menu',
-    docs: 'https://github.com/vtex-apps/category-menu',
-  },
-  {
-    name: 'Breadcrumb',
-    docs: 'https://github.com/vtex-apps/breadcrumb',
-  },
-  {
-    name: 'Search Result',
-    docs: 'https://github.com/vtex-apps/search-result',
-  },
-  {
-    name: 'Product Details',
-    docs: 'https://github.com/vtex-apps/product-details',
-  },
-  {
-    name: 'Wishlist',
-    docs: 'https://github.com/vtex-apps/wishlist',
-    construction: true,
-  },
-  {
-    name: 'Order Placed',
-    docs: 'https://github.com/vtex-apps/order-placed',
-    construction: true,
-  },
-]
-
-export const storePixel = [
-  {
-    name: 'Facebook Pixel',
-    docs: 'https://github.com/vtex-apps/facebook-pixel',
-  },
-  {
-    name: 'Google Adwords',
-    docs: 'https://github.com/vtex-apps/google-adwords',
-  },
-  {
-    name: 'Google Tag Manager',
-    docs: 'https://github.com/vtex-apps/google-tag-manager',
-  },
-]
-
 export const features = [
   {
     id: 'own-html',
@@ -181,7 +101,7 @@ export const features = [
   },
   {
     id: 'product-quick-view',
-    old: false,
+    old: true,
     new: false,
   },
   {
@@ -192,17 +112,17 @@ export const features = [
   {
     id: 'product-name',
     old: true,
-    new: false,
+    new: true,
   },
   {
     id: 'product-brand',
     old: true,
-    new: false,
+    new: true,
   },
   {
     id: 'product-image',
     old: true,
-    new: false,
+    new: true,
   },
   {
     id: 'product-reference',
@@ -242,17 +162,17 @@ export const features = [
   {
     id: 'other-payment-methods',
     old: true,
-    new: false,
+    new: true,
   },
   {
     id: 'delivery',
     old: true,
-    new: false,
+    new: true,
   },
   {
     id: 'shipping-value',
     old: true,
-    new: false,
+    new: true,
   },
   {
     id: 'stock-keeping-reward-values',
@@ -272,17 +192,17 @@ export const features = [
   {
     id: 'product-description',
     old: true,
-    new: false,
+    new: true,
   },
   {
     id: 'product-description-short',
     old: true,
-    new: false,
+    new: true,
   },
   {
     id: 'product-specification',
     old: true,
-    new: false,
+    new: true,
   },
   {
     id: 'stock-keeping-unit-attributes',
@@ -302,17 +222,17 @@ export const features = [
   {
     id: 'page-search',
     old: true,
-    new: false,
+    new: true,
   },
   {
     id: 'buy-button',
     old: true,
-    new: false,
+    new: true,
   },
   {
     id: 'buy-in-page',
     old: true,
-    new: false,
+    new: true,
   },
   {
     id: 'stock-keeping-unit-amount-and-unit-selection',
@@ -347,7 +267,7 @@ export const features = [
   {
     id: 'discount-hightlight',
     old: true,
-    new: false,
+    new: true,
   },
   {
     id: 'seller-options',
@@ -357,12 +277,12 @@ export const features = [
   {
     id: 'seller-description',
     old: true,
-    new: false,
+    new: true,
   },
   {
     id: 'seller-info',
     old: true,
-    new: false,
+    new: true,
   },
   {
     id: 'sales-channel-drop-list',
@@ -388,5 +308,100 @@ export const features = [
     id: 'content-place-holder-similares',
     old: true,
     new: false,
+  },
+  {
+    id: 'content-place-holder-acessorios',
+    old: true,
+    new: false,
+  },
+  {
+    id: 'content-place-holder-sugestoes',
+    old: true,
+    new: false,
+  },
+  {
+    id: 'rich-snippets',
+    old: true,
+    new: false,
+  },
+]
+
+export const storeComponents = [
+  {
+    name: 'Store Components',
+    docs: 'https://github.com/vtex-apps/store-components',
+  },
+  {
+    name: 'Store Header',
+    docs: 'https://github.com/vtex-apps/store-header',
+  },
+  {
+    name: 'Store Footer',
+    docs: 'https://github.com/vtex-apps/store-footer',
+  },
+  {
+    name: 'Shelf',
+    docs: 'https://github.com/vtex-apps/shelf',
+  },
+  {
+    name: 'Carousel',
+    docs: 'https://github.com/vtex-apps/carousel',
+  },
+  {
+    name: 'Menu',
+    docs: 'https://github.com/vtex-apps/menu',
+  },
+  {
+    name: 'Minicart',
+    docs: 'https://github.com/vtex-apps/minicart',
+  },
+  {
+    name: 'Telemarketing',
+    docs: 'https://github.com/vtex-apps/telemarketing',
+  },
+  {
+    name: 'Login',
+    docs: 'https://github.com/vtex-apps/login',
+  },
+  {
+    name: 'Category Menu',
+    docs: 'https://github.com/vtex-apps/category-menu',
+  },
+  {
+    name: 'Breadcrumb',
+    docs: 'https://github.com/vtex-apps/breadcrumb',
+  },
+  {
+    name: 'Search Result',
+    docs: 'https://github.com/vtex-apps/search-result',
+  },
+  {
+    name: 'Product Details',
+    docs: 'https://github.com/vtex-apps/product-details',
+  },
+  {
+    name: 'Wishlist',
+    docs: 'https://github.com/vtex-apps/wishlist',
+    construction: true,
+  },
+  {
+    name: 'Order Placed',
+    docs: 'https://github.com/vtex-apps/order-placed',
+    construction: true,
+  },
+]
+
+export const storePixel = [
+  {
+    name: 'Facebook Pixel',
+    docs: 'https://github.com/vtex-apps/facebook-pixel',
+  },
+  {
+    name: 'Google Adwords',
+    docs: 'https://github.com/vtex-apps/google-adwords',
+  },
+  {
+    name: 'Google Tag Manager',
+    docs: 'https://github.com/vtex-apps/google-tag-manager',
   },
 ]
