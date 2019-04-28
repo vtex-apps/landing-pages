@@ -1,12 +1,12 @@
 {
   "io.landing": {
-    "path": "/_v/landing-pages/io",
+    "path": "/",
     "cname": "vtex.io"
   },
   "io.faq": {
-    "path": "/_v/landing-pages/io/faq"
+    "path": "/faq"
   },
   "io.store-features": {
-    "path": "/_v/landing-pages/io/store-features"
+    "path": "/store-features"
   }
 }
