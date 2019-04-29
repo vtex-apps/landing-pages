@@ -3,7 +3,7 @@ export const features = [
   { id: 'javascript', old: true, new: false },
   { id: 'closed-websites', old: true, new: false },
   { id: 'view-parts', old: true, new: false },
-  { id: 'pwa', old: true, new: true },
+  { id: 'pwa', old: false, new: true },
   { id: 'workspaces', old: true, new: true },
   { id: 'multi-websites', old: true, new: true },
   { id: 'apps', old: true, new: true },
