@@ -3,10 +3,7 @@
 // Note: those IDs below are for messages defined in context.json
 
 const Questions = [
-  'basic-concepts.vtex-vtexio',
-  'migrate.why-v1-no-more',
   'migrate.why-migrate',
-  'migrate.advantages-v2',
   'migrate.unavailable-features',
   'migrate.how-to',
   'create-store.components',
@@ -14,11 +11,9 @@ const Questions = [
   'create-store.unsupported',
   'create-store.supported',
   'create-store.to-PR-or-not-to-PR',
-  'create-store.props',
-  'create-store.blocks-inside-of-blocks',
-  'create-front-end-app.already-exists',
-  'create-front-end-app.getting-started',
-  'create-front-end-app.how-to-whitelist',
+  'create-store.component-docs',
+  'extend-store-framework',
+  'create-back-end-app.permission',
 ]
 
 export default Questions

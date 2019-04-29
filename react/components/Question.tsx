@@ -13,7 +13,7 @@ const Question: FunctionComponent<Question> = ({ questionId }) => {
           <FormattedMessage id={`io.faq.${questionId}.summary`} />
         </summary>
         <div className="pa4">
-          <p className="t-body">
+          <p className="t-body lh-copy">
             <FormattedMessage id={`io.faq.${questionId}.ans`} />
           </p>
         </div>
