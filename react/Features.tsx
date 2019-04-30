@@ -23,13 +23,34 @@ const FeaturesDisplay: FunctionComponent = () => {
           <h1 className="c-base t-heading-1 pr7">Store Features</h1>
           <nav>
             <ul className="flex-ns list t-heading-5 pl0">
-              <li className="pr6 pb4 pb0-ns"><a href="#vtex-oms-comparison" className="no-underline c-emphasis dim">CMS Comparison</a></li>
-              <li className="pr6 pb4 pb0-ns"><a href="#store-component-apps" className="no-underline c-emphasis dim">Store Component Apps</a></li>
-              <li><a href="#store-pixel-apps" className="no-underline c-emphasis dim">Store Pixel Apps</a></li>
+              {/* <li className="pr6 pb4 pb0-ns">
+                <a
+                  href="#vtex-oms-comparison"
+                  className="no-underline c-emphasis dim"
+                >
+                  CMS Comparison
+                </a>
+              </li> */}
+              <li className="pr6 pb4 pb0-ns">
+                <a
+                  href="#store-component-apps"
+                  className="no-underline c-emphasis dim"
+                >
+                  Store Component Apps
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#store-pixel-apps"
+                  className="no-underline c-emphasis dim"
+                >
+                  Store Pixel Apps
+                </a>
+              </li>
             </ul>
           </nav>
         </div>
-        <section
+        {/* <section
           id="vtex-oms-comparison"
           className="flex flex-column w-90 w-80-ns center"
           >
@@ -80,12 +101,14 @@ const FeaturesDisplay: FunctionComponent = () => {
               </li>
             ))}
           </ul>
-        </section>
+        </section> */}
         <section
           id="store-component-apps"
           className="flex flex-column w-90 w-80-ns center pt8"
         >
-          <h2 className="c-base t-heading-3 fw3 mb0 mt4">Store Component Apps</h2>
+          <h2 className="c-base t-heading-3 fw3 mb0 mt4">
+            Store Component Apps
+          </h2>
           <ul className="t-body list pl0 mt0">
             {storeComponents.map(component => (
               <li className="mv7 bb b--muted-2">
