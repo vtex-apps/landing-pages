@@ -25,13 +25,13 @@ const CardGrid: FunctionComponent = () => {
       icon: <DesignDev />,
       titleId: 'io.cards.third.title',
       textId: 'io.cards.third.text',
-      link: '/_v/landing-pages/io/store-features',
+      link: '/store-features',
     },
     {
       icon: <RunningShoes />,
       titleId: 'io.cards.fourth.title',
       textId: 'io.cards.fourth.text',
-      link: '/_v/landing-pages/io/faq',
+      link: '/faq',
     },
   ]
 
