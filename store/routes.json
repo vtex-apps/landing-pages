@@ -1,7 +1,6 @@
 {
   "io.landing": {
-    "path": "/",
-    "cname": "vtex.io"
+    "path": "/"
   },
   "io.faq": {
     "path": "/faq"
