@@ -8,5 +8,9 @@
   },
   "io.store-features": {
     "path": "/store-features"
+  },
+  "codecup.landing": {
+    "path": "/code-cup",
+    "cname": "codecup.vtex.com"
   }
 }

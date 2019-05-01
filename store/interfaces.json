@@ -10,5 +10,11 @@
   },
   "io.store-features": {
     "component": "Features"
+  },
+  "codecup": {
+    "blocks": ["codecup.landing"]
+  },
+  "codecup.landing": {
+    "component": "CodeCup"
   }
 }
