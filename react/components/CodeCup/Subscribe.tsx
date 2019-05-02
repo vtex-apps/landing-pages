@@ -4,7 +4,7 @@ import Go from '../../images/imagem_go_@2x.jpg'
 
 const Subscribe: FunctionComponent = () => (
   <section className="flex flex-column pa6 vh-100">
-    <div className="flex justify-around ml7">
+    <div className="flex justify-around w-90 ml-auto">
       <p className="c-emphasis t-heading-1 w-50">
         Inscreva-se e desafie seus limites.
       </p>

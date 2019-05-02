@@ -4,22 +4,24 @@ import Logo from '../../images/logo_vtex@2x.png'
 import MapImage from '../../images/01_mapa.png'
 
 const VTEX: FunctionComponent = () => (
-  <section className="bg-base--inverted flex pv7 vh-50 justify-center items-center">
-    <div className="flex flex-column pl10">
-      <img src={Logo} className="w-50" />
-      <p>
-        A VTEX é uma empresa global de tecnologia focada em produtos para
-        e-commerce que impacta diariamente o trabalho de milhares de pessoas ao
-        redor do mundo. Através dos seus produtos e serviços, oferece aos
-        lojistas uma plataforma coesa para executar todo o seu negócio e
-        proporcionar aos seus clientes sempre a melhor experiência de compra.
-      </p>
-    </div>
-    <div className="flex flex-column">
-      <img src={MapImage} className="w-40" />
-      <button className="bg-emphasis w-40">
-        <p className="c-on-base">quero participar</p>
-      </button>
+  <section className="bg-base--inverted">
+    <div className="flex pv9 justify-center items-center w-90 ml-auto">
+      <div className="flex flex-column w-60">
+        <img src={Logo} className="w-60" />
+        <p className="t-body lh-copy">
+          A VTEX é uma empresa global de tecnologia focada em produtos para
+          e-commerce que impacta diariamente o trabalho de milhares de pessoas
+          ao redor do mundo. Através dos seus produtos e serviços, oferece aos
+          lojistas uma plataforma coesa para executar todo o seu negócio e
+          proporcionar aos seus clientes sempre a melhor experiência de compra.
+        </p>
+      </div>
+      <div className="flex flex-column justify-between items-center">
+        <img src={MapImage} className="w-75" />
+        <button className="br-pill w-40 center mt6 mb3 bg-emphasis c-on-base ph9 b--none z-5">
+          <p className="t-heading-4">quero participar</p>
+        </button>
+      </div>
     </div>
   </section>
 )

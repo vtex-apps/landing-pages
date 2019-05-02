@@ -1,4 +1,10 @@
 import React, { FunctionComponent } from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {
+  faTwitter,
+  faFacebook,
+  faInstagram,
+} from '@fortawesome/free-brands-svg-icons'
 
 import HeaderImage from '../../images/imagem_home.jpg'
 import Logo from '../../images/logo_codecup_01@2x.png'
@@ -66,10 +72,16 @@ const Header: FunctionComponent = () => (
             códigos e desafios.
           </p>
         </div>
-        <div className="w-10 flex flex-column">
-          <div>Twitter</div>
-          <div>Facebook</div>
-          <div>Instagram</div>
+        <div className="w-10 flex flex-column justify-around c-on-base">
+          <div className="mv3">
+            <FontAwesomeIcon icon={faTwitter} />
+          </div>
+          <div className="mv3">
+            <FontAwesomeIcon icon={faFacebook} />
+          </div>
+          <div className="mv3">
+            <FontAwesomeIcon icon={faInstagram} />
+          </div>
         </div>
       </div>
       <div className="flex items-center w-100 justify-around">
