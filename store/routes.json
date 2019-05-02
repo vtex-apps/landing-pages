@@ -10,7 +10,7 @@
     "path": "/store-features"
   },
   "codecup.landing": {
-    "path": "/code-cup",
+    "path": "/",
     "cname": "codecup.vtex.com"
   }
 }
