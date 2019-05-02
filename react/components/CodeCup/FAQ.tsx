@@ -6,7 +6,7 @@ import QuestionCard from './QuestionCard'
 import { questions } from './FAQData'
 
 const FAQ: FunctionComponent = () => (
-  <section className="pl9 pt7 pb8 flex flex-column items-center">
+  <section className="pt7 pb8 flex flex-column items-center">
     <div className="w-90 ml-auto">
       <h1 className="c-emphasis t-heading-1">regras e faq ::</h1>
       <p>
