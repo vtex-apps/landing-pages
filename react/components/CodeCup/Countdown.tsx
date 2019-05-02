@@ -22,13 +22,13 @@ const Countdown: FunctionComponent<{ deadline: Date }> = ({ deadline }) => {
     return Math.trunc((modifiedDate - now) / 60 / 60 / 24)
   }
 
-  setInterval(() => {
-    setNow(new Date().getTime() / 1000)
-    setDays(getDays())
-    setHours(getHours())
-    setMinutes(getMinutes())
-    setSeconds(getSeconds())
-  }, 1000)
+  // setInterval(() => {
+  //   setNow(new Date().getTime() / 1000)
+  //   setDays(getDays())
+  //   setHours(getHours())
+  //   setMinutes(getMinutes())
+  //   setSeconds(getSeconds())
+  // }, 1000)
 
   return (
     <div className="pa7 br3 bg-emphasis flex justify-around">
