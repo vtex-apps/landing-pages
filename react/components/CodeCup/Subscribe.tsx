@@ -3,13 +3,13 @@ import React, { FunctionComponent } from 'react'
 import Go from '../../images/imagem_go_@2x.jpg'
 
 const Subscribe: FunctionComponent = () => (
-  <section className="flex flex-column pa6">
+  <section className="flex flex-column pa6 vh-100">
     <div className="flex justify-around ml7">
       <p className="c-emphasis t-heading-1 w-50">
         Inscreva-se e desafie seus limites.
       </p>
       <div className="w-40">
-        <p className="t-heading-3">como funciona?</p>
+        <p className="t-heading-1">como funciona?</p>
         <p className="lh-copy">
           Inscreva-se para participar do Round 1 online, no período de Tuesday,
           May 3, 2019 at 19:00 GMT-3 and end on Friday, 10, 2019 at 19:00 GMT-3,
@@ -19,7 +19,7 @@ const Subscribe: FunctionComponent = () => (
         </p>
       </div>
     </div>
-    <img src={Go} />
+    <img src={Go} className="w-90 ml-auto" />
     <div className="flex flex-row-reverse">
       <p className="w-40 lh-copy z-5">
         Os primeiros 10 colocados no ranking geral do Round 1, serão convidados

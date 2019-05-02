@@ -4,13 +4,16 @@ import RioImage from '../../images/06_foto_time.jpg'
 
 const Rio: FunctionComponent = () => (
   <section
-    className="w-100 vh-100 flex"
-    style={{ backgroundImage: `url(${RioImage})` }}
+    className="w-100"
+    style={{
+      backgroundImage: `url(${RioImage})`,
+      backgroundRepeat: 'no-repeat',
+    }}
   >
     <div className="flex items-center pl9">
       <p
-        className="t-heading-1 c-on-base self-baseline"
-        style={{ fontSize: `23rem` }}
+        className="t-heading-1 mb3 pt5 c-on-base self-baseline"
+        style={{ fontSize: `20rem` }}
       >
         rio
       </p>

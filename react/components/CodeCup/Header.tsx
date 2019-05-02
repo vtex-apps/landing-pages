@@ -7,15 +7,33 @@ import ArrowsDown from '../../images/setas_down@2x.png'
 const Header: FunctionComponent = () => (
   <header className="flex w-100">
     <div
-      className="bg-white flex justify-around"
-      style={{ writingMode: 'vertical-lr' }}
+      className="bg-white flex justify-around pb9"
+      style={{
+        writingMode: 'vertical-lr',
+        transform: 'rotate(-180deg)',
+      }}
     >
-      <p>03 dias de competição </p>
-      <p>R$15.000 para o vencedor</p>
-      <p>Rio de Janeiro . Brasil</p>
+      <div className="ph5">
+        <p className="t-small c-muted-2">00 - 00 de maio de 2019</p>
+        <p className="t-small">
+          <strong>03 dias de competição</strong>
+        </p>
+      </div>
+      <div className="ph5">
+        <p className="t-small c-muted-2">+ título e comemoração</p>
+        <p className="t-small">
+          <strong>R$15.000 para o vencedor</strong>
+        </p>
+      </div>
+      <div className="ph5">
+        <p className="t-small c-muted-2">codecup@codecup.com.br</p>
+        <p className="t-small">
+          <strong>Rio de Janeiro . Brasil</strong>
+        </p>
+      </div>
     </div>
     <div
-      className="vh-100 flex flex-grow-1 pa9 flex-column justify-around c-muted-1"
+      className="flex flex-grow-1 pa9 flex-column justify-around c-muted-1"
       style={{
         backgroundImage: `url(${HeaderImage})`,
       }}
@@ -40,18 +58,40 @@ const Header: FunctionComponent = () => (
           </div>
         </div>
       </nav>
-      <div className="w-50">
-        <p className="t-heading-1">a maratona de programação da VTEX</p>
-        <p className="t-heading-3 normal">
-          a maratona de programação da VTEX para todos os aficionados por
-          códigos e desafios.
-        </p>
+      <div className="w-100 mv8 flex justify-between items-center flex-nowrap">
+        <div className="w-50">
+          <p className="t-heading-1">a maratona de programação da VTEX</p>
+          <p className="t-heading-3 normal">
+            a maratona de programação da VTEX para todos os aficionados por
+            códigos e desafios.
+          </p>
+        </div>
+        <div className="w-10 flex flex-column">
+          <div>Twitter</div>
+          <div>Facebook</div>
+          <div>Instagram</div>
+        </div>
       </div>
       <div className="flex items-center w-100 justify-around">
-        <p>00 A 00 DE MAIO . RIO DE JANEIRO . BRASIL</p>
-        <img src={ArrowsDown} />
-        <div className="pa5 br3 bg-emphasis">
-          <p> Countdown placeholder </p>
+        <p className="self-end">00 A 00 DE MAIO . RIO DE JANEIRO . BRASIL</p>
+        <img src={ArrowsDown} className="h3 self-end" />
+        <div className="pa7 br3 bg-emphasis flex justify-around">
+          <div className="mh5 flex flex-column justify-center items-center">
+            <p className="t-heading-2 mv2">250</p>
+            <p>dias</p>
+          </div>
+          <div className="mh5 flex flex-column justify-center items-center">
+            <p className="t-heading-2 mv2">20</p>
+            <p>horas</p>
+          </div>
+          <div className="mh5 flex flex-column justify-center items-center">
+            <p className="t-heading-2 mv2">17</p>
+            <p>minutos</p>
+          </div>
+          <div className="mh5 flex flex-column justify-center items-center">
+            <p className="t-heading-2 mv2">54</p>
+            <p>segundos</p>
+          </div>
         </div>
       </div>
     </div>
