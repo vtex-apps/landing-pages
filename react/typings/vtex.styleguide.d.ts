@@ -5,6 +5,7 @@ declare module 'vtex.styleguide' {
   export const PageBlock
   export const IconCaretDown
   export const IconCaretUp
+  export const IconCaretRight
   export const IconBars
   export const IconCheck
   export const IconDeny

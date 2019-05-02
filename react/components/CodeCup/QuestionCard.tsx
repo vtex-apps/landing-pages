@@ -1,5 +1,5 @@
 import React, { useState, FunctionComponent } from 'react'
-import { IconCaretDown } from 'vtex.styleguide'
+import { IconCaretDown, IconCaretRight } from 'vtex.styleguide'
 
 interface Props {
   question: string
@@ -15,9 +15,11 @@ const QuestionCard: FunctionComponent<Props> = ({ question, ans }) => {
         onClick={() => setOpen(!open)}
       >
         <strong>{question}</strong>
-        <IconCaretDown />
+        {open ? <IconCaretDown /> : <IconCaretRight />}
       </p>
-      <p hidden={!open}>{ans}</p>
+      <p hidden={!open} className="ph5">
+        {ans}
+      </p>
     </article>
   )
 }
