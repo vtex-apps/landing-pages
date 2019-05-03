@@ -18,17 +18,9 @@ const About: FunctionComponent = () => (
         </h1>
         <p className="lh-copy mv7">
           É a maratona de programação da VTEX para todos os aficionados por
-          códigos e desafios. Nessa maratona competidores de todo o Brasil podem
-          participar e testar suas habilidades.
-        </p>
-        <p className="lh-copy mv7">
-          A competição possui duas fases: a primeira online, onde os
-          competidores realizam uma série de contests e batalham pelas 10
-          primeiras posições no ranking geral para garantir sua vaga na final
-          presencial que acontecerá na sede da VTEX no Rio de Janeiro. O
-          primeiro colocado no ranking geral será o vencedor do VTEX Code Cup e
-          como prêmio vai assistir a final mundial do ICPC, na Rússia em 2020,
-          com a delegação oficial do Brasil.
+          programação e desafios. Nessa maratona, competidores de todo o Brasil
+          podem participar e testar suas habilidades. Ela acontece em duas
+          etapas, online e presencial e a final será no Rio de Janeiro!
         </p>
         <img src={Logo} className="w-40-l w-60 mv7" />
       </div>
