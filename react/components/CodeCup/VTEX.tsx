@@ -5,7 +5,7 @@ import MapImage from '../../images/01_mapa.png'
 
 const VTEX: FunctionComponent = () => (
   <section className="bg-base--inverted">
-    <div className="flex flex-column flex-row-l pv9 justify-center items-center w-90 ml-auto-l center">
+    <div className="flex flex-column flex-row-l pv9 justify-center items-center w-90 ml-auto-l mr0-l center">
       <div className="flex flex-column w-60-l">
         <img src={Logo} className="w-60 mb5" />
         <p className="t-body lh-copy">

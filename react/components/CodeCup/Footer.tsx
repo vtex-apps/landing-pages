@@ -12,7 +12,7 @@ const Footer: FunctionComponent = () => (
   <footer className="flex flex-column flex-row-l justify-around pa8">
     <div className="flex flex-column w-25-l justify-around">
       <img src={Logo} className="w-70-l" />
-      <div className="flex justify-around mv7 mb0-l c-on-base">
+      <div className="flex justify-between mb7 mt9 mb0-l c-on-base">
         <div>
           <a className="link c-on-base" href="https://twitter.com/vtexonline">
             <FontAwesomeIcon icon={faTwitter} />
@@ -47,7 +47,10 @@ const Footer: FunctionComponent = () => (
         </p>
         <p className="ttu">
           <strong>
-            <a className="link c-on-base" href="https://vtex.com">
+            <a
+              className="link c-on-base"
+              href="https://drive.google.com/file/d/1OLKAaJV2Caw-g8VWg357U2p06uDu94Hi/view"
+            >
               termos e condições
             </a>
           </strong>

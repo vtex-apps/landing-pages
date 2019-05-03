@@ -3,8 +3,8 @@ import React, { FunctionComponent } from 'react'
 import Go from '../../images/imagem_go_@2x.png'
 
 const Subscribe: FunctionComponent = () => (
-  <section className="flex flex-column pa6 vh-100-l">
-    <div className="flex flex-row-l flex-column justify-around-l items-center w-90 ml-auto-l center">
+  <section className="flex flex-column pa6">
+    <div className="flex flex-row-l flex-column justify-around-l items-center w-90 ml-auto-l mr0-l center">
       <p className="c-emphasis t-heading-1 w-50-l">
         Inscreva-se e desafie seus limites.
       </p>
