@@ -9,7 +9,7 @@ import CarouselImage5 from '../../images/02_foto_rio.jpg'
 
 const Rio: FunctionComponent = () => (
   <section>
-    <Carousel autoplay wrapAround withoutControls heightMode="first">
+    <Carousel autoplay wrapAround heightMode="first">
       <img src={CarouselImage1} />
       <img src={CarouselImage2} />
       <img src={CarouselImage3} />
