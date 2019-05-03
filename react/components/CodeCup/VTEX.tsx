@@ -5,9 +5,9 @@ import MapImage from '../../images/01_mapa.png'
 
 const VTEX: FunctionComponent = () => (
   <section className="bg-base--inverted">
-    <div className="flex pv9 justify-center items-center w-90 ml-auto">
-      <div className="flex flex-column w-60">
-        <img src={Logo} className="w-60" />
+    <div className="flex flex-column flex-row-l pv9 justify-center items-center w-90 ml-auto-l center">
+      <div className="flex flex-column w-60-l">
+        <img src={Logo} className="w-60 mb5" />
         <p className="t-body lh-copy">
           A VTEX é uma empresa global de tecnologia focada em produtos para
           e-commerce que impacta diariamente o trabalho de milhares de pessoas
@@ -17,8 +17,8 @@ const VTEX: FunctionComponent = () => (
         </p>
       </div>
       <div className="flex flex-column justify-between items-center">
-        <img src={MapImage} className="w-75" />
-        <button className="br-pill w-40 center mt6 mb3 bg-emphasis c-on-base ph9 b--none z-5">
+        <img src={MapImage} className="w-75-l" />
+        <button className="br-pill w-40-l center mt6 mb3 bg-emphasis c-on-base ph9 b--none z-5">
           <p className="t-heading-4">quero participar</p>
         </button>
       </div>

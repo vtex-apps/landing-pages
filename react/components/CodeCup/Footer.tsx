@@ -9,10 +9,10 @@ import {
 import Logo from '../../images/logo_codecup_03@2x.png'
 
 const Footer: FunctionComponent = () => (
-  <footer className="flex justify-around pa8">
-    <div className="flex flex-column w-25 justify-around">
-      <img src={Logo} className="w-70" />
-      <div className="flex justify-around mt7 c-on-base">
+  <footer className="flex flex-column flex-row-l justify-around pa8">
+    <div className="flex flex-column w-25-l justify-around">
+      <img src={Logo} className="w-70-l" />
+      <div className="flex justify-around mv7 mb0-l c-on-base">
         <div>
           <FontAwesomeIcon icon={faTwitter} />
         </div>
@@ -24,13 +24,13 @@ const Footer: FunctionComponent = () => (
         </div>
       </div>
     </div>
-    <div className="flex flex-column justify-around w-40 c-on-base">
-      <ul className="flex list justify-between">
-        <li className="ttu">vtex.com</li>
-        <li className="ttu">termos e condições</li>
-        <li className="ttu">careers</li>
-        <li className="ttu">contact us</li>
-      </ul>
+    <div className="flex flex-column justify-around w-40-l c-on-base">
+      <div className="flex-l list justify-between">
+        <p className="ttu">vtex.com</p>
+        <p className="ttu">termos e condições</p>
+        <p className="ttu">careers</p>
+        <p className="ttu">contact us</p>
+      </div>
       <p>
         VTEX - The True Cloud Commerce ™ Platform. We manage billions of
         sessions with an estimated GMV of over $2 billion across 2.000 stores

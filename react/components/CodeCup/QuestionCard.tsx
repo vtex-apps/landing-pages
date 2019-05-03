@@ -9,7 +9,7 @@ interface Props {
 const QuestionCard: FunctionComponent<Props> = ({ question, ans }) => {
   const [open, setOpen] = useState(false)
   return (
-    <article className="flex flex-column pr9 w-100">
+    <article className="flex flex-column pr9-l w-100">
       <p
         className="flex justify-between bb b--muted-3 pv3"
         onClick={() => setOpen(!open)}

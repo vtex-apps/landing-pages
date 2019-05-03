@@ -31,7 +31,7 @@ const Countdown: FunctionComponent<{ deadline: Date }> = ({ deadline }) => {
   // }, 1000)
 
   return (
-    <div className="pa7 br3 bg-emphasis flex justify-around">
+    <div className="pa7-l pa5 br3 bg-emphasis flex justify-around">
       <div className="mh5 flex flex-column justify-center items-center">
         <p className="t-heading-2 mv2">{days}</p>
         <p>dias</p>

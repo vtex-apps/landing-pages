@@ -3,12 +3,12 @@ import React, { FunctionComponent } from 'react'
 import Go from '../../images/imagem_go_@2x.jpg'
 
 const Subscribe: FunctionComponent = () => (
-  <section className="flex flex-column pa6 vh-100">
-    <div className="flex justify-around w-90 ml-auto">
-      <p className="c-emphasis t-heading-1 w-50">
+  <section className="flex flex-column pa6 vh-100-l">
+    <div className="flex flex-row-l flex-column justify-around-l items-center w-90 ml-auto-l center">
+      <p className="c-emphasis t-heading-1 w-50-l">
         Inscreva-se e desafie seus limites.
       </p>
-      <div className="w-40">
+      <div className="w-40-l">
         <p className="t-heading-1">como funciona?</p>
         <p className="lh-copy">
           Inscreva-se para participar do Round 1 online, no período de Tuesday,
@@ -19,9 +19,9 @@ const Subscribe: FunctionComponent = () => (
         </p>
       </div>
     </div>
-    <img src={Go} className="w-90 ml-auto" />
-    <div className="flex flex-row-reverse">
-      <p className="w-40 lh-copy z-5">
+    <img src={Go} className="w-90 ml-auto-l" />
+    <div className="flex flex-row-reverse-l w-90 ml-auto-l center">
+      <p className="w-40-l lh-copy z-5-l">
         Os primeiros 10 colocados no ranking geral do Round 1, serão convidados
         para o Round 2, etapa presencial, que acontecerá no dia 22 de junho de
         2019, na sede da VTEX, no Rio de Janeiro. Nessa etapa os competidores

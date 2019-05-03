@@ -4,15 +4,15 @@ import TrophyIcon from '../../images/icone_trofeu@2x.png'
 import Logo from '../../images/logo_codecup_02@2x.png'
 
 const About: FunctionComponent = () => (
-  <section className="bg-white flex w-100 pv9">
+  <section className="bg-white flex w-90 w-100-l center pv9">
     <div
-      className="flex justify-center"
+      className="flex-l justify-center dn"
       style={{ writingMode: 'vertical-lr', transform: 'rotate(-180deg)' }}
     >
       <p className="ph5">V T E X :: C O D E C U P</p>
     </div>
-    <div className="flex ml8 justify-around flex-grow-1">
-      <div className="w-40 pt6">
+    <div className="flex flex-column flex-row-l ml8-l justify-around flex-grow-1">
+      <div className="w-40-l pt6">
         <h1 className="t-heading-1" style={{ fontSize: '5rem' }}>
           o que é?
         </h1>
@@ -29,9 +29,9 @@ const About: FunctionComponent = () => (
           prêmio final de R$15.000 + o título de vencedor, muitas fotos,
           aplausos e reconhecimentos.
         </p>
-        <img src={Logo} className="w-40 mv7" />
+        <img src={Logo} className="w-40-l w-60 mv7" />
       </div>
-      <div className="bg-emphasis w-40 br3 pv7 ph3 flex flex-column items-center justify-around">
+      <div className="bg-emphasis w-40-l br3 pv7 ph3 flex flex-column items-center justify-around">
         <p className="t-heading-1 c-on-muted-1 w-75 center">
           prêmio final de R$15.000 + o título.
         </p>
