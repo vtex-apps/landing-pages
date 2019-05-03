@@ -65,17 +65,17 @@ const Header: FunctionComponent = () => {
               <div className="flex flex-column flex-row-l justify-center list mt0 items-center mb0">
                 <p className="mh5-l mv5 mv0-l">
                   <a className="link c-muted-1" href="#">
-                    HOME
+                    <strong>HOME</strong>
                   </a>
                 </p>
                 <p className="mh5-l mv5 mv0-l bold">
                   <a className="link c-muted-1" href="#about">
-                    O QUE É?
+                    <strong>O QUE É?</strong>
                   </a>
                 </p>
                 <p className="mh5-l mv5 mv0-l bold">
                   <a className="link c-muted-1" href="#faq">
-                    FAQ
+                    <strong>FAQ</strong>
                   </a>
                 </p>
                 <p className="mh5-l mv5 mv0-l bold">
@@ -83,7 +83,7 @@ const Header: FunctionComponent = () => {
                     className="link c-muted-1"
                     href="https://drive.google.com/file/d/1OLKAaJV2Caw-g8VWg357U2p06uDu94Hi/view"
                   >
-                    REGRAS
+                    <strong>REGRAS</strong>
                   </a>
                 </p>
               </div>
