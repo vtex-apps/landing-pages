@@ -1,6 +1,6 @@
 import React, { FunctionComponent } from 'react'
 
-import Go from '../../images/imagem_go_@2x.jpg'
+import Go from '../../images/imagem_go_@2x.png'
 
 const Subscribe: FunctionComponent = () => (
   <section className="flex flex-column pa6 vh-100-l">
@@ -18,7 +18,7 @@ const Subscribe: FunctionComponent = () => (
         </p>
       </div>
     </div>
-    <img src={Go} className="w-90 ml-auto-l" />
+    <img src={Go} className="w-90 ml-auto-l mv4" />
     <div className="flex flex-column flex-row-l justify-end-l items-start-l items-end w-90 ml-auto-l center">
       <p className="w-40-l mh5-l lh-copy z-5-l">
         Os primeiros 10 colocados no ranking geral da primeira fase, serão
