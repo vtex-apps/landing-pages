@@ -9,7 +9,6 @@ import Subscribe from './components/CodeCup/Subscribe'
 import VTEX from './components/CodeCup/VTEX'
 import FAQ from './components/CodeCup/FAQ'
 import Footer from './components/CodeCup/Footer'
-import Form from './components/CodeCup/Form'
 
 class Landing extends Component {
   render() {
@@ -28,7 +27,6 @@ class Landing extends Component {
           <Subscribe />
           <VTEX />
           <FAQ />
-          <Form />
         </main>
         <Footer />
       </Fragment>
