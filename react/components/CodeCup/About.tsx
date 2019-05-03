@@ -22,7 +22,10 @@ const About: FunctionComponent = () => (
           podem participar e testar suas habilidades. Ela acontece em duas
           etapas, online e presencial e a final será no Rio de Janeiro!
         </p>
-        <img src={Logo} className="w-40-l w-60 mv7" />
+        <img src={Logo} className="w-50-l w-60 mt7 mb8" />
+        <p className="c-emphasis t-heading-1">
+          Inscreva-se e desafie seus limites.
+        </p>
       </div>
       <div className="bg-emphasis w-40-l br3 pv7 ph3 flex flex-column items-center justify-around">
         <p className="t-heading-1 c-on-muted-1 w-75 center">

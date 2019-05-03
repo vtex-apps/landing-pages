@@ -7,7 +7,7 @@ import { questions } from './FAQData'
 
 const FAQ: FunctionComponent = () => (
   <section id="faq" className="pt7 pb8 flex flex-column items-center">
-    <div className="w-90 ml-auto-l center">
+    <div className="w-90 ml-auto-l mr0-l center">
       <h1 className="c-emphasis t-heading-1">regras e faq ::</h1>
       <p className="w-90">
         Para saber mais sobre o VTEX Code Cup, confira as{' '}

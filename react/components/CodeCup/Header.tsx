@@ -94,8 +94,8 @@ const Header: FunctionComponent = () => {
           <div className="w-50-l">
             <p className="t-heading-1">a maratona de programação da VTEX</p>
             <p className="t-heading-3 normal">
-              a maratona de programação da VTEX para todos os aficionados por
-              códigos e desafios.
+              Convidamos todos os aficionados por código para competirem e
+              superarem seus limites
             </p>
           </div>
           <div className="w-10 dn flex-l flex-column justify-around c-on-base">
