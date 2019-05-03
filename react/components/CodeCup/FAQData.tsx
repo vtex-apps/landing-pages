@@ -4,12 +4,40 @@ export const questions = [
   {
     question: 'O que é a VTEX Code Cup?',
     ans:
-      'É o desafio de programação da VTEX para brasileiros, onde competidores usam algoritmos para resolver o maior número de problemas no menor tempo possível. Os participantes serão selecionados em uma fase online, na qual os melhores serão convidados para uma competir presencialmente no escritório da VTEX no Rio de Janeiro.',
+      'É o desafio de programação da VTEX para brasileiros, onde competidores usam algoritmos para resolver o maior número de problemas no menor tempo possível. Os participantes serão selecionados em uma fase online, de onde só os melhores serão convidados para uma competir presencialmente no escritório da VTEX.',
   },
   {
     question: 'Como a VTEX Code Cup funciona?',
-    ans:
-      'A competição possui por duas fases: Primeira Fase (online) e a Segunda Fase (final presencial). A Final presencial receberá os 10 melhores competidores da Primeira Fase, no escritório da VTEX, no Rio de Janeiro.',
+    ans: (
+      <Fragment>
+        <p>
+          Inscreva-se até as 21h do dia 10 maio de 2019 para participar da
+          primeira fase da VTEX Code Cup.
+        </p>
+        <p>
+          Essa etapa acontecerá online no dia 11 de maio de 2019 as 13h (horário
+          de Brasília) e terá duração de 3h30 horas.
+        </p>
+        <p>
+          Assim que se encerrarem as inscrições os competidores receberão um
+          e-mail de confirmação, com o link para acessar a plataforma da
+          competição.
+        </p>
+        <p>
+          Os primeiros 10 colocados na primeira fase serão convidados para a
+          fase presencial. Ela acontecerá na tarde do dia 08 de junho de 2019 na
+          sede da VTEX no Rio de Janeiro.
+        </p>
+        <p>
+          Os finalistas competirão pela gloria eterna e pelo título de campeão
+          da primeira VTEX Code Cup.
+        </p>
+        <p>
+          O campeão receberá uma viagem para acompanhar a final da ACM ICPC
+          2020, na Rússia.
+        </p>
+      </Fragment>
+    ),
   },
   {
     question: 'Quem pode participar do VTEX Code Cup?',

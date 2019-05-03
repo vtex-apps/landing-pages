@@ -29,8 +29,7 @@ const About: FunctionComponent = () => (
       </div>
       <div className="bg-emphasis w-40-l br3 pv7 ph3 flex flex-column items-center justify-around">
         <p className="t-heading-1 c-on-muted-1 w-75 center">
-          Viagem à Rússia para acompanhar a final ACM-ICPC em 2020 + o título de
-          campeão
+          Prêmio final: viagem à Rússia para acompanhar a final da ICPC
         </p>
         <img src={TrophyIcon} className="w-40 center mv6" />
         <a className="link" href="https://codecup.typeform.com/to/yO8hNP">
