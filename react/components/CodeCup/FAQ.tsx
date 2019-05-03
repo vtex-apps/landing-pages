@@ -25,8 +25,12 @@ const FAQ: FunctionComponent = () => (
         ))}
       </div>
     </div>
-    <div className="flex items-center mt4">
-      <img src={UpArrow} className="w-30" />
+    <div className="flex items-center mt7">
+      <img
+        src={UpArrow}
+        className="w-30"
+        style={{ animation: 'bounce 3s infinite' }}
+      />
     </div>
   </section>
 )

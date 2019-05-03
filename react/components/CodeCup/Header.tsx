@@ -127,7 +127,11 @@ const Header: FunctionComponent = () => {
         </div>
         <div className="flex flex-row-l flex-column items-center w-100 justify-around">
           <p className="self-end">03 A 10 DE MAIO . INSCRIÇÕES . BRASIL</p>
-          <img src={ArrowsDown} className="h3 self-end-l" />
+          <img
+            src={ArrowsDown}
+            className="h3 self-end-l"
+            style={{ animation: 'bounce 3s infinite' }}
+          />
           <div className="mt6">
             <Countdown date="May, 3, 2019, 19:00:00" />
           </div>
