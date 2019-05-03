@@ -26,10 +26,18 @@ const Footer: FunctionComponent = () => (
     </div>
     <div className="flex flex-column justify-around w-40-l c-on-base">
       <div className="flex-l list justify-between">
-        <p className="ttu">vtex.com</p>
-        <p className="ttu">termos e condições</p>
-        <p className="ttu">careers</p>
-        <p className="ttu">contact us</p>
+        <p className="ttu">
+          <strong>vtex.com</strong>
+        </p>
+        <p className="ttu">
+          <strong>termos e condições</strong>
+        </p>
+        <p className="ttu">
+          <strong>careers</strong>
+        </p>
+        <p className="ttu">
+          <strong>contact us</strong>
+        </p>
       </div>
       <p>
         VTEX - The True Cloud Commerce ™ Platform. We manage billions of

@@ -1,10 +1,10 @@
-import React, { FunctionComponent, Fragment } from 'react'
+import React, { FunctionComponent } from 'react'
 
 import RioImage from '../../images/06_foto_time.jpg'
 
 const Rio: FunctionComponent = () => (
   <section
-    className="flex-l vh-75 bg-left"
+    className="flex-l bg-left"
     style={{
       backgroundImage: `url(${RioImage})`,
       backgroundRepeat: 'no-repeat',

@@ -70,7 +70,7 @@ const Header: FunctionComponent = () => {
                 </p>
                 <p className="mh5-l mv5 mv0-l bold">
                   <a className="link c-muted-1" href="#">
-                    O QUE É
+                    O QUE É?
                   </a>
                 </p>
                 <p className="mh5-l mv5 mv0-l bold">
@@ -108,7 +108,7 @@ const Header: FunctionComponent = () => {
           </div>
         </div>
         <div className="flex flex-row-l flex-column items-center w-100 justify-around">
-          <p className="self-end">00 A 00 DE MAIO . RIO DE JANEIRO . BRASIL</p>
+          <p className="self-end">03 A 10 DE MAIO . INSCRIÇÕES . BRASIL</p>
           <img src={ArrowsDown} className="h3 self-end-l" />
           <div className="mt6">
             <Countdown date="May, 3, 2019, 19:00:00" />

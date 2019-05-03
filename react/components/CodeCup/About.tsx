@@ -25,9 +25,10 @@ const About: FunctionComponent = () => (
           A competição possui duas fases: a primeira online, onde os
           competidores realizam uma série de contests e batalham pelas 10
           primeiras posições no ranking geral para garantir sua vaga na final
-          presencial que acontecerá na sede da VTEX no Rio de Janeiro e um
-          prêmio final de R$15.000 + o título de vencedor, muitas fotos,
-          aplausos e reconhecimentos.
+          presencial que acontecerá na sede da VTEX no Rio de Janeiro. O
+          primeiro colocado no ranking geral será o vencedor do VTEX Code Cup e
+          como prêmio vai assistir a final mundial do ICPC, na Rússia em 2020,
+          com a delegação oficial do Brasil.
         </p>
         <img src={Logo} className="w-40-l w-60 mv7" />
       </div>

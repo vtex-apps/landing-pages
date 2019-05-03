@@ -11,11 +11,11 @@ const Subscribe: FunctionComponent = () => (
       <div className="w-40-l">
         <p className="t-heading-1">como funciona?</p>
         <p className="lh-copy">
-          Inscreva-se para participar do Round 1 online, no período de Tuesday,
-          May 3, 2019 at 19:00 GMT-3 and end on Friday, 10, 2019 at 19:00 GMT-3,
-          essa etapa dura no máximo 4 horas e vai acontecer no dia 11 de maio de
-          2019 às 13horas. Você receberá no seu email de cadastro o link para
-          acessar a arena de competição.
+          Inscreva-se para participar do Round 1 online, no período de
+          terça-feira, 3 de maio de 2019 às 19:00 and end on Friday, 10, 2019 at
+          19:00 GMT-3, essa etapa dura no máximo 4 horas e vai acontecer no dia
+          11 de maio de 2019 às 13horas. Você receberá no seu email de cadastro
+          o link para acessar a arena de competição.
         </p>
       </div>
     </div>
