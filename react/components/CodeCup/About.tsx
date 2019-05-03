@@ -26,7 +26,8 @@ const About: FunctionComponent = () => (
       </div>
       <div className="bg-emphasis w-40-l br3 pv7 ph3 flex flex-column items-center justify-around">
         <p className="t-heading-1 c-on-muted-1 w-75 center">
-          prêmio final de R$15.000 + o título.
+          Assistir a final mundial do ICPC na Rússia com a delegação brasileira
+          em 2020 + o título.
         </p>
         <img src={TrophyIcon} className="w-40 center mv6" />
         <a className="link" href="https://codecup.typeform.com/to/yO8hNP">
