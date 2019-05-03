@@ -9,9 +9,9 @@ const Subscribe: FunctionComponent = () => (
         <p className="t-heading-1">como funciona?</p>
         <p className="lh-copy">
           Inscreva-se, no período de{' '}
-          <strong>03 de maio de 2019 a 10 de maio de 2019</strong>, até as 19h,
-          para participar da primeira fase (online) da VTEX Code Cup. Essa etapa
-          vai acontecer no dia{' '}
+          <strong>03 de maio de 2019 a 10 de maio de 2019</strong>, até as 21h
+          (horário de brasília), para participar da primeira fase (online) da
+          VTEX Code Cup. Essa etapa vai acontecer no dia{' '}
           <strong>11 de maio de 2019, as 13h (horário de Brasília)</strong> e
           terá duração de <strong>3h30min</strong>.
         </p>

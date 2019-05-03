@@ -17,7 +17,7 @@ const QuestionCard: FunctionComponent<Props> = ({ question, ans }) => {
         <strong>{question}</strong>
         {open ? <IconCaretDown /> : <IconCaretRight />}
       </p>
-      <p hidden={!open} className="ph5">
+      <p hidden={!open} className="ph5 lh-copy">
         {ans}
       </p>
     </article>

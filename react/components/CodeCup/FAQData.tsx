@@ -52,7 +52,7 @@ export const questions = [
     ans: (
       <Fragment>
         Clique em <strong>"quero participar"</strong> aqui nessa página,
-        preencha seus dados e envie. Até o dia 10 de maio de 2019, as 23h você
+        preencha seus dados e envie. Até o dia 10 de maio de 2019, as 21h você
         receberá no seu email cadastrado o link para acesso à arena da
         competição.
       </Fragment>
