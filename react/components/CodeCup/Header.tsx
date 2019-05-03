@@ -25,19 +25,19 @@ const Header: FunctionComponent = () => {
         }}
       >
         <div className="ph5">
-          <p className="t-small c-muted-2">00 - 00 de maio de 2019</p>
+          <p className="t-small c-muted-2">03 - 10 de maio de 2019</p>
           <p className="t-small">
-            <strong>03 dias de competição</strong>
+            <strong>Inscrições Online</strong>
           </p>
         </div>
         <div className="ph5">
-          <p className="t-small c-muted-2">+ título e comemoração</p>
+          <p className="t-small c-muted-2">08 de junho de 2019</p>
           <p className="t-small">
-            <strong>R$15.000 para o vencedor</strong>
+            <strong>Final presencial</strong>
           </p>
         </div>
         <div className="ph5">
-          <p className="t-small c-muted-2">codecup@codecup.com.br</p>
+          <p className="t-small c-muted-2">codecup@vtex.com</p>
           <p className="t-small">
             <strong>Rio de Janeiro . Brasil</strong>
           </p>
@@ -69,17 +69,20 @@ const Header: FunctionComponent = () => {
                   </a>
                 </p>
                 <p className="mh5-l mv5 mv0-l bold">
-                  <a className="link c-muted-1" href="#">
+                  <a className="link c-muted-1" href="#about">
                     O QUE É?
                   </a>
                 </p>
                 <p className="mh5-l mv5 mv0-l bold">
-                  <a className="link c-muted-1" href="#">
+                  <a className="link c-muted-1" href="#faq">
                     FAQ
                   </a>
                 </p>
                 <p className="mh5-l mv5 mv0-l bold">
-                  <a className="link c-muted-1" href="#">
+                  <a
+                    className="link c-muted-1"
+                    href="https://drive.google.com/file/d/1OLKAaJV2Caw-g8VWg357U2p06uDu94Hi/view"
+                  >
                     REGRAS
                   </a>
                 </p>
@@ -97,13 +100,28 @@ const Header: FunctionComponent = () => {
           </div>
           <div className="w-10 dn flex-l flex-column justify-around c-on-base">
             <div className="mv3">
-              <FontAwesomeIcon icon={faTwitter} />
+              <a
+                className="link c-on-base"
+                href="https://twitter.com/vtexonline"
+              >
+                <FontAwesomeIcon icon={faTwitter} />
+              </a>
             </div>
             <div className="mv3">
-              <FontAwesomeIcon icon={faFacebook} />
+              <a
+                className="link c-on-base"
+                href="https://www.facebook.com/vtexonline/"
+              >
+                <FontAwesomeIcon icon={faFacebook} />
+              </a>
             </div>
             <div className="mv3">
-              <FontAwesomeIcon icon={faInstagram} />
+              <a
+                className="link c-on-base"
+                href="https://www.instagram.com/vtextruecloud/"
+              >
+                <FontAwesomeIcon icon={faInstagram} />
+              </a>
             </div>
           </div>
         </div>

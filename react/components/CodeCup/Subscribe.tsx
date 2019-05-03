@@ -11,23 +11,25 @@ const Subscribe: FunctionComponent = () => (
       <div className="w-40-l">
         <p className="t-heading-1">como funciona?</p>
         <p className="lh-copy">
-          Inscreva-se para participar do Round 1 online, no período de
-          terça-feira, 3 de maio de 2019 às 19:00 and end on Friday, 10, 2019 at
-          19:00 GMT-3, essa etapa dura no máximo 4 horas e vai acontecer no dia
-          11 de maio de 2019 às 13horas. Você receberá no seu email de cadastro
-          o link para acessar a arena de competição.
+          Inscreva-se, no período de 03 de maio de 2019 a 10 de maio de 2019,
+          até às 19h, para participar da primeira fase (online) da VTEX Code
+          Cup. Essa etapa vai acontecer no dia 11 de maio de 2019, às 13h
+          (horário de Brasília) e terá duração máxima de 4 horas.
         </p>
       </div>
     </div>
     <img src={Go} className="w-90 ml-auto-l" />
-    <div className="flex flex-row-reverse-l w-90 ml-auto-l center">
-      <p className="w-40-l lh-copy z-5-l">
-        Os primeiros 10 colocados no ranking geral do Round 1, serão convidados
-        para o Round 2, etapa presencial, que acontecerá no dia 22 de junho de
-        2019, na sede da VTEX, no Rio de Janeiro. Nessa etapa os competidores
-        serão submetidos a novos contest e durará 5 horas. O primeiro colocado
-        no ranking geral será o vencedor do VTEX Code Cup receberá o título e
-        R$15.000
+    <div className="flex flex-column flex-row-l justify-end-l items-start-l items-end w-90 ml-auto-l center">
+      <p className="w-40-l mh5-l lh-copy z-5-l">
+        Os primeiros 10 colocados no ranking geral da primeira fase, serão
+        convidados para a segunda fase (presencial) que acontecerá no dia 08 de
+        junho de 2019, na sede da VTEX, no Rio de Janeiro. Nessa etapa, os
+        competidores serão submetidos a novos contest e terá duração de 5 horas.
+      </p>
+      <p className="w-40-l mh5-l lh-copy z-5-l">
+        O primeiro colocado no ranking geral será o vencedor do VTEX Code Cup e
+        como prêmio vai assistir a final mundial do ICPC, na Rússia em 2020, com
+        a delegação oficial do Brasil.
       </p>
     </div>
   </section>

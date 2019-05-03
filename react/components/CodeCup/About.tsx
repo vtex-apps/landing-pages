@@ -4,7 +4,7 @@ import TrophyIcon from '../../images/icone_trofeu@2x.png'
 import Logo from '../../images/logo_codecup_02@2x.png'
 
 const About: FunctionComponent = () => (
-  <section className="bg-white flex w-90 w-100-l center pv9">
+  <section id="about" className="bg-white flex w-90 w-100-l center pv9">
     <div
       className="flex-l justify-center dn"
       style={{ writingMode: 'vertical-lr', transform: 'rotate(-180deg)' }}
@@ -37,9 +37,11 @@ const About: FunctionComponent = () => (
           prêmio final de R$15.000 + o título.
         </p>
         <img src={TrophyIcon} className="w-40 center mv6" />
-        <button className="br-pill mt6 mb3 bg-base c-on-base ph9 b--none">
-          <p className="t-heading-4">quero participar</p>
-        </button>
+        <a className="link" href="https://codecup.typeform.com/to/yO8hNP">
+          <button className="c-on-base br-pill mt6 mb3 bg-base ph9 b--none pointer">
+            <p className="t-heading-4">quero participar</p>
+          </button>
+        </a>
       </div>
     </div>
   </section>

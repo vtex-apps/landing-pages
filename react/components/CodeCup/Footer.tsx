@@ -14,29 +14,55 @@ const Footer: FunctionComponent = () => (
       <img src={Logo} className="w-70-l" />
       <div className="flex justify-around mv7 mb0-l c-on-base">
         <div>
-          <FontAwesomeIcon icon={faTwitter} />
+          <a className="link c-on-base" href="https://twitter.com/vtexonline">
+            <FontAwesomeIcon icon={faTwitter} />
+          </a>
         </div>
         <div>
-          <FontAwesomeIcon icon={faFacebook} />
+          <a
+            className="link c-on-base"
+            href="https://www.facebook.com/vtexonline/"
+          >
+            <FontAwesomeIcon icon={faFacebook} />
+          </a>
         </div>
         <div>
-          <FontAwesomeIcon icon={faInstagram} />
+          <a
+            className="link c-on-base"
+            href="https://www.instagram.com/vtextruecloud/"
+          >
+            <FontAwesomeIcon icon={faInstagram} />
+          </a>
         </div>
       </div>
     </div>
     <div className="flex flex-column justify-around w-40-l c-on-base">
       <div className="flex-l list justify-between">
         <p className="ttu">
-          <strong>vtex.com</strong>
+          <strong>
+            <a className="link c-on-base" href="https://vtex.com">
+              vtex.com
+            </a>
+          </strong>
         </p>
         <p className="ttu">
-          <strong>termos e condições</strong>
+          <strong>
+            <a className="link c-on-base" href="https://vtex.com">
+              termos e condições
+            </a>
+          </strong>
         </p>
         <p className="ttu">
-          <strong>careers</strong>
+          <strong>
+            <a className="link c-on-base" href="https://careers.vtex.com">
+              careers
+            </a>
+          </strong>
         </p>
         <p className="ttu">
-          <strong>contact us</strong>
+          <strong>
+            <a className="link c-on-base">contact us</a>
+          </strong>
         </p>
       </div>
       <p>

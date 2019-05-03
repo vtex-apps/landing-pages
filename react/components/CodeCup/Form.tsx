@@ -22,7 +22,12 @@ class Form extends React.Component {
     }
   }
   render() {
-    return <div ref={el => (this.el = el)} className="w-100 vh-75" />
+    return (
+      <section id="form" className="pv7 w-90 ml-auto-l center">
+        <h1 className="c-emphasis">Inscrição</h1>
+        <div ref={el => (this.el = el)} className="w-100 vh-50-l vh-25" />
+      </section>
+    )
   }
 }
 

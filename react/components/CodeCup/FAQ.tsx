@@ -6,12 +6,18 @@ import QuestionCard from './QuestionCard'
 import { questions } from './FAQData'
 
 const FAQ: FunctionComponent = () => (
-  <section className="pt7 pb8 flex flex-column items-center">
+  <section id="faq" className="pt7 pb8 flex flex-column items-center">
     <div className="w-90 ml-auto-l center">
       <h1 className="c-emphasis t-heading-1">regras e faq ::</h1>
       <p className="w-90">
-        Para saber mais sobre o VTEX Code Cup, confira as regras da competição e
-        as dúvidas frequentes antes de iniciar sua inscrição.
+        Para saber mais sobre o VTEX Code Cup, confira as{' '}
+        <a
+          className="link"
+          href="https://drive.google.com/file/d/1OLKAaJV2Caw-g8VWg357U2p06uDu94Hi/view"
+        >
+          Regras da Competição
+        </a>{' '}
+        e as dúvidas frequentes antes de iniciar sua inscrição.
       </p>
       <div className="flex flex-column items-center">
         {questions.map(q => (
