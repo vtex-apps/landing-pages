@@ -139,22 +139,22 @@ const Header: FunctionComponent = () => {
       </div>
       <div className="bg-white flex flex-column dn-l justify-around">
         <div className="ph5">
-          <p className="t-small c-muted-2">00 - 00 de maio de 2019</p>
           <p className="t-small">
-            <strong>03 dias de competição</strong>
+            <strong>Inscrições Online</strong>
           </p>
+          <p className="t-small c-muted-2">03 - 10 de maio de 2019</p>
         </div>
         <div className="ph5">
-          <p className="t-small c-muted-2">+ título e comemoração</p>
           <p className="t-small">
-            <strong>R$15.000 para o vencedor</strong>
+            <strong>Final presencial</strong>
           </p>
+          <p className="t-small c-muted-2">08 de junho de 2019</p>
         </div>
         <div className="ph5">
-          <p className="t-small c-muted-2">codecup@codecup.com.br</p>
           <p className="t-small">
             <strong>Rio de Janeiro . Brasil</strong>
           </p>
+          <p className="t-small c-muted-2">codecup@vtex.com</p>
         </div>
       </div>
     </header>
