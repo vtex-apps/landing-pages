@@ -111,7 +111,7 @@ const Header: FunctionComponent = () => {
           <p className="self-end">00 A 00 DE MAIO . RIO DE JANEIRO . BRASIL</p>
           <img src={ArrowsDown} className="h3 self-end-l" />
           <div className="mt6">
-            <Countdown deadline={new Date('May, 3, 2019, 19:00:00')} />
+            <Countdown date="May, 3, 2019, 19:00:00" />
           </div>
         </div>
       </div>

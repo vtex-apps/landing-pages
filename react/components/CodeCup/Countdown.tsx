@@ -1,55 +1,115 @@
-import React, { FunctionComponent, useState, useEffect, useRef } from 'react'
+import React, { Component } from 'react'
 
-const Countdown: FunctionComponent<{ deadline: Date }> = ({ deadline }) => {
-  const [now, setNow] = useState(Date.now())
-  const [seconds, setSeconds] = useState(0)
-  const [minutes, setMinutes] = useState(0)
-  const [hours, setHours] = useState(0)
-  const [days, setDays] = useState(0)
+interface Props {
+  date: string
+}
 
-  const modifiedDate = Math.trunc(deadline.valueOf() / 1000)
+interface State {
+  days: number
+  hours: number
+  min: number
+  sec: number
+}
 
-  function getSeconds() {
-    return Math.trunc((modifiedDate - now) % 60)
+class Countdown extends Component<Props, State> {
+  constructor(props: Props) {
+    super(props)
+
+    this.state = {
+      days: 0,
+      hours: 0,
+      min: 0,
+      sec: 0,
+    }
   }
-  function getMinutes() {
-    return Math.trunc(((modifiedDate - now) / 60) % 60)
-  }
-  function getHours() {
-    return Math.trunc(((modifiedDate - now) / 60 / 60) % 24)
-  }
-  function getDays() {
-    return Math.trunc((modifiedDate - now) / 60 / 60 / 24)
+
+  private interval: NodeJS.Timer = setInterval(() => {
+    return
+  }, 0)
+
+  componentDidMount() {
+    // update every second
+    this.interval = setInterval(() => {
+      const date = this.calculateCountdown(this.props.date)
+      date ? this.setState(date) : this.stop()
+    }, 1000)
   }
 
-  // setInterval(() => {
-  //   setNow(new Date().getTime() / 1000)
-  //   setDays(getDays())
-  //   setHours(getHours())
-  //   setMinutes(getMinutes())
-  //   setSeconds(getSeconds())
-  // }, 1000)
+  componentWillUnmount() {
+    this.stop()
+  }
 
-  return (
-    <div className="pa7-l pa5 br3 bg-emphasis flex justify-around">
-      <div className="mh5 flex flex-column justify-center items-center">
-        <p className="t-heading-2 mv2">{days}</p>
-        <p>dias</p>
+  calculateCountdown(endDate: string) {
+    let diff =
+      (Date.parse(new Date(endDate).toUTCString()) -
+        Date.parse(new Date().toUTCString())) /
+      1000
+
+    // clear countdown when date is reached
+    if (diff <= 0) return false
+
+    const timeLeft = {
+      years: 0,
+      days: 0,
+      hours: 0,
+      min: 0,
+      sec: 0,
+      millisec: 0,
+    }
+
+    // calculate time difference between now and expected date
+    if (diff >= 365.25 * 86400) {
+      // 365.25 * 24 * 60 * 60
+      timeLeft.years = Math.floor(diff / (365.25 * 86400))
+      diff -= timeLeft.years * 365.25 * 86400
+    }
+    if (diff >= 86400) {
+      // 24 * 60 * 60
+      timeLeft.days = Math.floor(diff / 86400)
+      diff -= timeLeft.days * 86400
+    }
+    if (diff >= 3600) {
+      // 60 * 60
+      timeLeft.hours = Math.floor(diff / 3600)
+      diff -= timeLeft.hours * 3600
+    }
+    if (diff >= 60) {
+      timeLeft.min = Math.floor(diff / 60)
+      diff -= timeLeft.min * 60
+    }
+    timeLeft.sec = diff
+
+    return timeLeft
+  }
+
+  stop() {
+    clearInterval(this.interval)
+  }
+
+  render() {
+    const { days, hours, min, sec } = this.state
+
+    return (
+      <div className="pa7-l pa5 br3 bg-emphasis flex justify-around">
+        <div className="mh5 flex flex-column justify-center items-center">
+          <p className="t-heading-2 mv2">{days}</p>
+          <p>dias</p>
+        </div>
+        <div className="mh5 flex flex-column justify-center items-center">
+          <p className="t-heading-2 mv2">{hours}</p>
+          <p>horas</p>
+        </div>
+        <div className="mh5 flex flex-column justify-center items-center">
+          <p className="t-heading-2 mv2">{min}</p>
+          <p>minutos</p>
+        </div>
+        <div className="mh5 flex flex-column justify-center items-center">
+          <p className="t-heading-2 mv2">{sec}</p>
+          <p>segundos</p>
+        </div>
       </div>
-      <div className="mh5 flex flex-column justify-center items-center">
-        <p className="t-heading-2 mv2">{hours}</p>
-        <p>horas</p>
-      </div>
-      <div className="mh5 flex flex-column justify-center items-center">
-        <p className="t-heading-2 mv2">{minutes}</p>
-        <p>minutos</p>
-      </div>
-      <div className="mh5 flex flex-column justify-center items-center">
-        <p className="t-heading-2 mv2">{seconds}</p>
-        <p>segundos</p>
-      </div>
-    </div>
-  )
+    )
+  }
 }
 
 export default Countdown
