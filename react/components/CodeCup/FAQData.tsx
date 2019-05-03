@@ -4,17 +4,33 @@ export const questions = [
   {
     question: 'O que é a VTEX Code Cup?',
     ans:
-      'VTEX Code Cup é uma maratona anual para brasileiros, onde os competidores escrevem códigos para resolver problemas de algoritmos com diversos níveis de complexidade.',
+      'É o desafio de programação da VTEX para brasileiros, onde competidores usam algoritmos para resolver o maior número de problemas no menor tempo possível. Os participantes serão selecionados em uma fase online, na qual os melhores serão convidados para uma competir presencialmente no escritório da VTEX no Rio de Janeiro.',
   },
   {
     question: 'Como a VTEX Code Cup funciona?',
     ans:
-      'A maratona possui por duas fases: Primeira Fase (online) e a Segunda Fase (final presencial). A Final presencial receberá os 10 melhores competidores da Primeira Fase, no escritório da VTEX, no Rio de Janeiro.',
+      'A competição possui por duas fases: Primeira Fase (online) e a Segunda Fase (final presencial). A Final presencial receberá os 10 melhores competidores da Primeira Fase, no escritório da VTEX, no Rio de Janeiro.',
   },
   {
     question: 'Quem pode participar do VTEX Code Cup?',
-    ans:
-      '1. Residentes brasileiros: cada etapa será voltada apenas para brasileiros residentes no Brasil. Não serão aceitos brasileiros trabalhando fora do país ou que estejam viajando por mais de 1 mês em outro país.  2. Qualquer pessoa que não possua algum vínculo trabalhista com a VTEX (incluindo estágio) ou suas associadas.  3. Você não pode participar de nenhuma das rodadas se for menor de 16 anos. 4. Você deve ter no mínimo 18 anos.',
+    ans: (
+      <Fragment>
+        <p>
+          1. Residentes brasileiros: cada etapa será voltada apenas para
+          brasileiros residentes no Brasil. Não serão aceitos brasileiros
+          trabalhando fora do país ou que estejam viajando por mais de 1 mês em
+          outro país.
+        </p>
+        <p>
+          2. Qualquer pessoa que não possua algum vínculo trabalhista com a VTEX
+          (incluindo estágio) ou suas associadas.
+        </p>
+        <p>
+          3. Você deve ter no mínimo 18 anos para poder participar da etapa
+          presencial.
+        </p>
+      </Fragment>
+    ),
   },
   {
     question:
@@ -36,7 +52,7 @@ export const questions = [
     ans: (
       <Fragment>
         Clique em <strong>"quero participar"</strong> aqui nessa página,
-        preencha seus dados e envie. Até o dia 10 de maio de 2019, às 23h você
+        preencha seus dados e envie. Até o dia 10 de maio de 2019, as 23h você
         receberá no seu email cadastrado o link para acesso à arena da
         competição.
       </Fragment>
@@ -44,7 +60,13 @@ export const questions = [
   },
   {
     question: 'Ainda possui alguma dúvida?',
-    ans:
-      'Se você ainda possui alguma dúvida que não respondemos aqui nesse FAQ, mande um e-mail para codecup@vtex.com que estamos disponíveis para te ajudar :)',
+    ans: (
+      <Fragment>
+        Se você ainda possui alguma dúvida que não respondemos aqui nesse FAQ,
+        mande um e-mail para{' '}
+        <a href="mailto:codecup@vtex.com">codecup@vtex.com</a> que estamos
+        disponíveis para te ajudar.
+      </Fragment>
+    ),
   },
 ]

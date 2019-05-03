@@ -64,13 +64,15 @@ const Footer: FunctionComponent = () => (
         </p>
         <p className="ttu">
           <strong>
-            <a className="link c-on-base">contact us</a>
+            <a className="link c-on-base" href="mailto:codecup@vtex.com">
+              contact us
+            </a>
           </strong>
         </p>
       </div>
       <p>
-        VTEX - The True Cloud Commerce ™ Platform. We manage billions of
-        sessions with an estimated GMV of over $2 billion across 2.000 stores
+        VTEX - Unified Cloud Commerce ™. Gerenciamos bilhões de sessões com um
+        GMV estimado em mais de R$ 8bilhões em 3.000 lojas.
       </p>
     </div>
   </footer>

@@ -17,10 +17,10 @@ const About: FunctionComponent = () => (
           o que é?
         </h1>
         <p className="lh-copy mv7">
-          É a maratona de programação da VTEX para todos os aficionados por
-          programação e desafios. Nessa maratona, competidores de todo o Brasil
-          podem participar e testar suas habilidades. Ela acontece em duas
-          etapas, online e presencial e a final será no Rio de Janeiro!
+          É a competição de programação da VTEX em que programadores de todos os
+          níveis testam suas habilidades. A competição reúne programadores de
+          todo o Brasil em somente duas etapas, online e a final presencial no
+          Rio de Janeiro!
         </p>
         <img src={Logo} className="w-50-l w-60 mt7 mb8" />
         <p className="c-emphasis t-heading-1">
@@ -29,8 +29,8 @@ const About: FunctionComponent = () => (
       </div>
       <div className="bg-emphasis w-40-l br3 pv7 ph3 flex flex-column items-center justify-around">
         <p className="t-heading-1 c-on-muted-1 w-75 center">
-          Assistir a final mundial do ICPC na Rússia com a delegação brasileira
-          em 2020 + o título.
+          Viagem à Rússia para acompanhar a final mundial ACM-ICPC em 2020 + o
+          título de campeão
         </p>
         <img src={TrophyIcon} className="w-40 center mv6" />
         <a className="link" href="https://codecup.typeform.com/to/yO8hNP">

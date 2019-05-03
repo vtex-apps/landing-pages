@@ -12,7 +12,7 @@ import FAQ from './components/CodeCup/FAQ'
 import Footer from './components/CodeCup/Footer'
 
 function initializeReactGA() {
-  ReactGA.initialize('UA-139462697-2')
+  ReactGA.initialize('UA-139462697-1')
   ReactGA.pageview('/')
 }
 class Landing extends Component {

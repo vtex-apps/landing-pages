@@ -92,7 +92,7 @@ const Header: FunctionComponent = () => {
         </nav>
         <div className="w-100 mv8 flex flex-column flex-row-l justify-between items-center flex-nowrap">
           <div className="w-50-l">
-            <p className="t-heading-1">a maratona de programação da VTEX</p>
+            <p className="t-heading-1">a competição de programação da VTEX</p>
             <p className="t-heading-3 normal">
               Convidamos todos os aficionados por código para competirem e
               superarem seus limites
