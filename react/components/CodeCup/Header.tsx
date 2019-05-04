@@ -133,7 +133,7 @@ const Header: FunctionComponent = () => {
             style={{ animation: 'bounce 3s infinite' }}
           />
           <div className="mt6">
-            <Countdown date="May, 3, 2019, 19:00:00" />
+            <Countdown date="May, 11, 2019, 13:00:00" />
           </div>
         </div>
       </div>
