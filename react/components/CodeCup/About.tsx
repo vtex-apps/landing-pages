@@ -37,7 +37,7 @@ const About: FunctionComponent = () => (
             <p className="t-heading-4">quero participar</p>
           </button>
         </a>
-        <p className="t-mini w-75">
+        <p className="t-mini w-75 c-on-base">
           * Caso a organização do ACM-ICPC não autorize acompanhar a final da
           ICPC ou o vencedor já esteja classificado para a final do ICPC em
           2020, poderá solicitar a troca do prêmio por uma participação no
