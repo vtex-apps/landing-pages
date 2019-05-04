@@ -44,10 +44,9 @@ export const questions = [
     ans: (
       <Fragment>
         <p>
-          1. Residentes brasileiros: cada etapa será voltada apenas para
-          brasileiros residentes no Brasil. Não serão aceitos brasileiros
-          trabalhando fora do país ou que estejam viajando por mais de 1 mês em
-          outro país.
+          1. O evento é destinado somente a residentes brasileiros. Não serão
+          aceitos brasileiros residindo fora do país ou que estejam em viagem
+          internacional durante o Round Final.
         </p>
         <p>
           2. Qualquer pessoa que não possua algum vínculo trabalhista com a VTEX
