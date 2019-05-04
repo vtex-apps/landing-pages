@@ -29,7 +29,7 @@ const About: FunctionComponent = () => (
       </div>
       <div className="bg-emphasis w-40-l br3 pv7 ph3 flex flex-column items-center justify-around">
         <p className="t-heading-1 c-on-muted-1 w-75 center">
-          Prêmio final: viagem à Rússia para acompanhar a final da ICPC
+          Prêmio final: viagem à Rússia para acompanhar a final da ICPC*
         </p>
         <img src={TrophyIcon} className="w-40 center mv6" />
         <a className="link" href="https://codecup.typeform.com/to/yO8hNP">
@@ -37,6 +37,12 @@ const About: FunctionComponent = () => (
             <p className="t-heading-4">quero participar</p>
           </button>
         </a>
+        <p className="t-mini w-75">
+          * Caso a organização do ACM-ICPC não autorize acompanhar a final da
+          ICPC ou o vencedor já esteja classificado para a final do ICPC em
+          2020, poderá solicitar a troca do prêmio por uma participação no
+          Moscow Pre-Finals Workshop ICPC 2020.
+        </p>
       </div>
     </div>
   </section>
