@@ -24,7 +24,7 @@ const About: FunctionComponent = () => (
         </p>
         <img src={Logo} className="w-50-l w-60 mt7 mb8" />
         <p className="c-emphasis t-heading-1">
-          Inscreva-se e desafie seus limites.
+          Inscreva-se e teste seus limites.
         </p>
       </div>
       <div className="bg-emphasis w-40-l br3 pv7 ph3 flex flex-column items-center justify-around">

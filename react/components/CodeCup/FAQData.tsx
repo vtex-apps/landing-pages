@@ -29,7 +29,7 @@ export const questions = [
           sede da VTEX no Rio de Janeiro.
         </p>
         <p>
-          Os finalistas competirão pela gloria eterna e pelo título de campeão
+          Os finalistas competirão pela glória eterna e pelo título de campeão
           da primeira VTEX Code Cup.
         </p>
         <p>
