@@ -47,10 +47,7 @@ const Footer: FunctionComponent = () => (
         </p>
         <p className="ttu">
           <strong>
-            <a
-              className="link c-on-base"
-              href="https://drive.google.com/file/d/1OLKAaJV2Caw-g8VWg357U2p06uDu94Hi/view"
-            >
+            <a className="link c-on-base" href="/rules">
               termos e condições
             </a>
           </strong>

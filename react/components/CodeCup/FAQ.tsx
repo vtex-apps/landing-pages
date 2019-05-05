@@ -11,10 +11,7 @@ const FAQ: FunctionComponent = () => (
       <h1 className="c-emphasis t-heading-1">regras e faq ::</h1>
       <p className="w-90">
         Para saber mais sobre o VTEX Code Cup, confira as{' '}
-        <a
-          className="link"
-          href="https://drive.google.com/file/d/1OLKAaJV2Caw-g8VWg357U2p06uDu94Hi/view"
-        >
+        <a className="link" href="/rules">
           Regras da Competição
         </a>{' '}
         e as dúvidas frequentes antes de iniciar sua inscrição.

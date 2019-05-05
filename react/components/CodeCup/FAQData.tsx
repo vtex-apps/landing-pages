@@ -66,11 +66,8 @@ export const questions = [
       <Fragment>
         Sim! Vamos arcar com todas as despesas necessárias para viabilizar sua
         participação na Segunda Fase Final (presencial) de acordo com as
-        <a href="https://drive.google.com/file/d/1OLKAaJV2Caw-g8VWg357U2p06uDu94Hi/view">
-          {' '}
-          Regras da Competição
-        </a>
-        , na cláusula de Reembolso de Despesas de Viagem.
+        <a href="/rules"> Regras da Competição</a>, na cláusula de Reembolso de
+        Despesas de Viagem.
       </Fragment>
     ),
   },

@@ -79,10 +79,7 @@ const Header: FunctionComponent = () => {
                   </a>
                 </p>
                 <p className="mh5-l mv5 mv0-l bold">
-                  <a
-                    className="link c-muted-1"
-                    href="https://drive.google.com/file/d/1OLKAaJV2Caw-g8VWg357U2p06uDu94Hi/view"
-                  >
+                  <a className="link c-muted-1" href="/rules">
                     <strong>REGRAS</strong>
                   </a>
                 </p>
