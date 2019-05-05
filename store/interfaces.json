@@ -16,5 +16,8 @@
   },
   "codecup.landing": {
     "component": "CodeCup"
+  },
+  "codecup.rules": {
+    "component": "CodeCupRules"
   }
 }
