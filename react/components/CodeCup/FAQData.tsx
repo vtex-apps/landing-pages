@@ -75,7 +75,7 @@ export const questions = [
     question: 'Como me inscrevo para a VTEX Code Cup?',
     ans: (
       <Fragment>
-        Clique em <strong>"quero participar"</strong> aqui nessa página,
+        Clique em <strong>{'quero participar'}</strong> aqui nessa página,
         preencha seus dados e envie. Até o dia 10 de maio de 2019, as 21h você
         receberá no seu email cadastrado o link para acesso à arena da
         competição.
@@ -88,7 +88,7 @@ export const questions = [
       <Fragment>
         Se você ainda possui alguma dúvida que não respondemos aqui nesse FAQ,
         mande um e-mail para{' '}
-        <a href="mailto:codecup@vtex.com">codecup@vtex.com</a> que estamos
+        <a href={'mailto:codecup@vtex.com'}>codecup@vtex.com</a> que estamos
         disponíveis para te ajudar.
       </Fragment>
     ),

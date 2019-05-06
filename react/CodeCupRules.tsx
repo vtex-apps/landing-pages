@@ -15,7 +15,7 @@ const CodeCupRules = () => (
     </Helmet>
     <main className="w-100 bg-white">
       <article className="w-90 w-75-l center pa9 lh-copy">
-        <img src={Logo} className="h4-l" />
+        <img src={Logo} className="h4-l" alt="VTEX Code Cup" />
         <h1 className="t-heading-1 c-emphasis">Regras</h1>
         <p>
           O VTEX Code Cup consiste em dois (2) rounds: <strong>Round 1</strong>{' '}
@@ -84,8 +84,8 @@ const CodeCupRules = () => (
           Você entende e concorda que precisa ter a Idade Mínima para competir
           presencialmente o Round Final. Se a sua idade não se enquadrar na
           Idade Mínima, você apenas será elegível para ganhar a camiseta da
-          competição. Como "Idade Mínima" se entende por{' '}
-          <strong>(18) anos de idade</strong> no seu país de residência.
+          competição. Como {'Idade Mínima'} se entende por{' '}
+          <strong>18 anos de idade</strong> no seu país de residência.
         </p>
         <h2 className="t-heading-2 c-emphasis">Inscrições</h2>
         <p>

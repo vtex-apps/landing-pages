@@ -7,7 +7,7 @@ const VTEX: FunctionComponent = () => (
   <section className="bg-base--inverted">
     <div className="flex flex-column flex-row-l pv9 justify-center items-center w-90 ml-auto-l mr0-l center">
       <div className="flex flex-column w-60-l">
-        <img src={Logo} className="w-60 mb5" />
+        <img src={Logo} className="w-60 mb5" alt="VTEX Logo" />
         <p className="t-body lh-copy">
           A VTEX é uma empresa global de tecnologia focada em produtos para
           e-commerce que impacta diariamente o trabalho de milhares de pessoas
@@ -17,7 +17,7 @@ const VTEX: FunctionComponent = () => (
         </p>
       </div>
       <div className="flex flex-column justify-between items-center">
-        <img src={MapImage} className="w-75-l" />
+        <img src={MapImage} className="w-75-l" alt="" />
       </div>
     </div>
   </section>

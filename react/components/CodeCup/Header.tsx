@@ -65,7 +65,7 @@ const Header: FunctionComponent = () => {
             <div className="flex-l" hidden={!openNav}>
               <div className="flex flex-column flex-row-l justify-center list mt0 items-center mb0">
                 <p className="mh5-l mv5 mv0-l">
-                  <a className="link c-muted-1" href="#">
+                  <a className="link c-muted-1" href="https://codecup.vtex.com">
                     <strong>HOME</strong>
                   </a>
                 </p>
@@ -129,6 +129,7 @@ const Header: FunctionComponent = () => {
             src={ArrowsDown}
             className="h3 self-end-l"
             style={{ animation: 'bounce 3s infinite' }}
+            alt=""
           />
           <div className="mt6">
             <Countdown date="May, 11, 2019, 13:00:00" />

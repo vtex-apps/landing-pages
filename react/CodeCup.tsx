@@ -1,4 +1,4 @@
-import React, { Fragment, FunctionComponent, Component } from 'react'
+import React, { Fragment, Component } from 'react'
 import { Helmet } from 'vtex.render-runtime'
 import ReactGA from 'react-ga'
 
@@ -16,11 +16,11 @@ function initializeReactGA() {
   ReactGA.pageview('/')
 }
 class Landing extends Component {
-  componentDidMount() {
+  public componentDidMount() {
     initializeReactGA()
   }
 
-  render() {
+  public render() {
     return (
       <Fragment>
         <Helmet>

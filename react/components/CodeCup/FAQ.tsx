@@ -18,7 +18,7 @@ const FAQ: FunctionComponent = () => (
       </p>
       <div className="flex flex-column items-center">
         {questions.map(q => (
-          <QuestionCard question={q.question} ans={q.ans} />
+          <QuestionCard question={q.question} ans={q.ans} key={q.question} />
         ))}
       </div>
     </div>
@@ -27,6 +27,7 @@ const FAQ: FunctionComponent = () => (
         src={UpArrow}
         className="w-30"
         style={{ animation: 'bounce 3s infinite' }}
+        alt=""
       />
     </div>
   </section>

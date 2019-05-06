@@ -12,7 +12,7 @@ interface State {
 }
 
 class Countdown extends Component<Props, State> {
-  constructor(props: Props) {
+  public constructor(props: Props) {
     super(props)
 
     this.state = {
@@ -27,7 +27,7 @@ class Countdown extends Component<Props, State> {
     return
   }, 0)
 
-  componentDidMount() {
+  public componentDidMount() {
     // update every second
     this.interval = setInterval(() => {
       const date = this.calculateCountdown(this.props.date)
@@ -35,11 +35,11 @@ class Countdown extends Component<Props, State> {
     }, 1000)
   }
 
-  componentWillUnmount() {
+  public componentWillUnmount() {
     this.stop()
   }
 
-  calculateCountdown(endDate: string) {
+  private calculateCountdown(endDate: string) {
     let diff =
       (Date.parse(new Date(endDate).toUTCString()) -
         Date.parse(new Date().toUTCString())) /
@@ -82,11 +82,11 @@ class Countdown extends Component<Props, State> {
     return timeLeft
   }
 
-  stop() {
+  private stop() {
     clearInterval(this.interval)
   }
 
-  render() {
+  public render() {
     const { days, hours, min, sec } = this.state
 
     return (

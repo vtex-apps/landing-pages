@@ -22,7 +22,7 @@ const About: FunctionComponent = () => (
           todo o Brasil em somente duas etapas, online e a final presencial no
           Rio de Janeiro!
         </p>
-        <img src={Logo} className="w-50-l w-60 mt7 mb8" />
+        <img src={Logo} className="w-50-l w-60 mt7 mb8" alt="VTEX Code Cup" />
         <p className="c-emphasis t-heading-1">
           Inscreva-se e teste seus limites.
         </p>
@@ -31,7 +31,7 @@ const About: FunctionComponent = () => (
         <p className="t-heading-1 c-on-muted-1 w-75 center">
           Prêmio final: viagem à Rússia para acompanhar a final da ICPC*
         </p>
-        <img src={TrophyIcon} className="w-40 center mv6" />
+        <img src={TrophyIcon} className="w-40 center mv6" alt="" />
         <a className="link" href="https://codecup.typeform.com/to/yO8hNP">
           <button className="c-on-base br-pill mt6 mb3 bg-base ph9 b--none pointer">
             <p className="t-heading-4">quero participar</p>

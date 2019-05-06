@@ -1,4 +1,4 @@
-import React, { useState, FunctionComponent, ReactElement } from 'react'
+import React, { useState, FunctionComponent } from 'react'
 import { IconCaretDown, IconCaretRight } from 'vtex.styleguide'
 
 interface Props {

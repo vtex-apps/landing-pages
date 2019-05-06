@@ -11,7 +11,7 @@ import Logo from '../../images/logo_codecup_03@2x.png'
 const Footer: FunctionComponent = () => (
   <footer className="flex flex-column flex-row-l justify-around pa8">
     <div className="flex flex-column w-25-l justify-around">
-      <img src={Logo} className="w-70-l" />
+      <img src={Logo} className="w-70-l" alt="VTEX" />
       <div className="flex justify-between mb7 mt9 mb0-l c-on-base">
         <div>
           <a className="link c-on-base" href="https://twitter.com/vtexonline">
