@@ -48,6 +48,7 @@ const Header: FunctionComponent = () => {
         style={{
           backgroundImage: `url(${HeaderImage})`,
           backgroundRepeat: 'no-repeat',
+          backgroundSize: 'cover',
         }}
       >
         <nav className="flex">
