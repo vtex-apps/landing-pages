@@ -2,7 +2,7 @@ import React, { FunctionComponent } from 'react'
 import { FormattedMessage } from 'react-intl'
 
 import Logo from '../images/VTEX_footer.svg'
-import VTEXOffices from '../VTEXOffices.json'
+import VTEXOffices from '../../VTEXOffices.json'
 
 const footerLinks = [
   {

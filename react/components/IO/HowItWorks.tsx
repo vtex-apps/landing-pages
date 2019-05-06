@@ -1,9 +1,9 @@
 import React, { FunctionComponent } from 'react'
 import { injectIntl, InjectedIntlProps } from 'react-intl'
 
-import Stack from './icons/Stack'
-import Branches from './icons/Branches'
-import AppStore from './icons/AppStore'
+import Stack from '../icons/Stack'
+import Branches from '../icons/Branches'
+import AppStore from '../icons/AppStore'
 
 const HowItWorks: FunctionComponent<InjectedIntlProps> = ({ intl }) => {
   return (

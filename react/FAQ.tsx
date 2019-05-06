@@ -2,9 +2,9 @@ import React, { Fragment, FunctionComponent } from 'react'
 import { injectIntl, InjectedIntlProps } from 'react-intl'
 import { Helmet } from 'vtex.render-runtime'
 
-import Navbar from './components/Navbar'
-import Footer from './components/Footer'
-import QuestionList from './components/QuestionList'
+import Navbar from './components/IO/Navbar'
+import Footer from './components/IO/Footer'
+import QuestionList from './components/IO/QuestionList'
 import favicon from './images/favicon.png'
 
 const FAQ: FunctionComponent<InjectedIntlProps> = ({ intl }) => {

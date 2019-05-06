@@ -1,10 +1,10 @@
 import React from 'react'
 import { FormattedMessage } from 'react-intl'
 
-import Lightbulb from './icons/Lightbulb'
-import Workspaces from './icons/Workspaces'
-import Serverless from './icons/Serverless'
-import Sync from './icons/Sync'
+import Lightbulb from '../icons/Lightbulb'
+import Workspaces from '../icons/Workspaces'
+import Serverless from '../icons/Serverless'
+import Sync from '../icons/Sync'
 
 const KeyFeatures = () => (
   <section className="mv9 mt5-l vh-75-l bg-base c-muted-1 center w-90">

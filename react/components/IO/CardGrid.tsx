@@ -1,10 +1,10 @@
 import React, { FunctionComponent } from 'react'
 
 import Card from './Card'
-import FlowerGround from './icons/FlowerGround'
-import Video from './icons/Video'
-import DesignDev from './icons/DesignDev'
-import RunningShoes from './icons/RunnigShoes'
+import FlowerGround from '../icons/FlowerGround'
+import Video from '../icons/Video'
+import DesignDev from '../icons/DesignDev'
+import RunningShoes from '../icons/RunnigShoes'
 
 const CardGrid: FunctionComponent = () => {
   const cardsConfig = [

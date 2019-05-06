@@ -3,8 +3,8 @@ import { FormattedMessage } from 'react-intl'
 import { Helmet } from 'vtex.render-runtime'
 import { IconCheck, IconDeny } from 'vtex.styleguide'
 
-import Navbar from './components/Navbar'
-import Footer from './components/Footer'
+import Navbar from './components/IO/Navbar'
+import Footer from './components/IO/Footer'
 import favicon from './images/favicon.png'
 
 import { storeComponents, storePixel, features } from './FeaturesData'
