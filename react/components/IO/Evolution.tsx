@@ -1,8 +1,8 @@
 import React from 'react'
 import { FormattedMessage } from 'react-intl'
 
-import CodeSampleImage from '../images/CodeSample.svg'
-import BackgroundEffects from '../images/BackgroundEffects.svg'
+import CodeSampleImage from '../../images/CodeSample.svg'
+import BackgroundEffects from '../../images/BackgroundEffects.svg'
 
 const EvolutionSection = () => (
   <section className="flex flex-column flex-row-l items-center vh-100-l">

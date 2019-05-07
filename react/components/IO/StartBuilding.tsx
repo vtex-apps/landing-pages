@@ -2,7 +2,7 @@ import React from 'react'
 import { FormattedMessage } from 'react-intl'
 import { Button } from 'vtex.styleguide'
 
-import IllustrationImage from '../images/Illutration_02_blue.png'
+import IllustrationImage from '../../images/Illutration_02_blue.png'
 
 const StartBuilding = () => (
   <section className="flex flex-row-m flex-column vh-100-l c-muted-5 bg-muted-2">
