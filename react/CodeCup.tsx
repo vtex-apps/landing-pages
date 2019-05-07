@@ -27,6 +27,10 @@ class Landing extends Component {
           <title>VTEX Code Cup</title>
           <meta name="description" content="Coding competition from VTEX" />
           <meta name="theme-color" content="#F71963" />
+          <meta
+            name="google-site-verification"
+            content="w74PwlErxsMKe0Hp083-KEET2vwM2XcjzjiS4dZcThU"
+          />
           <link rel="icon" href={favicon} />
         </Helmet>
         <main className="w-100 bg-white">
