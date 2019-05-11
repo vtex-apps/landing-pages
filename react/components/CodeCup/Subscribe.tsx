@@ -30,9 +30,9 @@ const Subscribe: FunctionComponent = () => (
       </div>
       <div className="flex flex-column items-center w-50-l">
         <img src={Go} className="mv4" alt="" />
-        <a className="link" href="https://codecup.typeform.com/to/yO8hNP">
+        <a className="link" href="https://vtexcc19.kattis.com/">
           <button className="c-on-base br-pill mt6 mb3 bg-emphasis ph9 b--none pointer">
-            <p className="t-heading-4">quero participar</p>
+            <p className="t-heading-4">Participar</p>
           </button>
         </a>
       </div>

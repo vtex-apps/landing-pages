@@ -25,9 +25,9 @@ const Header: FunctionComponent = () => {
         }}
       >
         <div className="ph5">
-          <p className="t-small c-muted-2">03 - 10 de maio de 2019</p>
+          <p className="t-small c-muted-2">11 de maio de 2019</p>
           <p className="t-small">
-            <strong>Inscrições Online</strong>
+            <strong>Primeira Fase Online</strong>
           </p>
         </div>
         <div className="ph5">
@@ -124,7 +124,7 @@ const Header: FunctionComponent = () => {
           </div>
         </div>
         <div className="flex flex-row-l flex-column items-center w-100 justify-around">
-          <p className="self-end">03 A 10 DE MAIO . INSCRIÇÕES . BRASIL</p>
+          <p className="self-end">11 DE MAIO . PRIMEIRA FASE . BRASIL</p>
           <img
             src={ArrowsDown}
             className="h3 self-end-l"
@@ -139,9 +139,9 @@ const Header: FunctionComponent = () => {
       <div className="bg-white flex flex-column dn-l justify-around">
         <div className="ph5">
           <p className="t-small">
-            <strong>Inscrições Online</strong>
+            <strong>Primeira Fase Online</strong>
           </p>
-          <p className="t-small c-muted-2">03 - 10 de maio de 2019</p>
+          <p className="t-small c-muted-2">11 de maio de 2019</p>
         </div>
         <div className="ph5">
           <p className="t-small">
