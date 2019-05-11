@@ -7,7 +7,7 @@ import Fourth from '../../images/Cezar4.jpg'
 import Fifth from '../../images/Ivan5.jpg'
 import Sixth from '../../images/Misael6.jpg'
 import Seventh from '../../images/Lucas7.jpg'
-import Eighth from '../../images/Artur8.png'
+import Eighth from '../../images/Arthur8.png'
 import Nineth from '../../images/Luis9.jpg'
 import Tenth from '../../images/Lucas10.jpg'
 
@@ -20,7 +20,7 @@ const ToTheSubscribed = () => (
       <article className="bg-muted-1 mv3 ph6 pv5 w-40-l w-90 br3">
         <div className="flex items-center link">
           <div className="mr7">
-            <img src={First} />
+            <img src={First} className="h4" />
           </div>
           <div>
             <p className="t-heading-4 c-muted-5 c-emphasis">1º Lugar</p>
@@ -31,7 +31,7 @@ const ToTheSubscribed = () => (
       <article className="bg-muted-1 mv3 ph6 pv5 w-40-l w-90 br3">
         <div className="flex items-center link">
           <div className="mr7">
-            <img src={First} />
+            <img src={Second} className="h4" />
           </div>
           <div>
             <p className="t-heading-4 c-muted-5 c-emphasis">2º Lugar</p>
@@ -42,7 +42,7 @@ const ToTheSubscribed = () => (
       <article className="bg-muted-1 mv3 ph6 pv5 w-40-l w-90 br3">
         <div className="flex items-center link">
           <div className="mr7">
-            <img src={First} />
+            <img src={Third} className="h4" />
           </div>
           <div>
             <p className="t-heading-4 c-muted-5 c-emphasis">3º Lugar</p>
@@ -51,9 +51,9 @@ const ToTheSubscribed = () => (
         </div>
       </article>
       <article className="bg-muted-1 mv3 ph6 pv5 w-40-l w-90 br3">
-        <div className="flex items-center link">
+        <div className="flex items-center justify-around link">
           <div className="mr7">
-            <img src={First} />
+            <img src={Fourth} className="h4" />
           </div>
           <div>
             <p className="t-heading-4 c-muted-5 c-emphasis">4º Lugar</p>
@@ -66,7 +66,7 @@ const ToTheSubscribed = () => (
       <article className="bg-muted-1 mv3 ph6 pv5 w-40-l w-90 br3">
         <div className="flex items-center link">
           <div className="mr7">
-            <img src={First} />
+            <img src={Fifth} className="h4" />
           </div>
           <div>
             <p className="t-heading-4 c-muted-5 c-emphasis">5º Lugar</p>
@@ -77,7 +77,7 @@ const ToTheSubscribed = () => (
       <article className="bg-muted-1 mv3 ph6 pv5 w-40-l w-90 br3">
         <div className="flex items-center link">
           <div className="mr7">
-            <img src={First} />
+            <img src={Sixth} className="h4" />
           </div>
           <div>
             <p className="t-heading-4 c-muted-5 c-emphasis">6º Lugar</p>
@@ -88,7 +88,7 @@ const ToTheSubscribed = () => (
       <article className="bg-muted-1 mv3 ph6 pv5 w-40-l w-90 br3">
         <div className="flex items-center link">
           <div className="mr7">
-            <img src={First} />
+            <img src={Seventh} className="h4" />
           </div>
           <div>
             <p className="t-heading-4 c-muted-5 c-emphasis">7º Lugar</p>
@@ -99,7 +99,7 @@ const ToTheSubscribed = () => (
       <article className="bg-muted-1 mv3 ph6 pv5 w-40-l w-90 br3">
         <div className="flex items-center link">
           <div className="mr7">
-            <img src={First} />
+            <img src={Eighth} className="h4" />
           </div>
           <div>
             <p className="t-heading-4 c-muted-5 c-emphasis">8º Lugar</p>
@@ -110,7 +110,7 @@ const ToTheSubscribed = () => (
       <article className="bg-muted-1 mv3 ph6 pv5 w-40-l w-90 br3">
         <div className="flex items-center link">
           <div className="mr7">
-            <img src={First} />
+            <img src={Nineth} className="h4 " />
           </div>
           <div>
             <p className="t-heading-4 c-muted-5 c-emphasis">9º Lugar</p>
@@ -121,7 +121,7 @@ const ToTheSubscribed = () => (
       <article className="bg-muted-1 mv3 ph6 pv5 w-40-l w-90 br3">
         <div className="flex items-center link">
           <div className="mr7">
-            <img src={First} />
+            <img src={Tenth} className="h4" />
           </div>
           <div>
             <p className="t-heading-4 c-muted-5 c-emphasis">10º Lugar</p>
