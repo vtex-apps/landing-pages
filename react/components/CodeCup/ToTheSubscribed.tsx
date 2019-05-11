@@ -20,7 +20,7 @@ const ToTheSubscribed = () => (
       <article className="bg-muted-1 mv3 ph6 pv5 w-40-l w-90 br3">
         <div className="flex items-center link">
           <div className="mr7">
-            <img src={First} className="h4" />
+            <img src={First} className="h4 w4" />
           </div>
           <div>
             <p className="t-heading-4 c-muted-5 c-emphasis">1º Lugar</p>
@@ -31,7 +31,7 @@ const ToTheSubscribed = () => (
       <article className="bg-muted-1 mv3 ph6 pv5 w-40-l w-90 br3">
         <div className="flex items-center link">
           <div className="mr7">
-            <img src={Second} className="h4" />
+            <img src={Second} className="h4 w4" />
           </div>
           <div>
             <p className="t-heading-4 c-muted-5 c-emphasis">2º Lugar</p>
@@ -42,7 +42,7 @@ const ToTheSubscribed = () => (
       <article className="bg-muted-1 mv3 ph6 pv5 w-40-l w-90 br3">
         <div className="flex items-center link">
           <div className="mr7">
-            <img src={Third} className="h4" />
+            <img src={Third} className="h4 w4" />
           </div>
           <div>
             <p className="t-heading-4 c-muted-5 c-emphasis">3º Lugar</p>
@@ -53,7 +53,7 @@ const ToTheSubscribed = () => (
       <article className="bg-muted-1 mv3 ph6 pv5 w-40-l w-90 br3">
         <div className="flex items-center justify-around link">
           <div className="mr7">
-            <img src={Fourth} className="h4" />
+            <img src={Fourth} className="h4 w4" />
           </div>
           <div>
             <p className="t-heading-4 c-muted-5 c-emphasis">4º Lugar</p>
@@ -66,7 +66,7 @@ const ToTheSubscribed = () => (
       <article className="bg-muted-1 mv3 ph6 pv5 w-40-l w-90 br3">
         <div className="flex items-center link">
           <div className="mr7">
-            <img src={Fifth} className="h4" />
+            <img src={Fifth} className="h4 w4" />
           </div>
           <div>
             <p className="t-heading-4 c-muted-5 c-emphasis">5º Lugar</p>
@@ -77,7 +77,7 @@ const ToTheSubscribed = () => (
       <article className="bg-muted-1 mv3 ph6 pv5 w-40-l w-90 br3">
         <div className="flex items-center link">
           <div className="mr7">
-            <img src={Sixth} className="h4" />
+            <img src={Sixth} className="h4 w4" />
           </div>
           <div>
             <p className="t-heading-4 c-muted-5 c-emphasis">6º Lugar</p>
@@ -88,7 +88,7 @@ const ToTheSubscribed = () => (
       <article className="bg-muted-1 mv3 ph6 pv5 w-40-l w-90 br3">
         <div className="flex items-center link">
           <div className="mr7">
-            <img src={Seventh} className="h4" />
+            <img src={Seventh} className="h4 w4" />
           </div>
           <div>
             <p className="t-heading-4 c-muted-5 c-emphasis">7º Lugar</p>
@@ -99,7 +99,7 @@ const ToTheSubscribed = () => (
       <article className="bg-muted-1 mv3 ph6 pv5 w-40-l w-90 br3">
         <div className="flex items-center link">
           <div className="mr7">
-            <img src={Eighth} className="h4" />
+            <img src={Eighth} className="h4 w4" />
           </div>
           <div>
             <p className="t-heading-4 c-muted-5 c-emphasis">8º Lugar</p>
@@ -110,7 +110,7 @@ const ToTheSubscribed = () => (
       <article className="bg-muted-1 mv3 ph6 pv5 w-40-l w-90 br3">
         <div className="flex items-center link">
           <div className="mr7">
-            <img src={Nineth} className="h4 " />
+            <img src={Nineth} className="h4" />
           </div>
           <div>
             <p className="t-heading-4 c-muted-5 c-emphasis">9º Lugar</p>
@@ -130,6 +130,13 @@ const ToTheSubscribed = () => (
         </div>
       </article>
     </div>
+    <p className="tc">
+      Lista de competidores de ganharam camisetas da VTEX Code Cup está nesse
+      link:{' '}
+      <a href="https://drive.google.com/file/d/1DeNMqMH7teDBCnM4jVFGVgrFYhCZl0AL/view?usp=sharing">
+        Camisetas VTEX Code Cup 2019
+      </a>
+    </p>
   </section>
 )
 
