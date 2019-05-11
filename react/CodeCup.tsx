@@ -10,6 +10,7 @@ import Subscribe from './components/CodeCup/Subscribe'
 import VTEX from './components/CodeCup/VTEX'
 import FAQ from './components/CodeCup/FAQ'
 import Footer from './components/CodeCup/Footer'
+import ToTheSubscribed from './components/CodeCup/ToTheSubscribed'
 
 import HomeImage from './images/imagem_home.jpg'
 
@@ -56,6 +57,7 @@ class Landing extends Component {
         </Helmet>
         <main className="w-100 bg-white">
           <Header />
+          <ToTheSubscribed />
           <About />
           <Rio />
           <Subscribe />
