@@ -11,7 +11,7 @@ import Eighth from '../../images/Arthur8.png'
 import Nineth from '../../images/Luis9.jpg'
 import Tenth from '../../images/Lucas10.jpg'
 
-const ToTheSubscribed = () => (
+const Winners = () => (
   <section id="about" className="bg-white w-90 w-75-l center pv9">
     <h1 className="c-emphasis t-heading-1">
       Selecionados para a final no Rio de Janeiro
@@ -140,4 +140,4 @@ const ToTheSubscribed = () => (
   </section>
 )
 
-export default ToTheSubscribed
+export default Winners
