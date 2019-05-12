@@ -130,12 +130,34 @@ const Winners = () => (
         </div>
       </article>
     </div>
-    <p className="tc">
-      Lista de competidores de ganharam camisetas da VTEX Code Cup está nesse
+    <h3 className="mt7 w-90 center">Esclarecimento VTEX Code Cup T-Shirt</h3>
+    <p className="lh-copy w-90 center">
+      <em>
+        Você estará eleito a receber (1) t-shirt se pertencer aos 20% dos
+        melhores colocados do ranking no Round 1”.
+      </em>{' '}
+      <strong>
+        Considerando os melhores colocados os participantes que submeteram pelo
+        menos uma vez.
+      </strong>{' '}
+      <br />
+      Lista de competidores que ganharam camisetas da VTEX Code Cup está nesse
       link:{' '}
       <a href="https://drive.google.com/file/d/1DeNMqMH7teDBCnM4jVFGVgrFYhCZl0AL/view?usp=sharing">
         Camisetas VTEX Code Cup 2019
       </a>
+      .<br />A produção do VTEX Code Cup irá entrar em contato e agendar a data
+      de entrega das camisetas. <br />
+      Confira o resultado completo em{' '}
+      <a href="https://vtexcc19.kattis.com/">https://vtexcc19.kattis.com/</a>.
+    </p>
+    <p className="w-90 center">
+      <em>
+        Nota: O competidor Artur Vinicus Tomé Rodrigues não preencheu os
+        pré-requisitos para a etapa presencial, seguindo o regulamento abriu-se
+        uma vaga para o próximo competidor do ranking. Agradecemos a
+        participação e fica a menção honrosa pelo belo espírito competitivo!
+      </em>
     </p>
   </section>
 )

@@ -124,7 +124,7 @@ const Header: FunctionComponent = () => {
           </div>
         </div>
         <div className="flex flex-row-l flex-column items-center w-100 justify-around">
-          <p className="self-end">11 DE MAIO . PRIMEIRA FASE . BRASIL</p>
+          <p className="self-end">08 DE JUNHO . FASE FINAL . BRASIL</p>
           <img
             src={ArrowsDown}
             className="h3 self-end-l"
@@ -132,7 +132,7 @@ const Header: FunctionComponent = () => {
             alt=""
           />
           <div className="mt6">
-            <Countdown date="May, 11, 2019, 13:00:00" />
+            <Countdown date="June, 08, 2019, 13:00:00" />
           </div>
         </div>
       </div>
