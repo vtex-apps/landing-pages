@@ -159,6 +159,14 @@ const Winners = () => (
         participação e fica a menção honrosa pelo belo espírito competitivo!
       </em>
     </p>
+    <h3 className="mt7 w-90 center">Edital</h3>
+    <p className="w-90 center">
+      O link a seguir possui um edital descrevendo a solução de todos os
+      problemas da primeira fase:{' '}
+      <a href="https://docs.google.com/document/d/14UlgDhjDOtvcRakR0fkxX-KhCzco5FzIsuypgZKz63c/edit?usp=sharing">
+        Edital VTEX Code Cup Primeira Fase
+      </a>
+    </p>
   </section>
 )
 
