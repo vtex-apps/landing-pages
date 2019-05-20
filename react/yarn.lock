@@ -633,17 +633,25 @@ eslint-config-prettier@^4.0.0:
   dependencies:
     get-stdin "^6.0.0"
 
-eslint-config-vtex-react@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-vtex-react/-/eslint-config-vtex-react-4.0.0.tgz#35c537a2f183bd12436e260948454830d8934051"
-  integrity sha512-wbZxl7B6riIlPY7RCieHEDIcv1mJ9PqjY0F79yYcbXLLQtNcz1gzRl/JAnXNRfePiTJqFtFdgB2HXwlCwXMk8w==
+eslint-config-prettier@^4.2.0:
+  version "4.3.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-4.3.0.tgz#c55c1fcac8ce4518aeb77906984e134d9eb5a4f0"
+  integrity sha512-sZwhSTHVVz78+kYD3t5pCWSYEdVSBR0PXnwjDRsUs8ytIrK8PLXw+6FKp8r3Z7rx4ZszdetWlXYKOHoUrrwPlA==
   dependencies:
+    get-stdin "^6.0.0"
+
+eslint-config-vtex-react@^4.1.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-vtex-react/-/eslint-config-vtex-react-4.1.0.tgz#ff3af3a9fbff717e42fa0d207e0344ec1ec19a0f"
+  integrity sha512-DJJ4HQEAx4EVvJPE9zz52IlRbf+GL+Rscr50fDJQkM8UTUlndAHXCuYrqir1VvSps9+xvFNnc+LnwdjQv5dIlw==
+  dependencies:
+    eslint-config-prettier "^4.2.0"
     eslint-config-vtex "^10.0.0"
     eslint-plugin-jsx-a11y "^6.2.1"
     eslint-plugin-react "^7.0.0"
     eslint-plugin-react-hooks "^1.0.0"
 
-eslint-config-vtex@^10.0.0:
+eslint-config-vtex@^10.0.0, eslint-config-vtex@^10.1.0:
   version "10.1.0"
   resolved "https://registry.yarnpkg.com/eslint-config-vtex/-/eslint-config-vtex-10.1.0.tgz#cd5f802c5ce2f2fa79f889ff4c7e7ca9fcce6ccc"
   integrity sha512-WgkdsXpTgJbOfGRRB3kAKDZNT+1Qeo5GlNxs3SXwCmQ7NNh/AHvY3ClLO2BmDKBf/t2Mkfe+piXrk8A4DkjRrQ==
@@ -718,7 +726,7 @@ eslint-visitor-keys@^1.0.0:
   resolved "https://registry.yarnpkg.com/eslint-visitor-keys/-/eslint-visitor-keys-1.0.0.tgz#3f3180fb2e291017716acb4c9d6d5b5c34a6a81d"
   integrity sha512-qzm/XxIbxm/FHyH341ZrbnMUpe+5Bocte9xkmFMzPMjRaZMcXww+MpBptFvtU+79L362nqiLhekCxCxDPaUMBQ==
 
-eslint@^5.15.3:
+eslint@^5.15.1:
   version "5.16.0"
   resolved "https://registry.yarnpkg.com/eslint/-/eslint-5.16.0.tgz#a1e3ac1aae4a3fbd8296fcf8f7ab7314cbb6abea"
   integrity sha512-S3Rz11i7c8AA5JPv7xAH+dOyq/Cu/VXHiHXBPOU1k/JAM5dXqQPt3qcrhpHSorXmrpu2g0gkIBVXAqCpzfoZIg==
@@ -2131,6 +2139,14 @@ vtex-tachyons@^2.3.0, vtex-tachyons@^2.6.0:
   version "2.10.0"
   resolved "https://registry.yarnpkg.com/vtex-tachyons/-/vtex-tachyons-2.10.0.tgz#d72363dcd77d0960cb23efc82e0e8d168714f153"
   integrity sha512-WWEOR4iyrMQ2fzp+EActa5ZLaYSMdPk2yxP8XQRhg+q+QnbFH2EKGayjkea4okXRDE7KTKQZdLF3GlB/HaXOow==
+
+"vtex.render-runtime@http://vtex.vteximg.com.br/_v/public/typings/v1/vtex.render-runtime@8.29.2/public/_types/react":
+  version "8.29.2"
+  resolved "http://vtex.vteximg.com.br/_v/public/typings/v1/vtex.render-runtime@8.29.2/public/_types/react#c3afa781eaa23a3ceba05467aadc5047fbda7687"
+
+"vtex.styleguide@http://vtex.vteximg.com.br/_v/public/typings/v1/vtex.styleguide@9.46.2/public/_types/react":
+  version "0.0.0"
+  resolved "http://vtex.vteximg.com.br/_v/public/typings/v1/vtex.styleguide@9.46.2/public/_types/react#fa7a0347e046eab3dd768998fc9252b2c0dd5aef"
 
 warning@^3.0.0:
   version "3.0.0"
