@@ -11,6 +11,9 @@
   "io.store-features": {
     "component": "Features"
   },
+  "io.docs": {
+    "component": "Docs"
+  },
   "codecup": {
     "blocks": ["codecup.landing"]
   },
