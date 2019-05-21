@@ -5,28 +5,20 @@ import { graphql, compose } from 'react-apollo'
 import { branch, renderComponent } from 'recompose'
 
 import RendererPlaceHolder from './RendererPlaceHolder'
+import EmptyDocs from './EmptyDocs'
+import { remarkReactComponents } from './CustomTags'
 
 import * as RepoDocs from '../../graphql/getDocs.graphql'
 
-const customParagraph: FunctionComponent = ({ children }) => (
-  <p className="t-body">{children}</p>
+const DocsRenderer: FunctionComponent<any> = ({ docsQuery }) => (
+  <article className="pa7 w-100">
+    {
+      remark()
+        .use(remark2react, { remarkReactComponents })
+        .processSync(atob(docsQuery.getDocs.encodedDocs)).contents
+    }
+  </article>
 )
-
-const DocsRenderer: FunctionComponent<any> = ({ docsQuery }) => {
-  const remarkReactComponents = {
-    p: customParagraph,
-  }
-
-  return (
-    <article className="pa7 w-100">
-      {
-        remark()
-          .use(remark2react, { remarkReactComponents })
-          .processSync(atob(docsQuery.getDocs.encodedDocs)).contents
-      }
-    </article>
-  )
-}
 
 export default compose(
   graphql(RepoDocs.default, {
@@ -44,5 +36,6 @@ export default compose(
   branch(
     ({ docsQuery }: any) => docsQuery.loading,
     renderComponent(RendererPlaceHolder)
-  )
+  ),
+  branch(({ docsQuery }: any) => !!docsQuery, renderComponent(EmptyDocs))
 )(DocsRenderer)

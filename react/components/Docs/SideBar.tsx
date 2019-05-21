@@ -11,7 +11,7 @@ interface Props {
 const SideBar: FunctionComponent<Props> = ({ componentList }) => (
   <ul className="pa7 mt0 list br b--muted-5">
     {componentList.map(component => (
-      <li className="pv3 link">
+      <li className="pv3 link" key={component.urlName}>
         <Link to={`/docs?repo=${component.urlName}`}>
           {component.formattedName}
         </Link>
