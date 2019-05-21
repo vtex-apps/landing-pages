@@ -18,11 +18,11 @@ const Docs: FunctionComponent<any> = () => {
         <link rel="icon" href={favicon} />
       </Helmet>
       <Navbar />
-      <div className="flex">
-        <aside className="pt10 w-25-l ml5-l">
+      <div className="flex-l">
+        <aside className="pt10 w-25-l ml5-l w-90 center">
           <SideBar componentList={availableDocs} />
         </aside>
-        <main className="pv10 w-70-l center">
+        <main className="pv10 w-70-l w-90 center">
           <DocsRenderer />
         </main>
       </div>

@@ -2,8 +2,9 @@ import React, { FunctionComponent } from 'react'
 import remark from 'remark'
 import remark2react from 'remark-react'
 import { graphql, compose } from 'react-apollo'
-import { Spinner } from 'vtex.styleguide'
 import { branch, renderComponent } from 'recompose'
+
+import RendererPlaceHolder from './RendererPlaceHolder'
 
 import * as RepoDocs from '../../graphql/getDocs.graphql'
 
@@ -30,5 +31,8 @@ export default compose(
       }
     },
   }),
-  branch(({ docsQuery }: any) => docsQuery.loading, renderComponent(Spinner))
+  branch(
+    ({ docsQuery }: any) => docsQuery.loading,
+    renderComponent(RendererPlaceHolder)
+  )
 )(DocsRenderer)
