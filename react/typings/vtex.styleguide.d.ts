@@ -10,4 +10,5 @@ declare module 'vtex.styleguide' {
   export const IconCheck
   export const IconDeny
   export const Spinner
+  export const EmptyState
 }
