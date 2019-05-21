@@ -8,15 +8,25 @@ import RendererPlaceHolder from './RendererPlaceHolder'
 
 import * as RepoDocs from '../../graphql/getDocs.graphql'
 
-const DocsRenderer: FunctionComponent<any> = ({ docsQuery }) => (
-  <article className="pa7 bg-base--inverted br3">
-    {
-      remark()
-        .use(remark2react)
-        .processSync(atob(docsQuery.getDocs.encodedDocs)).contents
-    }
-  </article>
+const customParagraph: FunctionComponent = ({ children }) => (
+  <p className="t-body">{children}</p>
 )
+
+const DocsRenderer: FunctionComponent<any> = ({ docsQuery }) => {
+  const remarkReactComponents = {
+    p: customParagraph,
+  }
+
+  return (
+    <article className="pa7 w-100">
+      {
+        remark()
+          .use(remark2react, { remarkReactComponents })
+          .processSync(atob(docsQuery.getDocs.encodedDocs)).contents
+      }
+    </article>
+  )
+}
 
 export default compose(
   graphql(RepoDocs.default, {
