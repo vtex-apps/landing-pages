@@ -22,5 +22,11 @@
   },
   "codecup.rules": {
     "component": "CodeCupRules"
+  },
+  "tetrix": {
+    "blocks": ["tetrix.landing"]
+  },
+  "tetrix.landing": {
+    "component": "Tetrix"
   }
 }
