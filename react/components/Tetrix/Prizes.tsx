@@ -46,6 +46,7 @@ const Prizes: FunctionComponent = () => {
           afterSlide={() => setActiveSlide(activeSlide)}
           withoutControls
         >
+          <img src={Santiago} alt="" />
           <img src={NewYork} alt="" />
           <img src={London} alt="" />
           <img src={Berlim} alt="" />
