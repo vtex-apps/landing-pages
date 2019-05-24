@@ -8,25 +8,27 @@ import Slider3 from '../../images/slider3.png'
 import Carousel from 'nuka-carousel'
 
 const Header: FunctionComponent = () => (
-  <header className="bg-emphasis">
+  <header className="bg-emphasis pa9">
     <Nav />
-    <div className="flex justify-around pa7">
-      <div className="flex flex-column justify-around w-50">
-        <p className="t-heading-1">
-          AS PERGUNTAS QUE PODEM DEFINIR O SEU FUTURO JÁ ESTÃO PRONTAS
+    <div className="flex justify-around items-center mt5">
+      <div className="flex flex-column justify-around w-40">
+        <p className="t-heading-2 c-on-base">
+          AS PERGUNTAS QUE PODEM DEFINIR O SEU FUTURO <br />
+          <span className="underline c-muted-5">JÁ ESTÃO PRONTAS.</span>
         </p>
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus
-          consectetur aliquam iste, sint dolores quaerat qui deleniti ut unde
-          minima autem dicta accusantium quae rem repudiandae in cupiditate
-          perferendis facere!
+        <p className="c-on-base lh-copy">
+          No Tetrix, o Desafio, você será capaz de descobrir se o seu
+          conhecimento tem fim, e somente ao superá-lo, encontrará respostas às
+          perguntas que podem definir seu futuro. Vença e seja levado a uma
+          jornada de desenvolvimento pelo mundo. Inscreva-se até o dia 30 de
+          junho.
         </p>
-        <button className="c-emphasis br-pill mt6 mb3 bg-base-inverted ph9 b--none pointer w-40">
+        <button className="c-emphasis br-pill mt6 mb3 bg-base-inverted ph9 b--none pointer">
           <p className="t-heading-4 mv4">Participar</p>
         </button>
       </div>
-      <div className="w-50">
-        <Carousel autoplay wrapAround heightMode="first">
+      <div className="w-40">
+        <Carousel autoplay wrapAround withoutControls>
           <img src={Slider1} alt="" />
           <img src={Slider2} alt="" />
           <img src={Slider3} alt="" />
