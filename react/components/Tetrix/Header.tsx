@@ -12,11 +12,11 @@ const Header: FunctionComponent = () => (
     <Nav />
     <div className="flex justify-around items-center mt5">
       <div className="flex flex-column justify-around w-40">
-        <p className="t-heading-2 c-on-base">
+        <p className="t-heading-2 c-on-base bold">
           AS PERGUNTAS QUE PODEM DEFINIR O SEU FUTURO <br />
           <span className="underline c-muted-5">JÁ ESTÃO PRONTAS.</span>
         </p>
-        <p className="c-on-base lh-copy">
+        <p className="c-on-base lh-copy" style={{ fontFamily: 'Space Mono' }}>
           No Tetrix, o Desafio, você será capaz de descobrir se o seu
           conhecimento tem fim, e somente ao superá-lo, encontrará respostas às
           perguntas que podem definir seu futuro. Vença e seja levado a uma
@@ -24,7 +24,9 @@ const Header: FunctionComponent = () => (
           junho.
         </p>
         <button className="c-emphasis br-pill mt6 mb3 bg-base-inverted ph9 b--none pointer">
-          <p className="t-heading-4 mv4">Participar</p>
+          <p className="t-heading-4 mv4" style={{ fontFamily: 'Space Mono' }}>
+            Participar
+          </p>
         </button>
       </div>
       <div className="w-40">
