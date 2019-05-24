@@ -15,6 +15,10 @@ const Tetrix: FunctionComponent = () => (
       <meta name="title" content="Tetrix" />
       {/* <meta name="description" content="The coding competition from VTEX" /> */}
       <meta name="theme-color" content="#F71963" />
+      <link
+        href="https://fonts.googleapis.com/css?family=Space+Mono&display=swap"
+        rel="stylesheet"
+      />
       {/* <meta
         name="google-site-verification"
         content="w74PwlErxsMKe0Hp083-KEET2vwM2XcjzjiS4dZcThU"
