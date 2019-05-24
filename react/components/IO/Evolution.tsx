@@ -1,7 +1,7 @@
 import React from 'react'
 import { FormattedMessage } from 'react-intl'
 
-import CodeSampleImage from '../../images/Asset7.png'
+import CodeSampleImage from '../../images/Asset_Code.png'
 import BackgroundEffects from '../../images/BackgroundEffects.svg'
 
 const EvolutionSection = () => (
