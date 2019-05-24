@@ -11,7 +11,7 @@ import Footer from './components/Tetrix/Footer'
 const Tetrix: FunctionComponent = () => (
   <Fragment>
     <Helmet>
-      <title>VTEX Code Cup</title>
+      <title>Tetrix - O Desafio</title>
       <meta name="title" content="Tetrix" />
       {/* <meta name="description" content="The coding competition from VTEX" /> */}
       <meta name="theme-color" content="#F71963" />
