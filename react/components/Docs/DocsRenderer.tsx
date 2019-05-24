@@ -37,5 +37,5 @@ export default compose(
     ({ docsQuery }: any) => docsQuery.loading,
     renderComponent(RendererPlaceHolder)
   ),
-  branch(({ docsQuery }: any) => !!docsQuery, renderComponent(EmptyDocs))
+  branch(({ docsQuery }: any) => !!docsQuery.error, renderComponent(EmptyDocs))
 )(DocsRenderer)
