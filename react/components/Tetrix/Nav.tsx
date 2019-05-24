@@ -1,7 +1,7 @@
 import React, { FunctionComponent, useState } from 'react'
 import { IconBars } from 'vtex.styleguide'
 
-import Logo from '../../images/logo_codecup_01@2x.png'
+import Logo from '../../images/tetrix_logo.svg'
 
 const Nav: FunctionComponent = () => {
   const [openNav, setOpenNav] = useState(false)
@@ -10,7 +10,7 @@ const Nav: FunctionComponent = () => {
     <nav className="flex">
       <div className="c-muted-1 w-100 flex flex-column flex-row-l justify-between">
         <div className="flex flex-column items-center">
-          <img src={Logo} className="h3-l" alt="VTEX CODE CUP" />
+          <img src={Logo} className="h3-l" alt="TETRIX - O DESAFIO" />
           <button
             className="dn-l c-on-base w-33 mv7 bg-0 bn bg-transparent"
             onClick={() => setOpenNav(!openNav)}
@@ -21,7 +21,7 @@ const Nav: FunctionComponent = () => {
         <div className="flex-l" hidden={!openNav}>
           <div className="flex flex-column flex-row-l justify-center list mt0 items-center mb0">
             <p className="mh5-l mv5 mv0-l">
-              <a className="link c-muted-1" href="https://codecup.vtex.com">
+              <a className="link c-muted-1" href="https://tetrix.vtex.com">
                 <strong>HOME</strong>
               </a>
             </p>
