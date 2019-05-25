@@ -10,8 +10,8 @@ import Carousel from 'nuka-carousel'
 const Header: FunctionComponent = () => (
   <header className="bg-emphasis pa9">
     <Nav />
-    <div className="flex justify-around items-center mt5">
-      <div className="flex flex-column justify-around w-40">
+    <div className="flex flex-column flex-row-l justify-around items-center mt5">
+      <div className="flex flex-column justify-around w-40-l w-90 order-1 order-0-l">
         <p className="t-heading-2 c-on-base bold">
           AS PERGUNTAS QUE PODEM DEFINIR O SEU FUTURO <br />
           <span className="underline c-muted-5">JÁ ESTÃO PRONTAS.</span>
@@ -23,11 +23,11 @@ const Header: FunctionComponent = () => (
           jornada de desenvolvimento pelo mundo. Inscreva-se até o dia 30 de
           junho.
         </p>
-        <button className="c-emphasis br-pill mt6 mb3 bg-base-inverted ph7 b--none pointer w-50">
+        <button className="c-emphasis br-pill mt6 mb3 bg-base--inverted ph7 b--none pointer w-50-l">
           <p className="t-heading-4 mv4">Participar</p>
         </button>
       </div>
-      <div className="w-40">
+      <div className="w-40-l w-90 order-0 order-1-l">
         <Carousel autoplay wrapAround withoutControls>
           <img src={Slider1} alt="" />
           <img src={Slider2} alt="" />

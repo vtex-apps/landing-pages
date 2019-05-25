@@ -13,9 +13,14 @@ const Prizes: FunctionComponent = () => {
   const [activeSlide, setActiveSlide] = useState(0)
 
   return (
-    <section className="pv7 flex justify-between">
+    <section className="pv7 flex flex-row-l flex-column justify-between w-90 center">
       <div>
         <p className="t-heading-1 c-emphasis">PRÊMIO FINAL</p>
+        <p className="w-90-l">
+          Quem vencer o desafio será levado para uma jornada de desenvolvimento
+          para conhecer tudo que existe sobre comércio global, guiado por uma
+          das maiores empresas desse mundo.
+        </p>
         <p
           className={`${
             activeSlide === 0 ? 't-heading-1 c-emphasis' : 't-heading-2'
@@ -80,10 +85,10 @@ const Prizes: FunctionComponent = () => {
           RIO DE JANEIRO
         </p>
       </div>
-      <div className="w-50 center">
+      <div className="w-50-l w-75 center">
         <Carousel heightMode="first" slideIndex={activeSlide} withoutControls>
           <div className="relative">
-            <p className="z-2 pt6 absolute w-33">
+            <p className="z-2 pt6 absolute w-33 dn flex-l">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
               sunt perferendis quos esse qui ut, quae vitae tenetur blanditiis
               veniam ad adipisci repellat quidem aperiam labore asperiores
@@ -92,7 +97,7 @@ const Prizes: FunctionComponent = () => {
             <img src={Santiago} alt="" />
           </div>
           <div className="relative">
-            <p className="z-2 pt6 absolute w-33">
+            <p className="z-2 pt6 absolute w-33 dn flex-l">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
               sunt perferendis quos esse qui ut, quae vitae tenetur blanditiis
               veniam ad adipisci repellat quidem aperiam labore asperiores
@@ -101,7 +106,7 @@ const Prizes: FunctionComponent = () => {
             <img src={NewYork} alt="" />
           </div>
           <div className="relative">
-            <p className="z-2 pt6 absolute w-33">
+            <p className="z-2 pt6 absolute w-33 dn flex-l">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
               sunt perferendis quos esse qui ut, quae vitae tenetur blanditiis
               veniam ad adipisci repellat quidem aperiam labore asperiores
@@ -110,7 +115,7 @@ const Prizes: FunctionComponent = () => {
             <img src={London} alt="" />
           </div>
           <div className="relative">
-            <p className="z-2 pt6 absolute w-33">
+            <p className="z-2 pt6 absolute w-33 dn flex-l">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
               sunt perferendis quos esse qui ut, quae vitae tenetur blanditiis
               veniam ad adipisci repellat quidem aperiam labore asperiores
@@ -119,7 +124,7 @@ const Prizes: FunctionComponent = () => {
             <img src={Berlim} alt="" />
           </div>
           <div className="relative">
-            <p className="z-2 pt6 absolute w-33">
+            <p className="z-2 pt6 absolute w-33 dn flex-l">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
               sunt perferendis quos esse qui ut, quae vitae tenetur blanditiis
               veniam ad adipisci repellat quidem aperiam labore asperiores
@@ -128,7 +133,7 @@ const Prizes: FunctionComponent = () => {
             <img src={HongKong} alt="" />
           </div>
           <div className="relative">
-            <p className="z-2 pt6 absolute w-33">
+            <p className="z-2 pt6 absolute w-33 dn flex-l">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
               sunt perferendis quos esse qui ut, quae vitae tenetur blanditiis
               veniam ad adipisci repellat quidem aperiam labore asperiores
@@ -137,7 +142,7 @@ const Prizes: FunctionComponent = () => {
             <img src={SaoPaulo} alt="" />
           </div>
           <div className="relative">
-            <p className="z-2 pt6 absolute w-33">
+            <p className="z-2 pt6 absolute w-33 dn flex-l">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
               sunt perferendis quos esse qui ut, quae vitae tenetur blanditiis
               veniam ad adipisci repellat quidem aperiam labore asperiores

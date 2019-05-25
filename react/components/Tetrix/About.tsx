@@ -10,11 +10,12 @@ import Icon7 from '../../images/icone7.png'
 import Icon8 from '../../images/icone8.png'
 
 const About: FunctionComponent = () => {
-  const iconClasses = 'w-25 pa5 flex flex-column items-center justify-center'
+  const iconClasses =
+    'w-25-l w-90 pa5 flex flex-column items-center justify-center'
 
   return (
-    <section className="pa7 flex justify-between items-center">
-      <div className="w-33">
+    <section className="pa7 flex flex-row-l flex-column justify-between items-center">
+      <div className="w-33-l">
         <p className="t-heading-2 c-emphasis">O QUE É TETRIX?</p>
         <p className="t-body lh-copy">
           É um desafio que foi desenvolvido para testar e validar os diferentes
@@ -24,7 +25,7 @@ const About: FunctionComponent = () => {
           buscar solucionadores.
         </p>
       </div>
-      <div className="flex justify-around items-center flex-wrap w-60">
+      <div className="flex justify-around items-center flex-wrap w-60-l">
         <div className={iconClasses}>
           <img src={Icon1} style={{ width: '116px', height: '116px' }} />
           <p className="c-emphasis tc">EVOLUÇÃO</p>

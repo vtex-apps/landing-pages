@@ -44,7 +44,7 @@ const Tetrix: FunctionComponent = () => (
       {/* <link rel="icon" href={favicon} /> */}
     </Helmet>
     <main className="w-100 bg-white" style={{ fontFamily: 'Space Mono' }}>
-      <div className="w-90 center">
+      <div className="w-90-l center">
         <Header />
         <About />
         <Video />
