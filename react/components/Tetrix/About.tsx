@@ -14,7 +14,10 @@ const About: FunctionComponent = () => {
     'w-25-l w-90 pa5 flex flex-column items-center justify-center'
 
   return (
-    <section className="pa7 flex flex-row-l flex-column justify-between items-center">
+    <section
+      id="about"
+      className="pa7 flex flex-row-l flex-column justify-between items-center"
+    >
       <div className="w-33-l">
         <p className="t-heading-2 c-emphasis">O QUE É TETRIX?</p>
         <p className="t-body lh-copy">

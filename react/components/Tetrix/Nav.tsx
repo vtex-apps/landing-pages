@@ -31,12 +31,12 @@ const Nav: FunctionComponent = () => {
               </a>
             </p>
             <p className="mh5-l mv5 mv0-l bold">
-              <a className="link c-muted-1" href="#faq">
+              <a className="link c-muted-1" href="#prize">
                 <strong>PRÊMIO</strong>
               </a>
             </p>
             <p className="mh5-l mv5 mv0-l bold">
-              <a className="link c-muted-1" href="/rules">
+              <a className="link c-muted-1" href="#faq">
                 <strong>FAQ</strong>
               </a>
             </p>

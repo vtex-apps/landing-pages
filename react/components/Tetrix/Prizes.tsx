@@ -13,7 +13,10 @@ const Prizes: FunctionComponent = () => {
   const [activeSlide, setActiveSlide] = useState(0)
 
   return (
-    <section className="pv7 flex flex-row-l flex-column justify-between w-90 center">
+    <section
+      id="prize"
+      className="pv7 flex flex-row-l flex-column justify-between w-90 center"
+    >
       <div>
         <p className="t-heading-1 c-emphasis">PRÊMIO FINAL</p>
         <p className="w-90-l">
