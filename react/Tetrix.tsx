@@ -43,7 +43,7 @@ const Tetrix: FunctionComponent = () => (
       <meta property="twitter:image" content={HomeImage} /> */}
       {/* <link rel="icon" href={favicon} /> */}
     </Helmet>
-    <main className="w-100 bg-white">
+    <main className="w-100 bg-white" style={{ fontFamily: 'Space Mono' }}>
       <div className="w-90 center">
         <Header />
         <About />
