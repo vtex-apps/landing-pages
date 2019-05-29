@@ -17,7 +17,7 @@ const Prizes: FunctionComponent = () => {
       id="prize"
       className="pv7 flex flex-row-l flex-column justify-between w-90 center mv8"
     >
-      <div>
+      <div className="w-90 center w-50-l">
         <p className="t-heading-1 c-emphasis">PRÊMIO FINAL</p>
         <p className="w-90-l">
           Quem vencer o desafio será levado para uma jornada de desenvolvimento
