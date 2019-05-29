@@ -30,35 +30,35 @@ const About: FunctionComponent = () => {
       </div>
       <div className="flex justify-around items-center flex-wrap w-60-l">
         <div className={iconClasses}>
-          <img src={Icon1} style={{ width: '116px', height: '116px' }} />
+          <img src={Icon1} style={{ width: '100px', height: '100px' }} />
           <p className="c-emphasis tc">EVOLUÇÃO</p>
         </div>
         <div className={iconClasses}>
-          <img src={Icon2} style={{ width: '116px', height: '116px' }} />
+          <img src={Icon2} style={{ width: '100px', height: '100px' }} />
           <p className="tc">CONHECIMENTO TÉCNICO E DE MERCADO</p>
         </div>
         <div className={iconClasses}>
-          <img src={Icon3} style={{ width: '116px', height: '116px' }} />
+          <img src={Icon3} style={{ width: '100px', height: '100px' }} />
           <p className="c-emphasis tc">AUDÁCIA</p>
         </div>
         <div className={iconClasses}>
-          <img src={Icon4} style={{ width: '116px', height: '116px' }} />
+          <img src={Icon4} style={{ width: '100px', height: '100px' }} />
           <p className="tc">PENSAMENTO LÓGICO</p>
         </div>
         <div className={iconClasses}>
-          <img src={Icon5} style={{ width: '116px', height: '116px' }} />
+          <img src={Icon5} style={{ width: '100px', height: '100px' }} />
           <p className="tc">COLLECTIVE ADMIRATION</p>
         </div>
         <div className={iconClasses}>
-          <img src={Icon6} style={{ width: '116px', height: '116px' }} />
+          <img src={Icon6} style={{ width: '100px', height: '100px' }} />
           <p className="c-emphasis tc">CONEXÃO</p>
         </div>
         <div className={iconClasses}>
-          <img src={Icon7} style={{ width: '116px', height: '116px' }} />
+          <img src={Icon7} style={{ width: '100px', height: '100px' }} />
           <p className="tc">COMUNICAÇÃO</p>
         </div>
         <div className={iconClasses}>
-          <img src={Icon8} style={{ width: '116px', height: '116px' }} />
+          <img src={Icon8} style={{ width: '100px', height: '100px' }} />
           <p className="c-emphasis tc">REFERENCE VOICE</p>
         </div>
       </div>
