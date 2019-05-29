@@ -92,64 +92,58 @@ const Prizes: FunctionComponent = () => {
         <Carousel heightMode="first" slideIndex={activeSlide} withoutControls>
           <div className="relative">
             <p className="z-2 pt6 absolute w-33 dn flex-l">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
-              sunt perferendis quos esse qui ut, quae vitae tenetur blanditiis
-              veniam ad adipisci repellat quidem aperiam labore asperiores
-              aspernatur. Aliquid, pariatur!
+              E-commerce na América Latina - visão e desafios: identificar as
+              características do mercado e dos clientes latinos.
             </p>
             <img src={Santiago} alt="" />
           </div>
           <div className="relative">
             <p className="z-2 pt6 absolute w-33 dn flex-l">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
-              sunt perferendis quos esse qui ut, quae vitae tenetur blanditiis
-              veniam ad adipisci repellat quidem aperiam labore asperiores
-              aspernatur. Aliquid, pariatur!
+              Megalópole digital - networking e expansão de negócios em
+              inovação: colocar em prática habilidades de desenvolvimento de
+              networking na área de tecnologia.
             </p>
             <img src={NewYork} alt="" />
           </div>
           <div className="relative">
             <p className="z-2 pt6 absolute w-33 dn flex-l">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
-              sunt perferendis quos esse qui ut, quae vitae tenetur blanditiis
-              veniam ad adipisci repellat quidem aperiam labore asperiores
-              aspernatur. Aliquid, pariatur!
+              Fintechs - a inovação tecnológica revolucionando o mercado
+              financeiro global: entender como as fintechs revolucionaram o
+              mercado mundial e os desafios a seu desenvolvimento como, por
+              exemplo, os limites impostos por diferentes regulações feitas
+              pelos países.
             </p>
             <img src={London} alt="" />
           </div>
           <div className="relative">
             <p className="z-2 pt6 absolute w-33 dn flex-l">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
-              sunt perferendis quos esse qui ut, quae vitae tenetur blanditiis
-              veniam ad adipisci repellat quidem aperiam labore asperiores
-              aspernatur. Aliquid, pariatur!
+              Inovação tecnológica: desenvolvimento do olhar mais afeto às
+              pesquisas, centros tecnológicos, universidades, para se antecipar
+              nos negócios digitais.
             </p>
             <img src={Berlim} alt="" />
           </div>
           <div className="relative">
             <p className="z-2 pt6 absolute w-33 dn flex-l">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
-              sunt perferendis quos esse qui ut, quae vitae tenetur blanditiis
-              veniam ad adipisci repellat quidem aperiam labore asperiores
-              aspernatur. Aliquid, pariatur!
+              Visão para o futuro: novos mercados, diferentes culturas, conhecer
+              os desafios de empreender em uma cultura diferente da brasileira.
             </p>
             <img src={HongKong} alt="" />
           </div>
           <div className="relative">
             <p className="z-2 pt6 absolute w-33 dn flex-l">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
-              sunt perferendis quos esse qui ut, quae vitae tenetur blanditiis
-              veniam ad adipisci repellat quidem aperiam labore asperiores
-              aspernatur. Aliquid, pariatur!
+              Centro de negócios do Brasil e da América Latina: conhecer a os
+              diferenciais da capital paulista no cenário do comércio eletrônico
+              brasileiro e reconhecer sua posição de importância no cenário do
+              e-commerce da América Latina.
             </p>
             <img src={SaoPaulo} alt="" />
           </div>
           <div className="relative">
             <p className="z-2 pt6 absolute w-33 dn flex-l">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
-              sunt perferendis quos esse qui ut, quae vitae tenetur blanditiis
-              veniam ad adipisci repellat quidem aperiam labore asperiores
-              aspernatur. Aliquid, pariatur!
+              Negócios digitais na prática: conhecer e entender os desafios no
+              desenvolvimento e na programação da infraestrutura de negócios
+              digitais.
             </p>
             <img src={Rio} alt="" />
           </div>
