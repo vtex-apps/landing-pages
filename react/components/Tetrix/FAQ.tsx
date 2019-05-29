@@ -7,8 +7,14 @@ const FAQ: FunctionComponent = () => (
   <section id="faq" className="pa8 bg-base c-on-base mt8">
     <p className="t-heading-1">F.A.Q</p>
     <p>
-      Para saber mais sobre o TETRIX, o Desafio, confira as Regras do Desafio e
-      as dúvidas frequentes antes de iniciar sua inscrição.
+      Para saber mais sobre o TETRIX, o Desafio, confira as{' '}
+      <a
+        href="https://drive.google.com/file/d/1RUtzx23oaKNklXCMC_up-7ha2hV_grn-/view?usp=sharing"
+        className="link c-on-base"
+      >
+        Regras do Desafio
+      </a>{' '}
+      e as dúvidas frequentes antes de iniciar sua inscrição.
     </p>
     <div className="flex flex-column items-center">
       {questions.map(q => (

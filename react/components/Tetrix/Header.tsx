@@ -18,11 +18,11 @@ const Header: FunctionComponent = () => (
         </p>
         <p className="c-on-base lh-copy">
           No Tetrix, o Desafio, você será capaz de descobrir se o seu
-          conhecimento tem fim, e somente ao superá-lo, encontrará respostas às
+          conhecimento tem fim e, somente ao superá-lo, encontrará respostas às
           perguntas que podem definir seu futuro. Vença e seja levado a uma
           jornada de desenvolvimento pelo mundo.
         </p>
-        <p className="c-muted-5 b">Inscreva-se até o dia 30 de junho.</p>
+        <p className="c-muted-5 b">Inscreva-se até o dia 07 de julho.</p>
         <button className="c-emphasis br-pill mt6 mb3 bg-base--inverted ph7 b--none pointer w-50-l">
           <p className="t-heading-4 mv4">Participar</p>
         </button>
