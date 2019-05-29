@@ -7,10 +7,29 @@ const Footer: FunctionComponent = () => (
     <div className="flex flex-row-l flex-column justify-between items-center-l w-90 center">
       <img src={Logo} alt="TETRIX" className="w-90 w-33-l center" />
       <div className="flex flex-row-l flex-column justify-between mt5 mt0-l">
-        <p className="ph5-l">VTEX.COM</p>
-        <p className="ph5-l">TERMOS E CONDIÇÕES</p>
-        <p className="ph5-l">CAREERS</p>
-        <p className="ph5-l">CONTACT US</p>
+        <p className="ph5-l">
+          <a className="link c-muted-5" href="https://vtex.com">
+            VTEX.COM
+          </a>
+        </p>
+        <p className="ph5-l">
+          <a
+            className="link c-muted-5"
+            href="https://drive.google.com/file/d/1RUtzx23oaKNklXCMC_up-7ha2hV_grn-/view?usp=sharing"
+          >
+            TERMOS E CONDIÇÕES
+          </a>
+        </p>
+        <p className="ph5-l">
+          <a className="link c-muted-5" href="https://careers.vtex.com">
+            CAREERS
+          </a>
+        </p>
+        <p className="ph5-l">
+          <a className="link c-muted-5" href={'mailto:tetrix@vtex.com'}>
+            CONTACT US
+          </a>
+        </p>
       </div>
     </div>
   </footer>
