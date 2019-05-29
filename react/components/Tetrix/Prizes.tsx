@@ -15,7 +15,7 @@ const Prizes: FunctionComponent = () => {
   return (
     <section
       id="prize"
-      className="pv7 flex flex-row-l flex-column justify-between w-90 center"
+      className="pv7 flex flex-row-l flex-column justify-between w-90 center mv8"
     >
       <div>
         <p className="t-heading-1 c-emphasis">PRÊMIO FINAL</p>

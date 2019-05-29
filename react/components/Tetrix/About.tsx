@@ -16,7 +16,7 @@ const About: FunctionComponent = () => {
   return (
     <section
       id="about"
-      className="pa7 flex flex-row-l flex-column justify-between items-center"
+      className="pa7 flex flex-row-l flex-column justify-between items-center mv8"
     >
       <div className="w-33-l">
         <p className="t-heading-2 c-emphasis">O QUE É TETRIX?</p>
