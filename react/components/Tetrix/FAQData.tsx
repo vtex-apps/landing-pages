@@ -8,7 +8,7 @@ export const questions = [
   {
     question: 'Quando começa o Desafio?',
     ans:
-      'O link de acesso para a primeira fase será disponibilizado no dia 13 de julho, horário, para todos os inscritos.',
+      'O link de acesso para a primeira fase será disponibilizado no dia 13 de julho para todos os inscritos.',
   },
   {
     question: 'Quem pode participar do TETRIX?',
@@ -24,7 +24,7 @@ export const questions = [
     question:
       'O que preciso saber sobre o prêmio? (Venci, quais documentações devo possuir?)',
     ans:
-      'O vencedor deverá ter toda documentação necessária na data do embarque para a viagem prêmio. Isso inclui: vistos, passaporte e certificado internacional de vacinação.',
+      'O vencedor deverá ter toda documentação necessária na data do embarque para a viagem prêmio. Isso inclui: vistos, passaporte e certificado internacional de vacinação. Se você não tiver os documentos necessários, não se preocupe! Avise-nos durante a fase final, para providenciarmos.',
   },
   {
     question: 'Ainda possui alguma dúvida?',
@@ -32,7 +32,7 @@ export const questions = [
       <Fragment>
         Se você ainda possui alguma dúvida que não respondemos aqui nesse FAQ,
         mande um e-mail para{' '}
-        <a href={'mailto:codecup@vtex.com'}>codecup@vtex.com</a> que estamos
+        <a href={'mailto:tetrix@vtex.com'}>tetrix@vtex.com</a> que estamos
         disponíveis para te ajudar.
       </Fragment>
     ),
