@@ -23,9 +23,11 @@ const Header: FunctionComponent = () => (
           jornada de desenvolvimento pelo mundo.
         </p>
         <p className="c-muted-5 b">Inscreva-se até o dia 07 de julho.</p>
-        <button className="c-emphasis br-pill mt6 mb3 bg-base--inverted ph7 b--none pointer w-50-l">
-          <p className="t-heading-4 mv4">Participar</p>
-        </button>
+        <a className="link" href="https://tetrix.typeform.com/to/Jy9KBv">
+          <button className="c-emphasis br-pill mt6 mb3 bg-base--inverted ph7 b--none pointer w-50-l">
+            <p className="t-heading-4 mv4">Participar</p>
+          </button>
+        </a>
       </div>
       <div className="w-40-l w-90 order-0 order-1-l">
         <Carousel autoplay wrapAround withoutControls>
