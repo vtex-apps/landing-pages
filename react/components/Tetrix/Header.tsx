@@ -1,4 +1,5 @@
 import React, { FunctionComponent } from 'react'
+import * as typeformEmbed from '@typeform/embed'
 
 import Nav from './Nav'
 
@@ -6,6 +7,20 @@ import Slider1 from '../../images/slider1.png'
 import Slider2 from '../../images/slider2.png'
 import Slider3 from '../../images/slider3.png'
 import Carousel from 'nuka-carousel'
+
+const typeformPopUp = typeformEmbed.makePopup(
+  'https://tetrix.typeform.com/to/Jy9KBv',
+  {
+    mode: 'popup',
+    autoOpen: false,
+    hideHeaders: true,
+    hideFooters: true,
+  }
+)
+
+function handleParticipateClick() {
+  typeformPopUp.open()
+}
 
 const Header: FunctionComponent = () => (
   <header className="bg-emphasis pa9">
@@ -23,11 +38,12 @@ const Header: FunctionComponent = () => (
           jornada de desenvolvimento pelo mundo.
         </p>
         <p className="c-muted-5 b">Inscreva-se até o dia 07 de julho.</p>
-        <a className="link" href="https://tetrix.typeform.com/to/Jy9KBv">
-          <button className="c-emphasis br-pill mt6 mb3 bg-base--inverted ph7 b--none pointer w-50-l">
-            <p className="t-heading-4 mv4">Participar</p>
-          </button>
-        </a>
+        <button
+          onClick={handleParticipateClick}
+          className="c-emphasis br-pill mt6 mb3 bg-base--inverted ph7 b--none pointer w-50-l"
+        >
+          <p className="t-heading-4 mv4">Participar</p>
+        </button>
       </div>
       <div className="w-40-l w-90 order-0 order-1-l">
         <Carousel autoplay wrapAround withoutControls>
