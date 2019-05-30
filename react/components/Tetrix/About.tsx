@@ -19,13 +19,14 @@ const About: FunctionComponent = () => {
       className="pa7 flex flex-row-l flex-column justify-between items-center mv8"
     >
       <div className="w-33-l">
-        <p className="t-heading-2 c-emphasis">O QUE É TETRIX?</p>
+        <p className="t-heading-2 c-emphasis">O QUE É O TETRIX?</p>
         <p className="t-body lh-copy">
-          É um desafio que foi desenvolvido para testar e validar os diferentes
-          tipos de habilidades dos participantes, através de perguntas que
-          conectam múltiplos conhecimentos com um nível de complexidade
-          progressiva, direcionado a identificar diferentes perspectivas e
-          buscar solucionadores.
+          O Tetrix é um desafio universitário que foi desenvolvido pela VTEX
+          para testar e validar os diferentes tipos de habilidades dos
+          participantes. Através de perguntas que conectam múltiplos
+          conhecimentos, o Tetrix propõe um um nível de complexidade
+          progressiva, que ajuda a identificar diferentes perspectivas e buscar
+          solucionadores.
         </p>
       </div>
       <div className="flex justify-around items-center flex-wrap w-60-l">

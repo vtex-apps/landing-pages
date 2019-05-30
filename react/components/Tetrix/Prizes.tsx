@@ -18,11 +18,13 @@ const Prizes: FunctionComponent = () => {
       className="pv7 flex flex-row-l flex-column justify-between w-90 center mv8"
     >
       <div className="w-90 center w-50-l">
-        <p className="t-heading-1 c-emphasis">PRÊMIO FINAL</p>
+        <p className="t-heading-1 c-emphasis">O PRÊMIO</p>
         <p className="w-90-l">
           Quem vencer o desafio será levado para uma jornada de desenvolvimento
-          para conhecer tudo que existe sobre comércio global, guiado por uma
-          das maiores empresas desse mundo.
+          nas principais cidades que desenvolvem iniciativas inovadoras de
+          e-commerce. É uma chance única de conhecer tudo que existe sobre
+          comércio global, guiado por uma das maiores empresas desse setor no
+          mundo.
         </p>
         <div>
           <p
@@ -34,8 +36,9 @@ const Prizes: FunctionComponent = () => {
             SANTIAGO
           </p>
           <p className="dn-l">
-            E-commerce na América Latina - visão e desafios: identificar as
-            características do mercado e dos clientes latinos.
+            Conheça os desafios do e-commerce na América Latina hispanohablante,
+            conhecendo as características do mercado e dos clientes latinos de
+            língua espanhola.
           </p>
         </div>
         <div>
@@ -48,9 +51,9 @@ const Prizes: FunctionComponent = () => {
             NOVA YORQUE
           </p>
           <p className="dn-l">
-            Megalópole digital - networking e expansão de negócios em inovação:
-            colocar em prática habilidades de desenvolvimento de networking na
-            área de tecnologia.
+            Na megalópole norte-americana, desenvolva suas habilidades de
+            networking, conhecendo negócios da área de tecnologia e descobrindo
+            oportunidades de expansão inovadoras.
           </p>
         </div>
 
@@ -64,11 +67,9 @@ const Prizes: FunctionComponent = () => {
             LONDRES
           </p>
           <p className="dn-l">
-            Fintechs - a inovação tecnológica revolucionando o mercado
-            financeiro global: entender como as fintechs revolucionaram o
-            mercado mundial e os desafios a seu desenvolvimento como, por
-            exemplo, os limites impostos por diferentes regulações feitas pelos
-            países.
+            Na terra da Rainha, aprenda como as fintechs estão revolucionando o
+            mercado financeiro global, compreendendo os desafios de
+            desenvolvimento, os limites das legislações locais.
           </p>
         </div>
 
@@ -82,9 +83,9 @@ const Prizes: FunctionComponent = () => {
             BERLIM
           </p>
           <p className="dn-l">
-            Inovação tecnológica: desenvolvimento do olhar mais afeto às
-            pesquisas, centros tecnológicos, universidades, para se antecipar
-            nos negócios digitais.
+            Desenvolva um olhar mais focado para os resultados de pesquisas para
+            aprender a se antecipar nas decisões de negócios, visitando centros
+            tecnológicos e universidades.
           </p>
         </div>
 
@@ -98,8 +99,9 @@ const Prizes: FunctionComponent = () => {
             HONG KONG
           </p>
           <p className="dn-l">
-            Visão para o futuro: novos mercados, diferentes culturas, conhecer
-            os desafios de empreender em uma cultura diferente da brasileira.
+            Desenvolva um olhar mais focado para os resultados de pesquisas para
+            aprender a se antecipar nas decisões de negócios, visitando centros
+            tecnológicos e universidades.
           </p>
         </div>
 
@@ -113,6 +115,9 @@ const Prizes: FunctionComponent = () => {
             SÃO PAULO
           </p>
           <p className="dn-l">
+            Entenda os diferenciais da capital paulista no cenário de comércio
+            eletrônico brasileiro, reconhecendo as razões da sua importância
+            para o e-commerce da América Latina. <br />
             Centro de negócios do Brasil e da América Latina: conhecer a os
             diferenciais da capital paulista no cenário do comércio eletrônico
             brasileiro e reconhecer sua posição de importância no cenário do
@@ -130,8 +135,8 @@ const Prizes: FunctionComponent = () => {
             RIO DE JANEIRO
           </p>
           <p className="dn-l">
-            Negócios digitais na prática: conhecer e entender os desafios no
-            desenvolvimento e na programação da infraestrutura de negócios
+            Visualize na prática os desafios no desenvolvimento e na programação
+            da infraestrutura necessária para a viabilização de negócios
             digitais.
           </p>
         </div>
@@ -140,58 +145,57 @@ const Prizes: FunctionComponent = () => {
         <Carousel heightMode="first" slideIndex={activeSlide} withoutControls>
           <div className="relative">
             <p className="z-2 pt6 absolute w-33 dn flex-l">
-              E-commerce na América Latina - visão e desafios: identificar as
-              características do mercado e dos clientes latinos.
+              Conheça os desafios do e-commerce na América Latina
+              hispanohablante, conhecendo as características do mercado e dos
+              clientes latinos de língua espanhola.
             </p>
             <img src={Santiago} alt="" />
           </div>
           <div className="relative">
             <p className="z-2 pt6 absolute w-33 dn flex-l">
-              Megalópole digital - networking e expansão de negócios em
-              inovação: colocar em prática habilidades de desenvolvimento de
-              networking na área de tecnologia.
+              Na megalópole norte-americana, desenvolva suas habilidades de
+              networking, conhecendo negócios da área de tecnologia e
+              descobrindo oportunidades de expansão inovadoras.
             </p>
             <img src={NewYork} alt="" />
           </div>
           <div className="relative">
             <p className="z-2 pt6 absolute w-33 dn flex-l">
-              Fintechs - a inovação tecnológica revolucionando o mercado
-              financeiro global: entender como as fintechs revolucionaram o
-              mercado mundial e os desafios a seu desenvolvimento como, por
-              exemplo, os limites impostos por diferentes regulações feitas
-              pelos países.
+              Na terra da Rainha, aprenda como as fintechs estão revolucionando
+              o mercado financeiro global, compreendendo os desafios de
+              desenvolvimento, os limites das legislações locais.
             </p>
             <img src={London} alt="" />
           </div>
           <div className="relative">
             <p className="z-2 pt6 absolute w-33 dn flex-l">
-              Inovação tecnológica: desenvolvimento do olhar mais afeto às
-              pesquisas, centros tecnológicos, universidades, para se antecipar
-              nos negócios digitais.
+              Desenvolva um olhar mais focado para os resultados de pesquisas
+              para aprender a se antecipar nas decisões de negócios, visitando
+              centros tecnológicos e universidades.
             </p>
             <img src={Berlim} alt="" />
           </div>
           <div className="relative">
             <p className="z-2 pt6 absolute w-33 dn flex-l">
-              Visão para o futuro: novos mercados, diferentes culturas, conhecer
-              os desafios de empreender em uma cultura diferente da brasileira.
+              Desenvolva um olhar mais focado para os resultados de pesquisas
+              para aprender a se antecipar nas decisões de negócios, visitando
+              centros tecnológicos e universidades.
             </p>
             <img src={HongKong} alt="" />
           </div>
           <div className="relative">
             <p className="z-2 pt6 absolute w-33 dn flex-l">
-              Centro de negócios do Brasil e da América Latina: conhecer a os
-              diferenciais da capital paulista no cenário do comércio eletrônico
-              brasileiro e reconhecer sua posição de importância no cenário do
-              e-commerce da América Latina.
+              Entenda os diferenciais da capital paulista no cenário de comércio
+              eletrônico brasileiro, reconhecendo as razões da sua importância
+              para o e-commerce da América Latina.
             </p>
             <img src={SaoPaulo} alt="" />
           </div>
           <div className="relative">
             <p className="z-2 pt6 absolute w-33 dn flex-l">
-              Negócios digitais na prática: conhecer e entender os desafios no
-              desenvolvimento e na programação da infraestrutura de negócios
-              digitais.
+              Visualize na prática os desafios no desenvolvimento e na
+              programação da infraestrutura necessária para a viabilização de
+              negócios digitais.
             </p>
             <img src={Rio} alt="" />
           </div>
