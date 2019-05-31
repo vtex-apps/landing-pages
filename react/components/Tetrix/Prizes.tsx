@@ -143,62 +143,13 @@ const Prizes: FunctionComponent = () => {
       </div>
       <div className="w-50-l w-75 dn flex-l center">
         <Carousel heightMode="first" slideIndex={activeSlide} withoutControls>
-          <div className="relative">
-            <p className="z-2 pt6 absolute w-33 dn flex-l">
-              Conheça os desafios do e-commerce na América Latina
-              hispanohablante, conhecendo as características do mercado e dos
-              clientes latinos de língua espanhola.
-            </p>
-            <img src={Santiago} alt="" />
-          </div>
-          <div className="relative">
-            <p className="z-2 pt6 absolute w-33 dn flex-l">
-              Na megalópole norte-americana, desenvolva suas habilidades de
-              networking, conhecendo negócios da área de tecnologia e
-              descobrindo oportunidades de expansão inovadoras.
-            </p>
-            <img src={NewYork} alt="" />
-          </div>
-          <div className="relative">
-            <p className="z-2 pt6 absolute w-33 dn flex-l">
-              Na terra da Rainha, aprenda como as fintechs estão revolucionando
-              o mercado financeiro global, compreendendo os desafios de
-              desenvolvimento, os limites das legislações locais.
-            </p>
-            <img src={London} alt="" />
-          </div>
-          <div className="relative">
-            <p className="z-2 pt6 absolute w-33 dn flex-l">
-              Desenvolva um olhar mais focado para os resultados de pesquisas
-              para aprender a se antecipar nas decisões de negócios, visitando
-              centros tecnológicos e universidades.
-            </p>
-            <img src={Berlim} alt="" />
-          </div>
-          <div className="relative">
-            <p className="z-2 pt6 absolute w-33 dn flex-l">
-              Desenvolva um olhar mais focado para os resultados de pesquisas
-              para aprender a se antecipar nas decisões de negócios, visitando
-              centros tecnológicos e universidades.
-            </p>
-            <img src={HongKong} alt="" />
-          </div>
-          <div className="relative">
-            <p className="z-2 pt6 absolute w-33 dn flex-l">
-              Entenda os diferenciais da capital paulista no cenário de comércio
-              eletrônico brasileiro, reconhecendo as razões da sua importância
-              para o e-commerce da América Latina.
-            </p>
-            <img src={SaoPaulo} alt="" />
-          </div>
-          <div className="relative">
-            <p className="z-2 pt6 absolute w-33 dn flex-l">
-              Visualize na prática os desafios no desenvolvimento e na
-              programação da infraestrutura necessária para a viabilização de
-              negócios digitais.
-            </p>
-            <img src={Rio} alt="" />
-          </div>
+          <img src={Santiago} alt="" />
+          <img src={NewYork} alt="" />
+          <img src={London} alt="" />
+          <img src={Berlim} alt="" />
+          <img src={HongKong} alt="" />
+          <img src={SaoPaulo} alt="" />
+          <img src={Rio} alt="" />
         </Carousel>
       </div>
     </section>

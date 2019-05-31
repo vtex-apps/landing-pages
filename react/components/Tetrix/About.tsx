@@ -48,7 +48,7 @@ const About: FunctionComponent = () => {
         </div>
         <div className={iconClasses}>
           <img src={Icon5} style={{ width: '100px', height: '100px' }} />
-          <p className="tc">COLLECTIVE ADMIRATION</p>
+          <p className="tc">ADMIRAÇÃO COLETIVA</p>
         </div>
         <div className={iconClasses}>
           <img src={Icon6} style={{ width: '100px', height: '100px' }} />
@@ -60,7 +60,7 @@ const About: FunctionComponent = () => {
         </div>
         <div className={iconClasses}>
           <img src={Icon8} style={{ width: '100px', height: '100px' }} />
-          <p className="c-emphasis tc">REFERENCE VOICE</p>
+          <p className="c-emphasis tc">VOZ DE REFERÊNCIA</p>
         </div>
       </div>
     </section>

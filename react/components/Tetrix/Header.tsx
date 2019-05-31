@@ -28,8 +28,9 @@ const Header: FunctionComponent = () => (
     <div className="flex flex-column flex-row-l justify-around items-center mt5">
       <div className="flex flex-column justify-around w-40-l w-90 order-1 order-0-l">
         <p className="t-heading-2 c-on-base bold">
-          QUAL A ÚLTIMA VEZ QUE VOCÊ SE SURPREENDEU COM <br />
-          <span className="underline c-muted-5">VOCÊ MESMO?</span>
+          QUAL A ÚLTIMA VEZ QUE VOCÊ SE SURPREENDEU
+          <br />
+          <span className="underline c-muted-5"> COM VOCÊ MESMO?</span>
         </p>
         <p className="c-on-base lh-copy">
           No Tetrix, o Desafio, você será capaz de descobrir se o seu
