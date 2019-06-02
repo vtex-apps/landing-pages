@@ -1,5 +1,7 @@
 import React, { FunctionComponent, useState } from 'react'
 import { IconBars } from 'vtex.styleguide'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faFacebook, faInstagram } from '@fortawesome/free-brands-svg-icons'
 
 import Logo from '../../images/tetrix_logo.svg'
 
@@ -48,6 +50,18 @@ const Nav: FunctionComponent = () => {
                 <strong>FAQ</strong>
               </a>
             </p>
+            <a
+              className="link c-on-base mh5-l mv5"
+              href="https://www.facebook.com/desafiotetrix/"
+            >
+              <FontAwesomeIcon icon={faFacebook} />
+            </a>
+            <a
+              className="link c-on-base mh5-l mv5"
+              href="https://www.instagram.com/desafiotetrix/"
+            >
+              <FontAwesomeIcon icon={faInstagram} />
+            </a>
           </div>
         </div>
       </div>
