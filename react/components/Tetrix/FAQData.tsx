@@ -32,8 +32,8 @@ export const questions = [
       <Fragment>
         Se você ainda possui alguma dúvida que não respondemos aqui nesse FAQ,
         mande um e-mail para{' '}
-        <a href={'mailto:tetrix@vtex.com'}>tetrix@vtex.com</a> que estamos
-        disponíveis para te ajudar.
+        <a href={'mailto:ola@tetrixodesafio.com'}>ola@tetrixodesafio.com</a> que
+        estamos disponíveis para te ajudar.
       </Fragment>
     ),
   },

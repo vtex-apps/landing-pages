@@ -48,7 +48,7 @@ const Prizes: FunctionComponent = () => {
             onMouseOver={() => setActiveSlide(1)}
             onClick={() => setActiveSlide(1)}
           >
-            NOVA YORQUE
+            NOVA YORK
           </p>
           <p className="dn-l">
             Na megalópole norte-americana, desenvolva suas habilidades de
