@@ -1,23 +1,15 @@
-import React, { FunctionComponent } from 'react'
-import remark from 'remark'
-import remark2react from 'remark-react'
+import React, { FunctionComponent, Fragment } from 'react'
+import ReactHtmlParser from 'react-html-parser'
 import { graphql, compose } from 'react-apollo'
 import { branch, renderComponent } from 'recompose'
 
 import RendererPlaceHolder from './RendererPlaceHolder'
 import EmptyDocs from './EmptyDocs'
-import { remarkReactComponents } from './CustomTags'
 
 import * as RepoDocs from '../../graphql/getDocs.graphql'
 
 const DocsRenderer: FunctionComponent<any> = ({ docsQuery }) => (
-  <article className="pa7 w-100">
-    {
-      remark()
-        .use(remark2react, { remarkReactComponents })
-        .processSync(atob(docsQuery.getDocs.encodedDocs)).contents
-    }
-  </article>
+  <Fragment>{ReactHtmlParser(docsQuery.getDocs.htmlDocs)}</Fragment>
 )
 
 export default compose(
