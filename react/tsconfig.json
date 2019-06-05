@@ -1,16 +1,10 @@
 {
   "compilerOptions": {
-    "types": [
-      "node"
-    ],
-    "allowJs": true,
+    "types": ["node"],
     "allowSyntheticDefaultImports": true,
     "resolveJsonModule": true,
     "jsx": "react",
-    "lib": [
-      "es2017",
-      "dom"
-    ],
+    "lib": ["es2017", "dom"],
     "module": "es6",
     "moduleResolution": "node",
     "sourceMap": true,
@@ -21,12 +15,6 @@
   "typeAcquisition": {
     "enable": false
   },
-  "include": [
-    "./**/*.tsx",
-    "./typings",
-    "./typings.d.ts"
-  ],
-  "exclude": [
-    "node_modules"
-  ]
+  "include": ["./**/*.tsx", "./typings", "./typings.d.ts"],
+  "exclude": ["node_modules"]
 }
