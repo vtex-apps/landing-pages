@@ -27,10 +27,7 @@ const Tetrix: FunctionComponent = () => {
         <meta name="description" content="O desafio universitário da VTEX" />
         <meta name="theme-color" content="#F71963" />
         <link rel="icon" href={favicon} />
-        {/* <meta
-        name="google-site-verification"
-        content="w74PwlErxsMKe0Hp083-KEET2vwM2XcjzjiS4dZcThU"
-      /> */}
+        <meta name="google-site-verification" content="WwFB6guJNrYrVApfMf_WmoCLNmptYJ_Vgk_i1DpgYLY" />
         {/* <!-- Open Graph / Facebook --> */}
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://tetrix.vtex.com/" />
