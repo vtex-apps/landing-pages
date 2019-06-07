@@ -3,6 +3,8 @@ import ReactHtmlParser from 'react-html-parser'
 import { graphql, compose } from 'react-apollo'
 import { branch, renderComponent } from 'recompose'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
+import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter'
+import { coy } from 'react-syntax-highlighter/dist/styles/prism'
 
 import RendererPlaceHolder from './RendererPlaceHolder'
 import EmptyDocs from './EmptyDocs'
@@ -19,6 +21,17 @@ function transform(node: any) {
       <AnchorLink offset={() => 80} href={node.attribs.href}>
         {node.children[0].data}
       </AnchorLink>
+    )
+  } else if (
+    node.type === 'tag' &&
+    node.name === 'code' &&
+    node.parent &&
+    node.parent.name === 'pre'
+  ) {
+    return (
+      <SyntaxHighlighter language="javascript" style={coy}>
+        {node.children[0].data}
+      </SyntaxHighlighter>
     )
   }
 }
