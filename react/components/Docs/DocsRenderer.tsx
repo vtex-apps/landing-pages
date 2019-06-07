@@ -6,7 +6,7 @@ import AnchorLink from 'react-anchor-link-smooth-scroll'
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter'
 import { coy } from 'react-syntax-highlighter/dist/styles/prism'
 
-import RendererPlaceHolder from './RendererPlaceHolder'
+import Skeleton from './Skeleton'
 import EmptyDocs from './EmptyDocs'
 
 import * as RepoDocs from '../../graphql/getDocs.graphql'
@@ -55,9 +55,6 @@ export default compose(
       }
     },
   }),
-  branch(
-    ({ docsQuery }: any) => docsQuery.loading,
-    renderComponent(RendererPlaceHolder)
-  ),
+  branch(({ docsQuery }: any) => docsQuery.loading, renderComponent(Skeleton)),
   branch(({ docsQuery }: any) => !!docsQuery.error, renderComponent(EmptyDocs))
 )(DocsRenderer)
