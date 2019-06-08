@@ -132,7 +132,7 @@ const Header: FunctionComponent = () => {
             alt=""
           />
           <div className="mt6">
-            <Countdown date="June, 08, 2019, 13:00:00" />
+            <Countdown date="June, 08, 2019, 15:00:00" />
           </div>
         </div>
       </div>
