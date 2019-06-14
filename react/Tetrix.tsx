@@ -1,5 +1,5 @@
 import React, { FunctionComponent, Fragment, useEffect } from 'react'
-import { Helmet } from 'vtex.render-runtime'
+import { Helmet, NoSSR } from 'vtex.render-runtime'
 import ReactGA from 'react-ga'
 
 import Header from './components/Tetrix/Header'
@@ -27,7 +27,10 @@ const Tetrix: FunctionComponent = () => {
         <meta name="description" content="O desafio universitário da VTEX" />
         <meta name="theme-color" content="#F71963" />
         <link rel="icon" href={favicon} />
-        <meta name="google-site-verification" content="WwFB6guJNrYrVApfMf_WmoCLNmptYJ_Vgk_i1DpgYLY" />
+        <meta
+          name="google-site-verification"
+          content="WwFB6guJNrYrVApfMf_WmoCLNmptYJ_Vgk_i1DpgYLY"
+        />
         {/* <!-- Open Graph / Facebook --> */}
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://tetrix.vtex.com/" />
@@ -49,7 +52,9 @@ const Tetrix: FunctionComponent = () => {
       </Helmet>
       <main className="w-100 bg-white">
         <div className="w-90-l center">
-          <Header />
+          <NoSSR>
+            <Header />
+          </NoSSR>
           <About />
           <Video />
           <HowItWorks />
