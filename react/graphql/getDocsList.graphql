@@ -1,0 +1,6 @@
+query RepoDocsList($repositoryName: String) {
+  getDocsList(repositoryName: $repositoryName) {
+    name
+    path
+  }
+}

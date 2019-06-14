@@ -26,7 +26,9 @@ const Docs: FunctionComponent<any> = () => {
           <aside className="w-25-l ml5-l w-90 center">
             <SideBar componentList={availableDocs} />
           </aside>
-          <DocsRenderer />
+          <div className="w-75-l overflow-scroll">
+            <DocsRenderer />
+          </div>
         </div>
       </main>
       <Footer />
