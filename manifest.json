@@ -12,7 +12,8 @@
     "styles": "1.x"
   },
   "dependencies": {
-    "vtex.styleguide": "9.x"
+    "vtex.styleguide": "9.x",
+    "vtex.docs-graphql": "0.x"
   },
   "mustUpdateAt": "2018-09-05",
   "categories": [],
