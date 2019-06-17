@@ -1,4 +1,7 @@
-import React, { FunctionComponent } from 'react'
+import React, { FunctionComponent, AnchorHTMLAttributes } from 'react'
+import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter'
+import { coy } from 'react-syntax-highlighter/dist/styles/prism'
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 const customParagraph: FunctionComponent = ({ children }) => (
   <p className="t-body lh-title">{children}</p>
@@ -57,9 +60,26 @@ const customTableData: FunctionComponent = ({ children }) => (
   <td className="tc pv4">{children}</td>
 )
 
-const customCode: FunctionComponent = ({ children }) => (
-  <code className="t-code bg-base--inverted">{children}</code>
+const customPre: FunctionComponent = ({ children }) => (
+  <pre>
+    <SyntaxHighlighter language="javascript" style={coy}>
+      {children}
+    </SyntaxHighlighter>
+  </pre>
 )
+
+const customAnchor: FunctionComponent<AnchorHTMLAttributes<any>> = ({
+  href,
+  children,
+}) => {
+  return href && href[0] === '#' ? (
+    <AnchorLink offset={() => 80} href={href}>
+      {children}
+    </AnchorLink>
+  ) : (
+    <a href={href}>{children}</a>
+  )
+}
 
 export const remarkReactComponents = {
   h1: customH1,
@@ -67,8 +87,9 @@ export const remarkReactComponents = {
   h3: customH3,
   h4: customH4,
   h5: customH5,
+  a: customAnchor,
   p: customParagraph,
-  code: customCode,
+  pre: customPre,
   th: customTableHeader,
   td: customTableData,
 }
