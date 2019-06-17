@@ -1,5 +1,6 @@
 import React, { Fragment, FunctionComponent } from 'react'
-import { Helmet } from 'vtex.render-runtime'
+import { Helmet, NoSSR } from 'vtex.render-runtime'
+import { graphql } from 'react-apollo'
 
 import Navbar from './components/IO/Navbar'
 import Footer from './components/IO/Footer'
@@ -7,9 +8,9 @@ import SideBar from './components/Docs/SideBar'
 import DocsRenderer from './components/Docs/DocsRenderer'
 import favicon from './images/favicon.png'
 
-import { availableDocs } from './DocsData'
+import * as AppsWithDocs from './graphql/getAppsWithDocs.graphql'
 
-const Docs: FunctionComponent<any> = () => {
+const Docs: FunctionComponent<any> = ({ docsQuery }) => {
   return (
     <Fragment>
       <Helmet>
@@ -24,10 +25,12 @@ const Docs: FunctionComponent<any> = () => {
         </h1>
         <div className="w-80-l w-90 center flex br3 bg-muted-1">
           <aside className="w-25-l ml5-l w-90 center">
-            <SideBar componentList={availableDocs} />
+            <SideBar appList={docsQuery.getAppsWithDocs.apps} />
           </aside>
           <div className="w-75-l overflow-scroll">
-            <DocsRenderer />
+            <NoSSR>
+              <DocsRenderer />
+            </NoSSR>
           </div>
         </div>
       </main>
@@ -36,4 +39,6 @@ const Docs: FunctionComponent<any> = () => {
   )
 }
 
-export default Docs
+export default graphql(AppsWithDocs.default, {
+  name: 'docsQuery',
+})(Docs)
