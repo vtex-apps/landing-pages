@@ -1,0 +1,12 @@
+query ReadMe($appName: String) {
+  getMarkdownFile(appName: $appName) {
+    meta {
+      title
+      description
+      date
+      tags
+      version
+    }
+    markdown
+  }
+}
