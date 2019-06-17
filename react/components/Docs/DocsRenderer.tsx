@@ -1,60 +1,65 @@
-import React, { FunctionComponent, Fragment } from 'react'
-import ReactHtmlParser from 'react-html-parser'
+import React, { FunctionComponent } from 'react'
+import remark from 'remark'
+import remark2react from 'remark-react'
 import { graphql, compose } from 'react-apollo'
 import { branch, renderComponent } from 'recompose'
-import AnchorLink from 'react-anchor-link-smooth-scroll'
-import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter'
-import { coy } from 'react-syntax-highlighter/dist/styles/prism'
 
 import Skeleton from './Skeleton'
 import EmptyDocs from './EmptyDocs'
+import { remarkReactComponents } from './CustomTags'
 
-import * as RepoDocs from '../../graphql/getDocs.graphql'
+import * as MarkdownFile from '../../graphql/getMarkdownFile.graphql'
 
-function transform(node: any) {
-  if (
-    node.type === 'tag' &&
-    node.name === 'a' &&
-    node.attribs.href[0] === '#'
-  ) {
-    return (
-      <AnchorLink offset={() => 80} href={node.attribs.href}>
-        {node.children[0].data}
-      </AnchorLink>
-    )
-  } else if (
-    node.type === 'tag' &&
-    node.name === 'code' &&
-    node.parent &&
-    node.parent.name === 'pre'
-  ) {
-    return (
-      <SyntaxHighlighter language="javascript" style={coy}>
-        {node.children[0].data}
-      </SyntaxHighlighter>
-    )
-  }
+const DocsRenderer: FunctionComponent<any> = ({ markdownQuery }) => {
+  const { metaData, markdown } = markdownQuery.getMarkdownFile
+
+  return (
+    <article className="pa7 w-100">
+      {
+        remark()
+          .use(remark2react, {
+            remarkReactComponents: {
+              ...remarkReactComponents,
+              img: ({ src }: { src: string }) => {
+                return src[0] === '/' ? (
+                  <img
+                    src={`https://raw.githubusercontent.com/${
+                      metaData.git
+                    }/master${src}`}
+                  />
+                ) : (
+                  <img src={src} />
+                )
+              },
+            },
+          })
+          .processSync(markdown).contents
+      }
+    </article>
+  )
 }
 
-const DocsRenderer: FunctionComponent<any> = ({ docsQuery }) => (
-  <Fragment>
-    {ReactHtmlParser(docsQuery.getDocs.htmlDocs, { transform })}
-  </Fragment>
-)
-
 export default compose(
-  graphql(RepoDocs.default, {
-    name: 'docsQuery',
+  graphql(MarkdownFile.default, {
+    name: 'markdownQuery',
     options: () => {
       const params = new URLSearchParams(location.search)
-      const repositoryName = params.get('repo') || 'store-components'
+      const appName = params.get('app')
+      const fileName = params.get('file')
       return {
         variables: {
-          repositoryName,
+          appName,
+          fileName,
         },
       }
     },
   }),
-  branch(({ docsQuery }: any) => docsQuery.loading, renderComponent(Skeleton)),
-  branch(({ docsQuery }: any) => !!docsQuery.error, renderComponent(EmptyDocs))
+  branch(
+    ({ markdownQuery }: any) => markdownQuery.loading,
+    renderComponent(Skeleton)
+  ),
+  branch(
+    ({ markdownQuery }: any) => !!markdownQuery.error,
+    renderComponent(EmptyDocs)
+  )
 )(DocsRenderer)
