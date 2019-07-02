@@ -45,7 +45,7 @@ export default compose(
     options: () => {
       const params = new URLSearchParams(location.search)
       const appName = params.get('app')
-      const fileName = params.get('file')
+      const fileName = params.get('filePath')
       return {
         variables: {
           appName,
