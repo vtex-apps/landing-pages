@@ -1,11 +1,12 @@
-query ReadMe($appName: String) {
-  getMarkdownFile(appName: $appName) {
+query getAppReadMe($appName: String) {
+  getAppReadMe(appName: $appName) {
     meta {
       title
       description
-      date
-      tags
       version
+      tags
+      git
+      date
     }
     markdown
   }

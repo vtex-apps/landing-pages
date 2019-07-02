@@ -1,11 +1,11 @@
-query MarkdownFile($appName: String, $fileName: String) {
+query getMarkdownFile($appName: String, $fileName: String) {
   getMarkdownFile(appName: $appName, fileName: $fileName) {
     meta {
       title
       description
-      date
       tags
       version
+      git
     }
     markdown
   }
