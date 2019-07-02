@@ -1,5 +1,4 @@
 import React, { FunctionComponent, Fragment } from 'react'
-import ReactHtmlParser from 'react-html-parser'
 // import { graphql, compose } from 'react-apollo'
 // import { branch, renderComponent } from 'recompose'
 
