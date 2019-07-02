@@ -1,35 +1,62 @@
-import React, { FunctionComponent } from 'react'
-import { Link } from 'vtex.render-runtime'
+import React, { FunctionComponent, useState } from 'react'
+import { graphql, compose } from 'react-apollo'
+import { branch, renderComponent } from 'recompose'
+import { Link, useRuntime } from 'vtex.render-runtime'
+import { IconCaretDown, IconCaretUp } from 'vtex.styleguide'
 
-interface Props {
-  appList: {
-    name: string
-    files: string[]
-  }[]
+import Skeleton from './Skeleton'
+
+import * as Summary from '../../graphql/getAppSummary.graphql'
+
+const SideBar: FunctionComponent<any> = ({ summaryQuery }) => {
+
+  const { query } = useRuntime()
+  const [open, setOpen] = useState(false)
+
+  return (
+    <ul className="pa7 mt0 list br b--muted-5">
+      {summaryQuery.getAppSummary.chapterList.map((app: any) => (
+        <li className="pv3 link" key={app.urlName}>
+          <div className="flex justify-between items-center">
+            {app.path ?
+              <Link to={`/docs?app=${query.app}&filePath=${app.path}`}>
+                {app.title}
+              </Link> : <p>{app.title}</p>
+            }
+            <div className="ph4" onClick={() => setOpen(!open)}>
+              {app.articles.length > 0 && (open ? <IconCaretUp /> : <IconCaretDown />)}
+            </div>
+          </div>
+          <div hidden={!open}>
+            {app.articles.length > 0 && app.articles.map((article: any) => (
+              <li className="ph4 pv3 link">
+                <Link to={`/docs?app=${query.app}&filePath=${article.path}`}>
+                  {article.title}
+                </Link>
+              </li>
+            ))}
+          </div>
+        </li>
+      ))}
+    </ul>
+  )
 }
 
-const SideBar: FunctionComponent<Props> = ({ appList }) => (
-  <ul className="pa7 mt0 list br b--muted-5">
-    {appList.map(app => {
-      const [vendor, name] = app.name.split('.')
-      return (
-        <li className="pv3 link" key={app.name}>
-          <Link to={`/docs?app=${app.name}&file=README.md`}>
-            {name.replace('-', ' ').toLocaleUpperCase()}
-          </Link>
-          {app.files.length > 1 && (
-            <ul className="pv3">
-              {app.files.map(file => (
-                <li className="pv3 link" key={app.name + file}>
-                  <Link to={`/docs?app=${app.name}&file=${file}`}>{file}</Link>
-                </li>
-              ))}
-            </ul>
-          )}
-        </li>
-      )
-    })}
-  </ul>
-)
-
-export default SideBar
+export default compose(
+  graphql(Summary.default, {
+    name: 'summaryQuery',
+    options: () => {
+      const params = new URLSearchParams(location.search)
+      const appName = params.get('app')
+      return {
+        variables: {
+          appName,
+        },
+      }
+    },
+  }),
+  branch(
+    ({ summaryQuery }: any) => summaryQuery.loading,
+    renderComponent(Skeleton)
+  ),
+)(SideBar)
