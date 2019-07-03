@@ -8,10 +8,10 @@
     "docs": "0.x"
   },
   "dependencies": {
-    "vtex.tetrix": "0.x",
+    "vtex.tetrix": "1.x",
     "vtex.docs-ui": "0.x",
-    "vtex.code-cup": "0.x",
-    "vtex.io-landing": "0.x"
+    "vtex.code-cup": "1.x",
+    "vtex.io-landing": "1.x"
   },
   "mustUpdateAt": "2018-09-05",
   "categories": [],
