@@ -1,8 +1,8 @@
 import React, { Fragment, FunctionComponent } from 'react'
 import { Helmet, NoSSR } from 'vtex.render-runtime'
 
-import Navbar from './components/IO/Navbar'
-import Footer from './components/IO/Footer'
+// import Navbar from './components/IO/Navbar'
+// import Footer from './components/IO/Footer'
 import SideBar from './components/Docs/SideBar'
 import DocsRenderer from './components/Docs/DocsRenderer'
 import favicon from './images/favicon.png'
@@ -15,7 +15,7 @@ const Docs: FunctionComponent<any> = () => {
         <meta name="theme-color" content="#F71963" />
         <link rel="icon" href={favicon} />
       </Helmet>
-      <Navbar />
+      {/* <Navbar /> */}
       <main className="w-100 pv10 bg-base--inverted">
         <h1 className="c-base t-heading-1 w-90 w-80-ns center mb8">
           Documentation
@@ -33,7 +33,7 @@ const Docs: FunctionComponent<any> = () => {
           </div>
         </div>
       </main>
-      <Footer />
+      {/* <Footer /> */}
     </Fragment>
   )
 }
