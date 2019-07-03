@@ -1,6 +1,8 @@
 {
   "io": {
-    "blocks": ["io.landing"]
+    "blocks": [
+      "io.landing"
+    ]
   },
   "io.landing": {
     "component": "IO"
@@ -15,18 +17,14 @@
     "component": "Docs"
   },
   "codecup": {
-    "blocks": ["codecup.landing"]
+    "blocks": [
+      "codecup.landing"
+    ]
   },
   "codecup.landing": {
     "component": "CodeCup"
   },
   "codecup.rules": {
     "component": "CodeCupRules"
-  },
-  "tetrix": {
-    "blocks": ["tetrix.landing"]
-  },
-  "tetrix.landing": {
-    "component": "Tetrix"
   }
 }

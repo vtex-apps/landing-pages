@@ -18,9 +18,5 @@
   },
   "codecup.rules": {
     "path": "/rules"
-  },
-  "tetrix.landing": {
-    "path": "/tetrix",
-    "cname": "tetrix.vtex.com"
   }
 }
