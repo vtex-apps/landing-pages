@@ -14,6 +14,7 @@
   "dependencies": {
     "vtex.tetrix": "0.x",
     "vtex.code-cup": "0.x",
+    "vtex.io-landing": "0.x",
     "vtex.styleguide": "9.x",
     "vtex.docs-graphql": "0.x"
   },
