@@ -16,7 +16,7 @@ const HowItWorks: FunctionComponent = () => (
     <div className="flex flex-column flex-row-l justify-between c-emphasis w-50-l w-90">
       <div className="w-30-l mv5 mv0-l">
         <div className="b--emphasis ba pa5 tc">
-          <p>FASE 1 (19/07)</p>
+          <p>FASE 1 (26 e 27/07)</p>
           <p className="t-heading-1 mv2">90</p>
           <p>PERGUNTAS</p>
         </div>

@@ -3,12 +3,12 @@ import React, { Fragment } from 'react'
 export const questions = [
   {
     question: 'Até quando as inscrições estão abertas?',
-    ans: 'As inscrições estarão abertas de 30 de maio a 07 de julho de 2019.',
+    ans: 'As inscrições estarão abertas de 30 de maio a 19 de julho de 2019.',
   },
   {
     question: 'Quando começa o Desafio?',
     ans:
-      'O link de acesso para a primeira fase será disponibilizado no dia 19 de julho, para todos os inscritos.',
+      'O link de acesso para a primeira fase será disponibilizado no dia 26 de julho, para todos os inscritos.',
   },
   {
     question: 'Quem pode participar do TETRIX?',
