@@ -38,7 +38,7 @@ const Header: FunctionComponent = () => {
             às perguntas que podem definir seu futuro. Vença e seja levado a uma
             jornada de desenvolvimento pelo mundo.
           </p>
-          <p className="c-muted-5 b">Inscreva-se até o dia 07 de julho.</p>
+          <p className="c-muted-5 b">Inscreva-se até o dia 19 de julho.</p>
           <button
             onClick={handleParticipateClick}
             className="c-emphasis br-pill mt6 mb3 bg-base--inverted ph7 b--none pointer w-50-l"
