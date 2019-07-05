@@ -8,7 +8,7 @@ export const questions = [
   {
     question: 'Quando começa o Desafio?',
     ans:
-      'O link de acesso para a primeira fase será disponibilizado no dia 26 de julho, para todos os inscritos.',
+      'O link de acesso para a primeira fase será disponibilizado no dia 27 de julho, para todos os inscritos.',
   },
   {
     question: 'Quem pode participar do TETRIX?',
