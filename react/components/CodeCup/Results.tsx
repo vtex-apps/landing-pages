@@ -44,6 +44,18 @@ const Results = () => (
         </div>
       </article>
     </div>
+    <h1 className="c-emphasis t-heading-2 center">
+      Agradecemos a todos pela presença e até a próxima edição!
+    </h1>
+    <section className="mv7 flex justify-center items-center">
+      <iframe
+        className="w-70-l w-90 vh-75"
+        src="https://www.youtube.com/embed/CWA0cWdkMOo"
+        frameBorder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+        allowFullScreen
+      />
+    </section>
   </section>
 )
 
