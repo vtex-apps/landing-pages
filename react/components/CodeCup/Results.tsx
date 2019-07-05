@@ -9,19 +9,19 @@ const Results = () => (
     <h1 className="c-emphasis t-heading-1">
       Resultados VTEX Code Cup 2019
     </h1>
-    <div className="flex flex-wrap justify-around">
-      <article className="bg-muted-1 mv3 ph6 pv5 w-40-l w-90 br3">
+    <div className="flex flex-column justify-around">
+      <article className="bg-muted-1 mv3 ph6 pv5 w-90 br3">
         <div className="flex items-center link">
           <div className="mr7">
             <img src={First} className="h4 w4" />
           </div>
           <div>
             <p className="t-heading-4 c-muted-5 c-emphasis">1º Lugar</p>
-            <p className="t-body c-muted-2">Tiago Gonçalves</p>
+            <p className="t-body c-muted-2">Arthur Nascimento</p>
           </div>
         </div>
       </article>
-      <article className="bg-muted-1 mv3 ph6 pv5 w-40-l w-90 br3">
+      <article className="bg-muted-1 mv3 ph6 pv5 w-90 br3">
         <div className="flex items-center link">
           <div className="mr7">
             <img src={Second} className="h4 w4" />
@@ -32,7 +32,7 @@ const Results = () => (
           </div>
         </div>
       </article>
-      <article className="bg-muted-1 mv3 ph6 pv5 w-40-l w-90 br3">
+      <article className="bg-muted-1 mv3 ph6 pv5 w-90 br3">
         <div className="flex items-center link">
           <div className="mr7">
             <img src={Third} className="h4 w4" />
