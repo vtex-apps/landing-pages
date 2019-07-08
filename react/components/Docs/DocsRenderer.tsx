@@ -1,15 +1,15 @@
 import React, { FunctionComponent, Fragment } from 'react'
 import ReactHtmlParser from 'react-html-parser'
-import { graphql, compose } from 'react-apollo'
-import { branch, renderComponent } from 'recompose'
+// import { graphql, compose } from 'react-apollo'
+// import { branch, renderComponent } from 'recompose'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter'
 import { coy } from 'react-syntax-highlighter/dist/styles/prism'
 
-import Skeleton from './Skeleton'
-import EmptyDocs from './EmptyDocs'
+// import Skeleton from './Skeleton'
+// import EmptyDocs from './EmptyDocs'
 
-import * as RepoDocs from '../../graphql/getDocs.graphql'
+// import * as RepoDocs from '../../graphql/getDocs.graphql'
 
 function transform(node: any) {
   if (
@@ -36,25 +36,27 @@ function transform(node: any) {
   }
 }
 
-const DocsRenderer: FunctionComponent<any> = ({ docsQuery }) => (
-  <Fragment>
-    {ReactHtmlParser(docsQuery.getDocs.htmlDocs, { transform })}
-  </Fragment>
+const DocsRenderer: FunctionComponent<any> = () => (
+  // <Fragment>
+  //   {ReactHtmlParser(docsQuery.getDocs.htmlDocs, { transform })}
+  // </Fragment>
+  <Fragment>Error</Fragment>
 )
 
-export default compose(
-  graphql(RepoDocs.default, {
-    name: 'docsQuery',
-    options: () => {
-      const params = new URLSearchParams(location.search)
-      const repositoryName = params.get('repo') || 'store-components'
-      return {
-        variables: {
-          repositoryName,
-        },
-      }
-    },
-  }),
-  branch(({ docsQuery }: any) => docsQuery.loading, renderComponent(Skeleton)),
-  branch(({ docsQuery }: any) => !!docsQuery.error, renderComponent(EmptyDocs))
-)(DocsRenderer)
+// export default compose(
+//   graphql(RepoDocs.default, {
+//     name: 'docsQuery',
+//     options: () => {
+//       const params = new URLSearchParams(location.search)
+//       const repositoryName = params.get('repo') || 'store-components'
+//       return {
+//         variables: {
+//           repositoryName,
+//         },
+//       }
+//     },
+//   }),
+//   branch(({ docsQuery }: any) => docsQuery.loading, renderComponent(Skeleton)),
+//   branch(({ docsQuery }: any) => !!docsQuery.error, renderComponent(EmptyDocs))
+// )(DocsRenderer)
+export default DocsRenderer

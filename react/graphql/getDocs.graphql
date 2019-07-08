@@ -1,6 +1,0 @@
-query RepoDocs($repositoryName: String) {
-  getDocs(repositoryName: $repositoryName) {
-    htmlDocs
-    readmeUrl
-  }
-}
